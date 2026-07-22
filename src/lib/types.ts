@@ -34,10 +34,21 @@ export interface CarPark {
   munros: number[]
 }
 
-export interface TripStop {
-  /** carpark osm id, munro id as "munro/<id>", or "custom/<n>" */
+export interface ParkUp {
   id: string
-  kind: 'carpark' | 'custom'
+  lat: number
+  lon: number
+  name: string | null
+  kind: 'camp_site' | 'caravan_site'
+  fee: string | null
+  motorhome: string | null
+  website: string | null
+}
+
+export interface TripStop {
+  /** carpark/parkup osm id, munro id as "munro/<id>", or "custom/<n>" */
+  id: string
+  kind: 'carpark' | 'parkup' | 'custom'
   name: string
   lat: number
   lon: number

@@ -265,6 +265,15 @@ button {
   border: 1px solid #fff;
 }
 
+.parkup-icon {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  background: #f4efe4;
+  border: 1px solid #7a6a3a;
+  border-radius: 50%;
+}
+
 .start-icon {
   color: #1a7a3a;
   font-size: 20px;

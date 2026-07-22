@@ -4,18 +4,20 @@ import {
   MapContainer,
   TileLayer,
   LayersControl,
+  LayerGroup,
   CircleMarker,
   Marker,
   Popup,
   Polyline,
   useMapEvents,
 } from 'react-leaflet'
-import type { CarPark, Munro, Trip, TripRoute, TripStop } from '../lib/types'
+import type { CarPark, Munro, ParkUp, Trip, TripRoute, TripStop } from '../lib/types'
 import type { Store } from '../hooks/useStore'
 
 const OS_KEY = import.meta.env.VITE_OS_MAPS_KEY as string | undefined
 
 const carparkIcon = L.divIcon({ className: 'carpark-icon', html: 'P', iconSize: [20, 20], iconAnchor: [10, 10] })
+const parkupIcon = L.divIcon({ className: 'parkup-icon', html: '⛺', iconSize: [22, 22], iconAnchor: [11, 11] })
 const startIcon = L.divIcon({ className: 'start-icon', html: '⚑', iconSize: [20, 20], iconAnchor: [4, 18] })
 
 function stopIcon(n: number) {
@@ -25,6 +27,7 @@ function stopIcon(n: number) {
 interface Props {
   munros: Munro[]
   carparks: CarPark[]
+  parkups: ParkUp[]
   store: Store
   addStop: (stop: TripStop) => void
   activeTrip: Trip | null
@@ -112,13 +115,18 @@ function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number) {
   return 6371 * 2 * Math.asin(Math.sqrt(a))
 }
 
-export default function MapView({ munros, carparks, store, addStop, activeTrip, route, mapRef }: Props) {
+export default function MapView({ munros, carparks, parkups, store, addStop, activeTrip, route, mapRef }: Props) {
   const [view, setView] = useState<{ zoom: number; bounds: LatLngBounds | null }>({ zoom: 7, bounds: null })
 
   const visibleCarparks = useMemo(() => {
     if (view.zoom < 11 || !view.bounds) return []
     return carparks.filter((c) => view.bounds!.contains([c.lat, c.lon]))
   }, [carparks, view])
+
+  const visibleParkups = useMemo(() => {
+    if (view.zoom < 9 || !view.bounds) return []
+    return parkups.filter((p) => view.bounds!.contains([p.lat, p.lon]))
+  }, [parkups, view])
 
   const nearestCarparks = (m: Munro) =>
     carparks
@@ -153,6 +161,93 @@ export default function MapView({ munros, carparks, store, addStop, activeTrip, 
             maxZoom={17}
           />
         </LayersControl.BaseLayer>
+
+        <LayersControl.Overlay checked name="Car parks (zoom in)">
+          <LayerGroup>
+            {visibleCarparks.map((c) => (
+              <Marker key={c.id} position={[c.lat, c.lon]} icon={carparkIcon}>
+                <Popup>
+                  <div className="popup">
+                    <strong>{c.name ?? 'Car park'}</strong>
+                    {c.fee && <div className="popup-sub">Fee: {c.fee}</div>}
+                    {c.munros.length > 0 && (
+                      <div className="popup-sub">
+                        Serves:{' '}
+                        {c.munros
+                          .map((id) => munros.find((m) => m.id === id)?.name)
+                          .filter(Boolean)
+                          .slice(0, 6)
+                          .join(', ')}
+                      </div>
+                    )}
+                    <div className="popup-links">
+                      <a
+                        href={`https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lon}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Google Maps
+                      </a>
+                    </div>
+                    <button
+                      onClick={() =>
+                        addStop({ id: c.id, kind: 'carpark', name: c.name ?? 'Car park', lat: c.lat, lon: c.lon })
+                      }
+                    >
+                      + Add to trip
+                    </button>
+                  </div>
+                </Popup>
+              </Marker>
+            ))}
+          </LayerGroup>
+        </LayersControl.Overlay>
+
+        <LayersControl.Overlay checked name="Overnight stops (zoom in)">
+          <LayerGroup>
+            {visibleParkups.map((p) => (
+              <Marker key={p.id} position={[p.lat, p.lon]} icon={parkupIcon}>
+                <Popup>
+                  <div className="popup">
+                    <strong>{p.name ?? (p.kind === 'caravan_site' ? 'Caravan site' : 'Campsite')}</strong>
+                    <div className="popup-sub">
+                      {p.kind === 'caravan_site' ? 'Caravan/motorhome site' : 'Campsite'}
+                      {p.fee ? ` · fee: ${p.fee}` : ''}
+                      {p.motorhome ? ` · motorhomes: ${p.motorhome}` : ''}
+                    </div>
+                    <div className="popup-links">
+                      {p.website && (
+                        <a href={p.website} target="_blank" rel="noreferrer">
+                          Website
+                        </a>
+                      )}
+                      <a
+                        href={`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Google Maps
+                      </a>
+                    </div>
+                    <button
+                      onClick={() =>
+                        addStop({
+                          id: p.id,
+                          kind: 'parkup',
+                          name: p.name ?? 'Overnight stop',
+                          lat: p.lat,
+                          lon: p.lon,
+                        })
+                      }
+                    >
+                      + Add to trip
+                    </button>
+                  </div>
+                </Popup>
+              </Marker>
+            ))}
+          </LayerGroup>
+        </LayersControl.Overlay>
       </LayersControl>
 
       <ViewTracker onChange={(zoom, bounds) => setView({ zoom, bounds })} />
@@ -260,41 +355,6 @@ export default function MapView({ munros, carparks, store, addStop, activeTrip, 
           </CircleMarker>
         )
       })}
-
-      {visibleCarparks.map((c) => (
-        <Marker key={c.id} position={[c.lat, c.lon]} icon={carparkIcon}>
-          <Popup>
-            <div className="popup">
-              <strong>{c.name ?? 'Car park'}</strong>
-              {c.fee && <div className="popup-sub">Fee: {c.fee}</div>}
-              {c.munros.length > 0 && (
-                <div className="popup-sub">
-                  Serves:{' '}
-                  {c.munros
-                    .map((id) => munros.find((m) => m.id === id)?.name)
-                    .filter(Boolean)
-                    .slice(0, 6)
-                    .join(', ')}
-                </div>
-              )}
-              <div className="popup-links">
-                <a
-                  href={`https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lon}`}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Google Maps
-                </a>
-              </div>
-              <button
-                onClick={() => addStop({ id: c.id, kind: 'carpark', name: c.name ?? 'Car park', lat: c.lat, lon: c.lon })}
-              >
-                + Add to trip
-              </button>
-            </div>
-          </Popup>
-        </Marker>
-      ))}
 
       {Object.entries(store.starts).map(([munroId, pos]) => {
         const m = munros.find((x) => x.id === Number(munroId))

@@ -343,11 +343,56 @@ async function buildCarparks(munros) {
   return carparks
 }
 
+async function buildParkups() {
+  // Campsites and caravan/motorhome sites across the Highlands & Islands —
+  // overnight candidates for the camper. One bbox query; they are sparse.
+  const query = `[out:json][timeout:240][bbox:55.2,-7.6,58.8,-1.7];
+(
+  nwr["tourism"="camp_site"];
+  nwr["tourism"="caravan_site"];
+);out center tags;`
+  const json = await overpassQuery(query)
+  const parkups = []
+  for (const el of json.elements) {
+    const lat = el.lat ?? el.center?.lat
+    const lon = el.lon ?? el.center?.lon
+    if (lat == null) continue
+    const t = el.tags ?? {}
+    if (t.access === 'private' || t.access === 'no') continue
+    parkups.push({
+      id: `${el.type}/${el.id}`,
+      lat,
+      lon,
+      name: t.name || null,
+      kind: t.tourism,
+      fee: t.fee || null,
+      motorhome: t.motorhome || t.caravans || null,
+      website: t.website || null,
+    })
+  }
+  console.log(`Park-ups: ${parkups.length}`)
+  return parkups
+}
+
+const munrosPath = path.join(OUT_DIR, 'munros.json')
+// --carparks / --parkups reuse committed munros.json rather than re-hammering
+// the upstream sources on every run.
+const needMunrosBuild = !existsSync(munrosPath) || args.size === 0 || args.has('--munros') || args.has('--verify')
+
+let munros
+if (!needMunrosBuild) {
+  munros = JSON.parse(readFileSync(munrosPath, 'utf8')).munros
+  console.log(`Using existing munros.json (${munros.length} munros)`)
+} else {
+  await buildMunros()
+}
+
+async function buildMunros() {
 const dobih = await loadDobihMunros()
 const fallon = await loadFallonPages()
 const whRoutes = await loadWhRoutes()
 
-const munros = dobih
+munros = dobih
   .map((m) => {
     const wh = whRoutes.get(m.id)
     const derivedSlug = WH_EXCEPTIONS[m.id] || slugify(m.name)
@@ -395,8 +440,18 @@ writeFileSync(
   JSON.stringify({ generated: new Date().toISOString().slice(0, 10), count: munros.length, munros }, null, 1),
 )
 console.log(`Wrote munros.json (${munros.length} munros)`)
+}
 
 if (args.has('--verify')) await verifyWalkhighlands(munros)
+
+if (args.has('--parkups')) {
+  const parkups = await buildParkups()
+  writeFileSync(
+    path.join(OUT_DIR, 'parkups.json'),
+    JSON.stringify({ generated: new Date().toISOString().slice(0, 10), count: parkups.length, parkups }, null, 1),
+  )
+  console.log('Wrote parkups.json')
+}
 
 if (args.has('--carparks')) {
   const carparks = await buildCarparks(munros)

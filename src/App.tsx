@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { Map as LeafletMap } from 'leaflet'
 import { useStore } from './hooks/useStore'
-import type { CarPark, Munro, Trip, TripRoute, TripStop } from './lib/types'
+import type { CarPark, Munro, ParkUp, Trip, TripRoute, TripStop } from './lib/types'
 import { fetchTripRoute } from './lib/osrm'
 import MapView from './components/MapView'
 import Sidebar from './components/Sidebar'
@@ -11,6 +11,7 @@ export default function App() {
   const store = useStore()
   const [munros, setMunros] = useState<Munro[]>([])
   const [carparks, setCarparks] = useState<CarPark[]>([])
+  const [parkups, setParkups] = useState<ParkUp[]>([])
   const [tab, setTab] = useState<'munros' | 'trip'>('munros')
   const [route, setRoute] = useState<TripRoute | null>(null)
   const [routeError, setRouteError] = useState<string | null>(null)
@@ -27,6 +28,10 @@ export default function App() {
       .then((r) => (r.ok ? r.json() : { carparks: [] }))
       .then((d) => setCarparks(d.carparks ?? []))
       .catch(() => setCarparks([]))
+    fetch(`${base}data/parkups.json`)
+      .then((r) => (r.ok ? r.json() : { parkups: [] }))
+      .then((d) => setParkups(d.parkups ?? []))
+      .catch(() => setParkups([]))
   }, [])
 
   const activeTrip = store.trips.find((t) => t.id === store.activeTripId) ?? null
@@ -122,6 +127,7 @@ export default function App() {
         <MapView
           munros={munros}
           carparks={carparks}
+          parkups={parkups}
           store={store}
           addStop={addStop}
           activeTrip={activeTrip}

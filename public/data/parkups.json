@@ -1,0 +1,8406 @@
+{
+ "generated": "2026-07-22",
+ "count": 840,
+ "parkups": [
+  {
+   "id": "node/273496877",
+   "lat": 58.2175462,
+   "lon": -6.9406277,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/305202954",
+   "lat": 56.307934,
+   "lon": -6.3631104,
+   "name": "Fidden Farm",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://fiddenfarm.co.uk/"
+  },
+  {
+   "id": "node/461995771",
+   "lat": 57.3030772,
+   "lon": -7.3861982,
+   "name": "Osdail Òigridh",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/477201358",
+   "lat": 57.0739039,
+   "lon": -4.828577,
+   "name": "Faichemard Farm Caravan & Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.faichemard-caravancamping.co.uk/"
+  },
+  {
+   "id": "node/512720675",
+   "lat": 57.4202102,
+   "lon": -4.0987945,
+   "name": "Auchnahillin Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.auchnahillin.co.uk/"
+  },
+  {
+   "id": "node/650839320",
+   "lat": 55.8355703,
+   "lon": -4.0970439,
+   "name": "MaryVille Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/667005293",
+   "lat": 56.1125629,
+   "lon": -4.5820056,
+   "name": "Cashel Camping & Caravan Park Forest Holidays",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://camping.forestholidays.co.uk/camping_and_caravanning/our_sites__locations/scotland/cashel.aspx"
+  },
+  {
+   "id": "node/701249556",
+   "lat": 56.0015165,
+   "lon": -4.5923566,
+   "name": "Lomond Woods Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/864681338",
+   "lat": 56.2904671,
+   "lon": -6.2168954,
+   "name": "Basic Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1120504815",
+   "lat": 56.923971,
+   "lon": -5.8716553,
+   "name": "Tigh na Mara",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://tigh-na-maracampsitepods.co.uk"
+  },
+  {
+   "id": "node/1120504817",
+   "lat": 56.9253997,
+   "lon": -5.8693593,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1120504825",
+   "lat": 56.921852,
+   "lon": -5.8802882,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1133915038",
+   "lat": 55.6556123,
+   "lon": -6.2611727,
+   "name": "Kintra Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.kintrafarm.co.uk/"
+  },
+  {
+   "id": "node/1208892147",
+   "lat": 55.4210432,
+   "lon": -5.6160514,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1311897143",
+   "lat": 57.1361938,
+   "lon": -7.306992,
+   "name": "(3 pitches - booking advisable)",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1311897158",
+   "lat": 57.1364915,
+   "lon": -7.3063832,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.southuisthostel.co.uk/"
+  },
+  {
+   "id": "node/1376672263",
+   "lat": 55.6888289,
+   "lon": -1.9339575,
+   "name": "Haggerston Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.haven.com/touring-camping/parks/northumberland/haggerston-castle"
+  },
+  {
+   "id": "node/1417114826",
+   "lat": 56.9244975,
+   "lon": -7.5375457,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1452692892",
+   "lat": 58.2501756,
+   "lon": -3.4216049,
+   "name": "Inver Caravan Park & BB",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.invercaravanpark.co.uk/"
+  },
+  {
+   "id": "node/1501883479",
+   "lat": 57.3285836,
+   "lon": -4.4671651,
+   "name": "Loch Ness Bay Camping",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.borlum.co.uk/Camping/Campsite.html"
+  },
+  {
+   "id": "node/1556325987",
+   "lat": 55.2872398,
+   "lon": -7.1680146,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1630123956",
+   "lat": 55.293443,
+   "lon": -7.2667512,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1667265445",
+   "lat": 58.0801889,
+   "lon": -4.4456448,
+   "name": "Woodend Caravan and Camping Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1667277494",
+   "lat": 58.5258731,
+   "lon": -4.2200654,
+   "name": "Craig'Dhu Caravan & Camping Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/1789140065",
+   "lat": 57.4744,
+   "lon": -3.19857,
+   "name": "Aberlour Gardens Camping Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.aberlourgardens.co.uk/"
+  },
+  {
+   "id": "node/1933956880",
+   "lat": 55.8567935,
+   "lon": -4.8796238,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/2361386746",
+   "lat": 56.2387177,
+   "lon": -4.1800303,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/2410521003",
+   "lat": 55.8698613,
+   "lon": -2.7366715,
+   "name": "Blinkbonny Wood Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/2420940809",
+   "lat": 55.6860164,
+   "lon": -1.906085,
+   "name": "Brock Mill Farm CL",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.caravanclub.co.uk/certificated-locations/england/northumberland/berwick-upon-tweed/brock-mill-farm/"
+  },
+  {
+   "id": "node/2531539461",
+   "lat": 56.7296879,
+   "lon": -3.3814959,
+   "name": "Glenshee Glamping",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://glensheeglamping.co.uk/"
+  },
+  {
+   "id": "node/2561762181",
+   "lat": 57.0110061,
+   "lon": -6.277418,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/2880691121",
+   "lat": 57.5689371,
+   "lon": -4.5820342,
+   "name": "Riverside Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/2934518352",
+   "lat": 55.5228373,
+   "lon": -5.2957028,
+   "name": "Bridgend Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/3266706459",
+   "lat": 56.3044116,
+   "lon": -4.7196597,
+   "name": "Ardlui Holiday Home Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://ardlui.com/campsite-loch-lomond/"
+  },
+  {
+   "id": "node/3347496253",
+   "lat": 56.9214818,
+   "lon": -6.1445474,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/3437687148",
+   "lat": 58.1857771,
+   "lon": -7.0226219,
+   "name": "Ardroil Sands Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/3611611096",
+   "lat": 56.3375144,
+   "lon": -2.8904174,
+   "name": "Knockhill",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/3667832557",
+   "lat": 56.4889496,
+   "lon": -3.4236935,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/3680977298",
+   "lat": 57.6507308,
+   "lon": -3.4720098,
+   "name": "North Alves Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.north-alves-holiday-park.co.uk/"
+  },
+  {
+   "id": "node/3716534725",
+   "lat": 57.3981858,
+   "lon": -6.5677598,
+   "name": "Skye Eco Bells Glamping",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.airbnb.co.uk/rooms/3107545"
+  },
+  {
+   "id": "node/3744667594",
+   "lat": 56.9982098,
+   "lon": -4.8760148,
+   "name": "Glas-dhoire Trailblazer Rest",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/4207362205",
+   "lat": 56.3032109,
+   "lon": -4.9613229,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/4317395343",
+   "lat": 56.3276184,
+   "lon": -6.4079142,
+   "name": "Iona Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.ionacampsite.co.uk/"
+  },
+  {
+   "id": "node/4317551833",
+   "lat": 55.3713208,
+   "lon": -3.830401,
+   "name": "Informal campsite- no facilities",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/4359007218",
+   "lat": 56.2602901,
+   "lon": -3.2284719,
+   "name": "Pillars of Hercules",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://pillars.co.uk/campsite"
+  },
+  {
+   "id": "node/4360565759",
+   "lat": 57.025374,
+   "lon": -4.8253482,
+   "name": "Laggan Locks informal campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/4375691891",
+   "lat": 55.8458126,
+   "lon": -4.5569819,
+   "name": "Pannell Farm",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/4549983148",
+   "lat": 57.8681701,
+   "lon": -5.3345426,
+   "name": "Northern Lights Camping & Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/4571107030",
+   "lat": 55.5976222,
+   "lon": -5.6862014,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/4581037692",
+   "lat": 57.2821226,
+   "lon": -5.5259547,
+   "name": "Ardelve Caravan And Camping Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.ardelvecaravanandcampingpark.com/"
+  },
+  {
+   "id": "node/4692109104",
+   "lat": 58.2966526,
+   "lon": -4.3724762,
+   "name": "Altnaharra Caravan Club Site",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/highlands/altnaharra-caravan-club-site/"
+  },
+  {
+   "id": "node/4808107822",
+   "lat": 58.2704457,
+   "lon": -3.3810541,
+   "name": "Wildcamp latheronwheel",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/4808107823",
+   "lat": 58.2449181,
+   "lon": -3.4213357,
+   "name": "Dunbeath Harbour Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://givealittle.co/c/1qvcObZ5svzzLWZ5Yh7X8s"
+  },
+  {
+   "id": "node/4808134421",
+   "lat": 58.4597302,
+   "lon": -5.0567935,
+   "name": "Old docks",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/5086196022",
+   "lat": 58.4914109,
+   "lon": -5.1197425,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/5086196026",
+   "lat": 57.29483,
+   "lon": -6.3343083,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/5117769245",
+   "lat": 55.8568347,
+   "lon": -3.1567454,
+   "name": "Slatebarns Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.slatebarnscaravanpark.co.uk/"
+  },
+  {
+   "id": "node/5159633573",
+   "lat": 56.2012462,
+   "lon": -4.3845604,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/5159633574",
+   "lat": 56.2008463,
+   "lon": -4.3814115,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/5171497218",
+   "lat": 56.5599493,
+   "lon": -4.0714103,
+   "name": "Wild camp site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/5404263710",
+   "lat": 56.6556839,
+   "lon": -5.2590287,
+   "name": "Lagnaha Farm",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/5659218825",
+   "lat": 58.594572,
+   "lon": -3.4388019,
+   "name": "Murkle Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://murklecaravanpark.co.uk/"
+  },
+  {
+   "id": "node/5721156523",
+   "lat": 57.8548196,
+   "lon": -7.0001357,
+   "name": "West Harris Trust Camping Spot",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.westharristrust.org/camping/"
+  },
+  {
+   "id": "node/5783772042",
+   "lat": 58.1845343,
+   "lon": -7.0275137,
+   "name": "Ardroil Sands",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/5804226653",
+   "lat": 55.2201124,
+   "lon": -6.3135536,
+   "name": "Glenmore Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/5905680085",
+   "lat": 57.9041227,
+   "lon": -6.7565544,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/6211643443",
+   "lat": 57.7220043,
+   "lon": -4.1271767,
+   "name": "Delny Glamping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/6430320991",
+   "lat": 56.7158985,
+   "lon": -4.9715828,
+   "name": "MacDonald Hotel Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://macdonaldhotel.co.uk/cabins-camping/"
+  },
+  {
+   "id": "node/6580048187",
+   "lat": 57.4840226,
+   "lon": -6.4349018,
+   "name": "Sky Camping CC",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/6738084486",
+   "lat": 57.1246177,
+   "lon": -4.9678175,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/7041565496",
+   "lat": 56.2238695,
+   "lon": -4.3960947,
+   "name": "Loch Achray Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/7314542385",
+   "lat": 55.380465,
+   "lon": -2.1029054,
+   "name": "Firing Point  - Farm",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/7322708538",
+   "lat": 58.4923021,
+   "lon": -4.4272387,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.tonguehostelandholidaypark.co.uk/facilities-for-tongue-caravan-camping/"
+  },
+  {
+   "id": "node/7323540860",
+   "lat": 56.3555399,
+   "lon": -5.8773102,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/7758204199",
+   "lat": 55.4700515,
+   "lon": -3.0717328,
+   "name": "Ettrick Valley Yurts",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/8907123770",
+   "lat": 58.4182822,
+   "lon": -6.4397615,
+   "name": "Bothag Bhuirgh Camping and Pods",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.bothagbhuirgh.com/"
+  },
+  {
+   "id": "node/9217052141",
+   "lat": 58.5705966,
+   "lon": -4.7648424,
+   "name": "Balnakeil Motorhome Stopover",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/9380089135",
+   "lat": 56.8983653,
+   "lon": -5.018309,
+   "name": "Moy Bridge informal campsite",
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9380130619",
+   "lat": 56.914629,
+   "lon": -4.9936032,
+   "name": "Gairlochy Locks informal campsite",
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9380226341",
+   "lat": 57.0731252,
+   "lon": -4.7621996,
+   "name": "Leitirfearn Trailblazer Rest",
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9563627926",
+   "lat": 55.8376419,
+   "lon": -5.035696,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9631552528",
+   "lat": 55.8699885,
+   "lon": -2.1893629,
+   "name": "Gallows Law CAMC CL",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9773480116",
+   "lat": 56.5322179,
+   "lon": -4.8136204,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.inveroran.com/"
+  },
+  {
+   "id": "node/9773480148",
+   "lat": 56.1586592,
+   "lon": -4.6448057,
+   "name": "Rowardennan Lodge Youth Hostel",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/9773482585",
+   "lat": 56.5324249,
+   "lon": -4.813213,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.inveroran.com/"
+  },
+  {
+   "id": "node/9773483151",
+   "lat": 56.6814799,
+   "lon": -4.9185696,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9773491025",
+   "lat": 56.0950586,
+   "lon": -4.4887931,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/9773493529",
+   "lat": 56.422819,
+   "lon": -4.6845593,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9788997842",
+   "lat": 57.1219152,
+   "lon": -4.7228071,
+   "name": "Kytra Lock",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/9789001415",
+   "lat": 56.9193559,
+   "lon": -4.9869945,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9789006480",
+   "lat": 57.2566132,
+   "lon": -4.5348451,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9815615870",
+   "lat": 57.5547676,
+   "lon": -2.2668115,
+   "name": "East Balthangie Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9823160082",
+   "lat": 57.709521,
+   "lon": -4.2730587,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9823174636",
+   "lat": 58.4758224,
+   "lon": -3.0572807,
+   "name": "Informal campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9823175504",
+   "lat": 57.7099708,
+   "lon": -4.2723,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9860875815",
+   "lat": 57.3221891,
+   "lon": -4.4886007,
+   "name": "Dave's Rest",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9897423519",
+   "lat": 56.2245915,
+   "lon": -4.677723,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9897423719",
+   "lat": 56.0819563,
+   "lon": -4.4376512,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9897423720",
+   "lat": 56.1817533,
+   "lon": -4.6735059,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9897423721",
+   "lat": 56.25938,
+   "lon": -4.6923127,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9904099218",
+   "lat": 56.6672767,
+   "lon": -4.9056947,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/9918874966",
+   "lat": 56.8525252,
+   "lon": -4.9964172,
+   "name": "Nevis Range Campervan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/9923925799",
+   "lat": 55.9039247,
+   "lon": -3.0575531,
+   "name": "Dalkeith Country Park Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.dalkeithcountrypark.co.uk/stay/camping/"
+  },
+  {
+   "id": "node/10913898992",
+   "lat": 57.2907341,
+   "lon": -3.7217384,
+   "name": "Clury Croft Airigh",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.clurycroftairigh.com/"
+  },
+  {
+   "id": "node/11104694405",
+   "lat": 56.2532321,
+   "lon": -4.2690325,
+   "name": "Falls of Leny Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130583297",
+   "lat": 56.0856215,
+   "lon": -4.4643957,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130710973",
+   "lat": 56.2844671,
+   "lon": -4.6951944,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130710974",
+   "lat": 56.2844671,
+   "lon": -4.694115,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130723710",
+   "lat": 56.1721419,
+   "lon": -4.6560454,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130723713",
+   "lat": 56.1742885,
+   "lon": -4.6609122,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130723714",
+   "lat": 56.1754487,
+   "lon": -4.6630089,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130723715",
+   "lat": 56.1954206,
+   "lon": -4.6802399,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130723716",
+   "lat": 56.194212,
+   "lon": -4.6798416,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130755235",
+   "lat": 56.2169826,
+   "lon": -4.6744947,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130755236",
+   "lat": 56.2093917,
+   "lon": -4.6750998,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130755237",
+   "lat": 56.2193459,
+   "lon": -4.6760658,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130755242",
+   "lat": 56.2309388,
+   "lon": -4.6809363,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130755243",
+   "lat": 56.2389106,
+   "lon": -4.6843378,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11130755267",
+   "lat": 56.2592693,
+   "lon": -4.6925072,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11131394516",
+   "lat": 56.71695,
+   "lon": -4.9703164,
+   "name": "Kinlochleven Wild Camping Area",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11274353121",
+   "lat": 55.2523131,
+   "lon": -3.750938,
+   "name": "DL Tait Rural",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.dltaitruralenterprises.com/motorhome-aires"
+  },
+  {
+   "id": "node/11396325153",
+   "lat": 55.9575237,
+   "lon": -4.2859052,
+   "name": "Craigmaddie Glamping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/11802868377",
+   "lat": 56.2085001,
+   "lon": -4.5356371,
+   "name": "Loch Chon Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/find-a-campsite/loch-chon-campsite/"
+  },
+  {
+   "id": "node/11828234569",
+   "lat": 56.7197213,
+   "lon": -4.9794289,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11828234669",
+   "lat": 56.5807592,
+   "lon": -4.7978988,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11828234769",
+   "lat": 56.5807575,
+   "lon": -4.7978356,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11916611869",
+   "lat": 56.4272533,
+   "lon": -3.2256425,
+   "name": "South Valleyfield",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://southvalleyfieldcs.wixsite.com/ southvalleyfieldcert"
+  },
+  {
+   "id": "node/11916621370",
+   "lat": 56.502928,
+   "lon": -3.0658716,
+   "name": "Greenacres",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.caravanclub.co.uk/certified-locations/scotland/perthshire-kinross/Dundee/Greenacres"
+  },
+  {
+   "id": "node/11919742369",
+   "lat": 56.3899412,
+   "lon": -4.2411197,
+   "name": "Drummond Fish Farm",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.drummondtroutfarm.co.uk"
+  },
+  {
+   "id": "node/11921784956",
+   "lat": 56.9226569,
+   "lon": -7.5378139,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11921808624",
+   "lat": 56.9260166,
+   "lon": -7.5378072,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/11930740974",
+   "lat": 57.9013557,
+   "lon": -6.7814738,
+   "name": "Urgha Aire",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/11939446993",
+   "lat": 56.2755442,
+   "lon": -3.0228807,
+   "name": "Ring Farm Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://therings.co.uk/camping/"
+  },
+  {
+   "id": "node/11950495369",
+   "lat": 56.7466068,
+   "lon": -5.1102718,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12001770808",
+   "lat": 56.1706945,
+   "lon": -4.6770903,
+   "name": "Firkin Point (Motorhome) camping permit area March-September",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "node/12009761169",
+   "lat": 56.9137466,
+   "lon": -2.2278649,
+   "name": "Upper Cawton",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12044759052",
+   "lat": 56.1227138,
+   "lon": -5.5019331,
+   "name": "Meadow Camping",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/12101832923",
+   "lat": 55.9736135,
+   "lon": -2.8038698,
+   "name": "The Steading Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/12102763901",
+   "lat": 57.0778051,
+   "lon": -4.0576619,
+   "name": "Kingussie camping & aire Croila Croft",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://highlandhorsefun.com/kingussie-camping-aire/"
+  },
+  {
+   "id": "node/12110716583",
+   "lat": 56.4859147,
+   "lon": -4.7240138,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12114107564",
+   "lat": 56.0549291,
+   "lon": -4.4263986,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12114353985",
+   "lat": 56.2236341,
+   "lon": -4.6765521,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12115275197",
+   "lat": 57.5602633,
+   "lon": -6.257076,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12158637601",
+   "lat": 56.7233905,
+   "lon": -4.9909911,
+   "name": "really small camp site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12175048101",
+   "lat": 56.731971,
+   "lon": -5.0412861,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12338140230",
+   "lat": 56.595085,
+   "lon": -4.8070785,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12641368583",
+   "lat": 56.0624922,
+   "lon": -3.3788256,
+   "name": "Green Oak Nature Retreat",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12776547475",
+   "lat": 56.2968744,
+   "lon": -3.6743123,
+   "name": "Islabank CAMC CL",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12785767501",
+   "lat": 57.6718253,
+   "lon": -7.2456095,
+   "name": "Clachan Sands Camping Area",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12819256102",
+   "lat": 56.744006,
+   "lon": -5.0111669,
+   "name": "Wild Camp",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12819257205",
+   "lat": 56.095181,
+   "lon": -4.5297549,
+   "name": "Wild Camp (3 Tents)",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/12829209171",
+   "lat": 56.3898306,
+   "lon": -3.9978167,
+   "name": null,
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/12853482512",
+   "lat": 58.4902538,
+   "lon": -4.7225537,
+   "name": "Choraidh Croft",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.caravanclub.co.uk/certificated-locations/scotland/highlands/Laid/choraidh-croft/"
+  },
+  {
+   "id": "node/12871816002",
+   "lat": 56.9877766,
+   "lon": -4.8933792,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13007009903",
+   "lat": 56.7228799,
+   "lon": -4.9912984,
+   "name": "not great but fits 2 person tent and has access to small river",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13011907101",
+   "lat": 56.8607333,
+   "lon": -5.0164623,
+   "name": "fits 2 ps tent",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13017397301",
+   "lat": 56.4112094,
+   "lon": -4.6603075,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13017416801",
+   "lat": 56.3660525,
+   "lon": -6.0173007,
+   "name": "Port nan Gael",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://portnangael.co.uk/campsite/"
+  },
+  {
+   "id": "node/13017958044",
+   "lat": 55.612226,
+   "lon": -1.8396736,
+   "name": "The Lodge",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13018914502",
+   "lat": 56.953907,
+   "lon": -4.4516189,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13018927302",
+   "lat": 56.9122539,
+   "lon": -4.5512497,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13034555003",
+   "lat": 57.4122372,
+   "lon": -3.3880399,
+   "name": "Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/13081295026",
+   "lat": 57.4882271,
+   "lon": -3.2424614,
+   "name": "Speyside by Craigellachie",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "node/13108588401",
+   "lat": 56.8130388,
+   "lon": -5.1034923,
+   "name": "The Helferindernot",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13128839624",
+   "lat": 56.2191468,
+   "lon": -4.6754027,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "node/13189892914",
+   "lat": 57.212975,
+   "lon": -4.6198657,
+   "name": "Forest Glen Holiday Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.forestglen.co.uk/"
+  },
+  {
+   "id": "node/13618953296",
+   "lat": 55.4727909,
+   "lon": -3.2040582,
+   "name": "Tibbie Shiels",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "node/13917999967",
+   "lat": 55.6053782,
+   "lon": -1.801334,
+   "name": "Easington Farm Wild Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://shearlingcaravansites.co.uk/easington-farm-wild-camping/"
+  },
+  {
+   "id": "node/13922170474",
+   "lat": 57.2871379,
+   "lon": -5.5903574,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/5028668",
+   "lat": 55.9771831,
+   "lon": -3.2650836,
+   "name": "Edinburgh Caravan Club",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/edinburgh/edinburgh-club-campsite/"
+  },
+  {
+   "id": "way/26119432",
+   "lat": 56.4789558,
+   "lon": -2.820202,
+   "name": "TayView Caravan & Camping Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://tayview.info"
+  },
+  {
+   "id": "way/26119532",
+   "lat": 56.4799321,
+   "lon": -2.8109134,
+   "name": "Riverview Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.riverview.co.uk/"
+  },
+  {
+   "id": "way/26547400",
+   "lat": 56.6808891,
+   "lon": -4.2605468,
+   "name": "Kilvrecht Caravan & Camping",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/26666905",
+   "lat": 55.9047309,
+   "lon": -3.1794218,
+   "name": "Mortonhall Caravan and Camping Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.meadowhead.co.uk/Mortonhall-Home"
+  },
+  {
+   "id": "way/27291453",
+   "lat": 56.3306313,
+   "lon": -2.7724307,
+   "name": "St. Andrews Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/28449748",
+   "lat": 56.6570069,
+   "lon": -3.7724177,
+   "name": "SCA Grandtully",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "3",
+   "website": "https://www.grandtully.scot/"
+  },
+  {
+   "id": "way/28449749",
+   "lat": 56.6564829,
+   "lon": -3.7743008,
+   "name": "Grandtully Station Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/29995129",
+   "lat": 56.3223172,
+   "lon": -2.8147764,
+   "name": "Cairnsmill Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.cairnsmill.co.uk/"
+  },
+  {
+   "id": "way/38508818",
+   "lat": 56.0043931,
+   "lon": -4.9619102,
+   "name": "Cot House Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/38613087",
+   "lat": 57.9351444,
+   "lon": -5.1963447,
+   "name": "Ardmair Point Touring Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.ardmair.com/"
+  },
+  {
+   "id": "way/39650713",
+   "lat": 55.54859,
+   "lon": -4.6238883,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/41162013",
+   "lat": 55.3058888,
+   "lon": -2.3486045,
+   "name": "Border Forest Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.borderforest.com/"
+  },
+  {
+   "id": "way/41376373",
+   "lat": 57.4823065,
+   "lon": -4.306197,
+   "name": "Bunchrew Caravan Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://bunchrew-caravanpark.co.uk/"
+  },
+  {
+   "id": "way/41880707",
+   "lat": 56.2954492,
+   "lon": -5.649201,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/42231296",
+   "lat": 58.5983006,
+   "lon": -3.528405,
+   "name": "Thurso Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/50288643",
+   "lat": 56.4443104,
+   "lon": -2.8694456,
+   "name": "Tayport Links Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.tayportlinkscaravanpark.co.uk/"
+  },
+  {
+   "id": "way/58156693",
+   "lat": 55.5976336,
+   "lon": -2.7252631,
+   "name": "Gibson Park Caravan Club Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/scottish-borders/melrose-gibson-park-club-campsite/"
+  },
+  {
+   "id": "way/69482577",
+   "lat": 55.4409812,
+   "lon": -5.1143346,
+   "name": "Seal Shore Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/69482581",
+   "lat": 55.4410085,
+   "lon": -5.1137773,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/69724682",
+   "lat": 57.0446734,
+   "lon": -3.040067,
+   "name": "Ballater Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/76938042",
+   "lat": 56.2653696,
+   "lon": -2.6044703,
+   "name": "Sauchope Links Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/79409051",
+   "lat": 57.1657898,
+   "lon": -3.6959379,
+   "name": "Glenmore Camp Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.campingintheforest.co.uk/scotland/aviemore/glenmore-campsite"
+  },
+  {
+   "id": "way/89567839",
+   "lat": 55.5558905,
+   "lon": -3.851109,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/89816886",
+   "lat": 55.32943,
+   "lon": -3.4406562,
+   "name": "Moffat Camping & Caravanning Club site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/96897207",
+   "lat": 55.9699974,
+   "lon": -2.9300065,
+   "name": "Seton Sands",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/96959141",
+   "lat": 55.9493025,
+   "lon": -3.0090065,
+   "name": "Drummohr Camping Ground",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/97172842",
+   "lat": 55.8761942,
+   "lon": -2.0980417,
+   "name": "Eyemouth Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/97176295",
+   "lat": 55.9621062,
+   "lon": -2.3989899,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/97380683",
+   "lat": 57.0863909,
+   "lon": -2.7641317,
+   "name": "Aboyne Loch Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/97553251",
+   "lat": 55.9296441,
+   "lon": -2.3319634,
+   "name": "Pease Bay Leisure Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "http://www.peasebay.co.uk/"
+  },
+  {
+   "id": "way/97559011",
+   "lat": 55.9974006,
+   "lon": -2.5448609,
+   "name": "Belhaven Bay Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/97559029",
+   "lat": 55.9594441,
+   "lon": -2.4688823,
+   "name": "Thurston Manor Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/98127811",
+   "lat": 57.5914633,
+   "lon": -3.7072261,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/98996701",
+   "lat": 57.4522927,
+   "lon": -2.7891005,
+   "name": "Huntly Castle Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/99433636",
+   "lat": 55.7334673,
+   "lon": -6.3855044,
+   "name": "Port Mòr Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://islandofislay.co.uk/campsite.php"
+  },
+  {
+   "id": "way/99556136",
+   "lat": 57.0918996,
+   "lon": -2.2400446,
+   "name": "Deeside Holiday Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "http://www.holiday-parks.co.uk/index.php?page=deeside"
+  },
+  {
+   "id": "way/99714191",
+   "lat": 56.8044182,
+   "lon": -5.0748092,
+   "name": "Glen Nevis Caravan and Camping Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.glen-nevis.co.uk/"
+  },
+  {
+   "id": "way/100507342",
+   "lat": 56.423901,
+   "lon": -2.8867518,
+   "name": "The Beeches",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://thebeechescaravansite.co.uk"
+  },
+  {
+   "id": "way/101532629",
+   "lat": 57.5251952,
+   "lon": -5.6482599,
+   "name": "Shieldaig Camping and Cabins",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.shieldaigcampingandcabins.co.uk/"
+  },
+  {
+   "id": "way/102270513",
+   "lat": 57.8755767,
+   "lon": -4.0197456,
+   "name": "Dornoch camping and caravaning site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/104289548",
+   "lat": 56.0578196,
+   "lon": -2.7798691,
+   "name": "Yellowcraig Caravan & Motorhome Club Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/east-lothian/yellowcraig-caravan-club-site/"
+  },
+  {
+   "id": "way/104585112",
+   "lat": 56.6479223,
+   "lon": -5.2682782,
+   "name": "Achindarroch Touring Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/106768498",
+   "lat": 57.7141419,
+   "lon": -3.2808356,
+   "name": "Lossiemouth Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/107217556",
+   "lat": 55.5952894,
+   "lon": -1.7383017,
+   "name": "Glororum Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.visitnorthumberland.com/caravan-camping/glororum-caravan-park-new&ssid=0"
+  },
+  {
+   "id": "way/107217565",
+   "lat": 55.6137135,
+   "lon": -1.746675,
+   "name": "Budle Newtown Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/107418002",
+   "lat": 55.6629882,
+   "lon": -3.1950187,
+   "name": "Crossburn Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://crossburncaravanpark.co.uk/"
+  },
+  {
+   "id": "way/111222037",
+   "lat": 55.558727,
+   "lon": -1.7910583,
+   "name": "Adderstone Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/114161279",
+   "lat": 55.4522859,
+   "lon": -1.9111203,
+   "name": "Powburn Scout Adventure Centre",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/114161285",
+   "lat": 55.4452248,
+   "lon": -1.9212992,
+   "name": "River Breamish - Caravan Club site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/114942183",
+   "lat": 56.0010441,
+   "lon": -4.7752081,
+   "name": "Rosneath Castle Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/115092338",
+   "lat": 55.7786899,
+   "lon": -2.0001548,
+   "name": "Berwick Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/115118488",
+   "lat": 56.7244558,
+   "lon": -2.6448444,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/115835967",
+   "lat": 55.5318092,
+   "lon": -2.6059771,
+   "name": "Lilliardsedge Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/116661122",
+   "lat": 57.5916049,
+   "lon": -3.855289,
+   "name": "Nairn Lochloy Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/117071197",
+   "lat": 55.2991701,
+   "lon": -1.8037346,
+   "name": "West Lane Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.ukparks.co.uk/westlane/"
+  },
+  {
+   "id": "way/117798814",
+   "lat": 55.4373735,
+   "lon": -2.5330224,
+   "name": "Jedwater Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "http://www.jedwater.co.uk/"
+  },
+  {
+   "id": "way/118109905",
+   "lat": 55.5174848,
+   "lon": -4.6234796,
+   "name": "Prestwick Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.ukparks.co.uk/prestwick"
+  },
+  {
+   "id": "way/118690513",
+   "lat": 56.9708267,
+   "lon": -2.2037457,
+   "name": "Stonehaven Queen Elizabeth Park Caravan Club Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/aberdeenshire/stonehaven-queen-elizabeth-park-caravan-club-site/"
+  },
+  {
+   "id": "way/123891674",
+   "lat": 56.3519523,
+   "lon": -2.9203265,
+   "name": "Clayton Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.clayton-caravan-park.com/"
+  },
+  {
+   "id": "way/124185545",
+   "lat": 56.1950376,
+   "lon": -2.8650792,
+   "name": "Elie Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.abbeyford.com/our-parks/elie-holiday-park/"
+  },
+  {
+   "id": "way/124990328",
+   "lat": 55.8877741,
+   "lon": -2.1500373,
+   "name": "Scoutscroft",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/125002875",
+   "lat": 55.3655426,
+   "lon": -4.1849155,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/125861542",
+   "lat": 55.4602306,
+   "lon": -4.6170229,
+   "name": "Ayr Cragie Gardens Caravan Club",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/126776368",
+   "lat": 56.5518766,
+   "lon": -2.6061851,
+   "name": "Red Lion Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://redlion-holidaypark.com/"
+  },
+  {
+   "id": "way/128351758",
+   "lat": 56.4684008,
+   "lon": -5.6968968,
+   "name": "Shieling Holidays",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://shielingholidays.co.uk/"
+  },
+  {
+   "id": "way/128362833",
+   "lat": 56.6149407,
+   "lon": -6.0881923,
+   "name": "Tobermory Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.tobermory-campsite.co.uk/"
+  },
+  {
+   "id": "way/128888649",
+   "lat": 56.398308,
+   "lon": -3.490454,
+   "name": "Noah's Ark Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.noahsarkcaravanpark.co.uk/"
+  },
+  {
+   "id": "way/128889874",
+   "lat": 57.1470237,
+   "lon": -3.8941752,
+   "name": "Dalraddy Holiday Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.campinginaviemore.co.uk/"
+  },
+  {
+   "id": "way/128910888",
+   "lat": 57.4866645,
+   "lon": -4.0572671,
+   "name": "Culloden Moor Caravan Club Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/128911690",
+   "lat": 58.0277738,
+   "lon": -3.8448667,
+   "name": "Dalchalm Caravan Club Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/131431308",
+   "lat": 57.1279494,
+   "lon": -2.8685824,
+   "name": "Tarland Camping and Caravanning Club",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/132473457",
+   "lat": 56.0334624,
+   "lon": -5.2115215,
+   "name": "Glendaruel Caravan & Camping Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/133758285",
+   "lat": 56.2017951,
+   "lon": -2.9804487,
+   "name": "Leven Beach Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.pettycur.co.uk/leven.asp"
+  },
+  {
+   "id": "way/134981287",
+   "lat": 56.3680928,
+   "lon": -3.8536342,
+   "name": "Braidhaugh Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/134995548",
+   "lat": 55.4881823,
+   "lon": -2.5436852,
+   "name": "Jedburgh Camping & Caravan Club site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.campingandcaravanningclub.co.uk/campsites/uk/borders/jedburgh/jedburgh-camping-and-caravanning-club-site/"
+  },
+  {
+   "id": "way/135031079",
+   "lat": 55.6014696,
+   "lon": -1.7555387,
+   "name": "Waren Caravan & Camping Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.meadowhead.co.uk/parks/waren/"
+  },
+  {
+   "id": "way/135032709",
+   "lat": 55.5998901,
+   "lon": -1.7697324,
+   "name": "Budle Bay Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://budlebaycampsite.com/"
+  },
+  {
+   "id": "way/135530854",
+   "lat": 56.9686371,
+   "lon": -2.2065702,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/136340405",
+   "lat": 55.2323428,
+   "lon": -2.1041328,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/136615411",
+   "lat": 56.5875559,
+   "lon": -3.9992237,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/137579054",
+   "lat": 55.5925118,
+   "lon": -2.4520215,
+   "name": "Springwood Estate Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.springwood.biz/"
+  },
+  {
+   "id": "way/137721944",
+   "lat": 56.2167489,
+   "lon": -3.4431459,
+   "name": "Gallowhill Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.gallowhillcc.com/"
+  },
+  {
+   "id": "way/143767810",
+   "lat": 55.8915141,
+   "lon": -2.2471105,
+   "name": "Highview Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/145403111",
+   "lat": 55.3089181,
+   "lon": -1.8995861,
+   "name": "Riverside Caravan Park Rothbury",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.riversiderothbury.co.uk/"
+  },
+  {
+   "id": "way/145796828",
+   "lat": 58.6436095,
+   "lon": -3.0669435,
+   "name": "John O'Groats Caravan and Camping Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/146734402",
+   "lat": 56.0479223,
+   "lon": -2.7346842,
+   "name": "Gilsland Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/146736342",
+   "lat": 56.0561763,
+   "lon": -2.6908519,
+   "name": "Tantallon Caravan & Camping Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.meadowhead.co.uk/parks/tantallon/"
+  },
+  {
+   "id": "way/147535157",
+   "lat": 57.2502739,
+   "lon": -3.7607703,
+   "name": "Boat of Garten Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.boatofgartenholidaypark.com/"
+  },
+  {
+   "id": "way/148454000",
+   "lat": 55.6372218,
+   "lon": -2.4085425,
+   "name": "Houndridge",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/151090874",
+   "lat": 55.7724389,
+   "lon": -2.7834889,
+   "name": "Lauder - Camping and Caravanning Club Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.campingandcaravanningclub.co.uk/campsites/uk/borders/lauder/lauder-camping-and-caravanning-club-site/"
+  },
+  {
+   "id": "way/151712319",
+   "lat": 55.5463651,
+   "lon": -2.2850059,
+   "name": "Kirkfield Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/151906063",
+   "lat": 57.5974418,
+   "lon": -4.4198137,
+   "name": "Dingwall Camping and Caravanning Club",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/152191603",
+   "lat": 55.5320083,
+   "lon": -2.3808168,
+   "name": "Crookhouse Farm Campsite",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/152245084",
+   "lat": 57.4654606,
+   "lon": -4.2458428,
+   "name": "Torvean Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/152342615",
+   "lat": 55.6770182,
+   "lon": -3.8025111,
+   "name": "Clyde Valley Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/153733663",
+   "lat": 55.4355677,
+   "lon": -3.112888,
+   "name": "Honey Cottage Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "www.honeycottagecaravanpark.co.uk"
+  },
+  {
+   "id": "way/154127430",
+   "lat": 55.804214,
+   "lon": -4.0477153,
+   "name": "Strathclyde Park Camping & Caravan Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/154134748",
+   "lat": 57.8310224,
+   "lon": -4.1095497,
+   "name": "Dornoch Firth Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/154136500",
+   "lat": 57.8952265,
+   "lon": -5.1652313,
+   "name": "Broomfield Holiday Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://broomfieldhp.com/"
+  },
+  {
+   "id": "way/154385393",
+   "lat": 57.0284133,
+   "lon": -4.1645864,
+   "name": "Invernahavon Caravan Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.invernahavon.com/"
+  },
+  {
+   "id": "way/155227115",
+   "lat": 55.6099638,
+   "lon": -2.6359056,
+   "name": "Springlee",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/156366405",
+   "lat": 56.0042079,
+   "lon": -2.8513006,
+   "name": "Aberlady Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.aberladycaravanpark.co.uk/"
+  },
+  {
+   "id": "way/157403967",
+   "lat": 55.5770559,
+   "lon": -1.7424078,
+   "name": "Kaims Country Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/157421210",
+   "lat": 57.7083245,
+   "lon": -3.4412143,
+   "name": "Station Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/157530600",
+   "lat": 57.6979602,
+   "lon": -3.4873474,
+   "name": "Burghead Beach Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/160144041",
+   "lat": 55.540111,
+   "lon": -2.0081619,
+   "name": "Riverside Leisure Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.riverside-wooler.co.uk/"
+  },
+  {
+   "id": "way/161958336",
+   "lat": 56.0641252,
+   "lon": -3.1877815,
+   "name": "Sandhills Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.sandhillscaravanpark.com/"
+  },
+  {
+   "id": "way/165330420",
+   "lat": 55.832785,
+   "lon": -5.9496327,
+   "name": "Jura Hotel campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/165829144",
+   "lat": 57.722419,
+   "lon": -3.3296202,
+   "name": "Silver Sands Leisure Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://silver-sands.co.uk/"
+  },
+  {
+   "id": "way/166468349",
+   "lat": 57.8287975,
+   "lon": -6.8529227,
+   "name": "Lickisto Blackhouse Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://lickistoblackhousecamping.co.uk/"
+  },
+  {
+   "id": "way/166488944",
+   "lat": 58.3514912,
+   "lon": -5.1569148,
+   "name": "Scourie Caravan and Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.scouriecampsitesutherland.com/"
+  },
+  {
+   "id": "way/166572223",
+   "lat": 57.5866041,
+   "lon": -6.3802209,
+   "name": "Uig Bay Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.uig-camping-skye.co.uk/index.html"
+  },
+  {
+   "id": "way/166800280",
+   "lat": 57.2924164,
+   "lon": -6.1753499,
+   "name": "Sligachan Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.sligachancampsite.com/"
+  },
+  {
+   "id": "way/167473517",
+   "lat": 56.1488198,
+   "lon": -3.8985108,
+   "name": "Witches Craig Caravan and Camping Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.witchescraig.co.uk/"
+  },
+  {
+   "id": "way/168004174",
+   "lat": 58.6147598,
+   "lon": -3.3448085,
+   "name": "Dunnet Bay Caravan Club Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/169525767",
+   "lat": 57.7683115,
+   "lon": -5.5979764,
+   "name": "Poolewe Caravan & Camping Club",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.campingandcaravanningclub.co.uk/campsites/uk/highlands/achnasheen/inverewe-gardens-poolewe-camping-and-caravanning-club-site/"
+  },
+  {
+   "id": "way/172017283",
+   "lat": 55.8780387,
+   "lon": -4.8835971,
+   "name": "Wemyss Bay Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/172017449",
+   "lat": 55.8767034,
+   "lon": -4.8769489,
+   "name": "Wemyss Bay Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/172658386",
+   "lat": 57.4839654,
+   "lon": -6.4346796,
+   "name": "Skye Camping And Caravanning Club Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.campingandcaravanningclub.co.uk/campsites/uk/isle-of-skye/portree/skye-camping-and-caravanning-club-site/"
+  },
+  {
+   "id": "way/174371601",
+   "lat": 55.7548968,
+   "lon": -2.0303302,
+   "name": "Ord House Country Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/177125858",
+   "lat": 57.6942152,
+   "lon": -2.8115067,
+   "name": "Cullen Bay Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.cullenbayholidaypark.co.uk/"
+  },
+  {
+   "id": "way/178229890",
+   "lat": 55.5994999,
+   "lon": -1.832349,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/179316634",
+   "lat": 57.2116477,
+   "lon": -5.4161312,
+   "name": "Glenshiel Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://glenshielcampsite.co.uk/"
+  },
+  {
+   "id": "way/180461167",
+   "lat": 57.2357047,
+   "lon": -5.3807749,
+   "name": "Morvich Club Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/highlands/morvich-club-campsite/"
+  },
+  {
+   "id": "way/180597767",
+   "lat": 55.888676,
+   "lon": -2.1668188,
+   "name": "Coldingham Bay Leisure Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/181397697",
+   "lat": 56.5603714,
+   "lon": -3.601656,
+   "name": "Invermill Farm Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/183583126",
+   "lat": 55.8843072,
+   "lon": -4.1412993,
+   "name": "Craigendmuir Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "www.craigendmuir.co.uk"
+  },
+  {
+   "id": "way/184002638",
+   "lat": 56.1987467,
+   "lon": -4.8095908,
+   "name": "Honeymoon Bridge",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://forestryandland.gov.scot/staythenight"
+  },
+  {
+   "id": "way/184653687",
+   "lat": 55.2902548,
+   "lon": -7.1338131,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/187126745",
+   "lat": 57.5034745,
+   "lon": -4.3059019,
+   "name": "Coulmore Bay Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/190013536",
+   "lat": 57.666174,
+   "lon": -4.3368955,
+   "name": "Black Rock Holiday Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://blackrockcaravanandcampingpark.co.uk"
+  },
+  {
+   "id": "way/192527163",
+   "lat": 56.9391076,
+   "lon": -5.8611682,
+   "name": "Silversands Holiday Park, Portnaluchaig",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/197676238",
+   "lat": 56.8406512,
+   "lon": -5.0734822,
+   "name": "Lochy Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://www.lochy-holiday-park.co.uk/"
+  },
+  {
+   "id": "way/198240716",
+   "lat": 56.1095768,
+   "lon": -5.1953839,
+   "name": "Strathlachlan Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/199728055",
+   "lat": 56.0379388,
+   "lon": -5.4386883,
+   "name": "Lochgilphead Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.lochgilpheadcaravanpark.com/"
+  },
+  {
+   "id": "way/200726447",
+   "lat": 56.7995227,
+   "lon": -5.0706552,
+   "name": "Glen Nevis Self-Catering Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/200772391",
+   "lat": 56.2348848,
+   "lon": -4.1909742,
+   "name": "Callander Woods",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/201077707",
+   "lat": 57.3354345,
+   "lon": -3.6167687,
+   "name": "Grantown-on-Spey Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.caravanscotland.com/"
+  },
+  {
+   "id": "way/203179141",
+   "lat": 58.0528978,
+   "lon": -5.4107298,
+   "name": "Port A Bhaigh Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.portabhaigh.co.uk/"
+  },
+  {
+   "id": "way/203354755",
+   "lat": 56.0706936,
+   "lon": -3.1708863,
+   "name": "Kinghorn Harbour Holiday Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/203780814",
+   "lat": 56.3608519,
+   "lon": -4.3076825,
+   "name": "Balquhidder Braes Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.balquhidderbraes.co.uk/"
+  },
+  {
+   "id": "way/203861419",
+   "lat": 55.2157488,
+   "lon": -6.9561754,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/203861436",
+   "lat": 55.2160059,
+   "lon": -6.9489013,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/204111342",
+   "lat": 57.4258889,
+   "lon": -1.8657139,
+   "name": "Craighead Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/204717187",
+   "lat": 57.6040557,
+   "lon": -5.3049131,
+   "name": "Kinlochewe Caravan Club Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/highlands/kinlochewe-club-campsite/"
+  },
+  {
+   "id": "way/204779711",
+   "lat": 57.524995,
+   "lon": -2.025953,
+   "name": "Aden Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/204814051",
+   "lat": 56.9549763,
+   "lon": -5.8466238,
+   "name": "Camusdarach Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.camusdarach.co.uk/"
+  },
+  {
+   "id": "way/204814060",
+   "lat": 56.9286322,
+   "lon": -5.8642233,
+   "name": "Invercaimbe caravan and campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.invercaimbecaravansite.co.uk/"
+  },
+  {
+   "id": "way/204836401",
+   "lat": 56.9330783,
+   "lon": -5.8662303,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/206519676",
+   "lat": 55.7084876,
+   "lon": -2.4655336,
+   "name": "Blackadder Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.blackadder.co/"
+  },
+  {
+   "id": "way/207371656",
+   "lat": 57.4258813,
+   "lon": -7.3695553,
+   "name": "Shellbay Caravan & Camping Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.southuist.com/accommodation.php?action=view&id=43"
+  },
+  {
+   "id": "way/208263936",
+   "lat": 56.3171016,
+   "lon": -4.3305307,
+   "name": "Immervoulin Caravan & Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://immervoulinpark.co.uk/"
+  },
+  {
+   "id": "way/209883911",
+   "lat": 57.8673113,
+   "lon": -5.537087,
+   "name": "Gruinard Bay Caravan park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.gruinardbay.co.uk/"
+  },
+  {
+   "id": "way/210185185",
+   "lat": 57.7319496,
+   "lon": -5.7010723,
+   "name": "Gairloch Caravan & Camp Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://gairlochholidaypark.co.uk/"
+  },
+  {
+   "id": "way/210455389",
+   "lat": 57.4650303,
+   "lon": -4.2388019,
+   "name": "Bught Caravan & Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://www.invernesscaravanpark.com/"
+  },
+  {
+   "id": "way/210529554",
+   "lat": 55.4441286,
+   "lon": -2.7351187,
+   "name": "Riverside Park Hawick",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://riversidehawick.co.uk/"
+  },
+  {
+   "id": "way/210581975",
+   "lat": 56.6230464,
+   "lon": -3.8593161,
+   "name": "Aberfeldy Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/210595142",
+   "lat": 56.7039841,
+   "lon": -5.0417644,
+   "name": "Caolasnacon Caravan & Camping Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.kinlochlevencaravans.com/"
+  },
+  {
+   "id": "way/211737422",
+   "lat": 55.99265,
+   "lon": -2.4824114,
+   "name": "Dunbar Camping and Caravanning Club Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/211753745",
+   "lat": 56.7140505,
+   "lon": -4.9596886,
+   "name": "Blackwater Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://www.blackwaterhostel.co.uk/"
+  },
+  {
+   "id": "way/212719474",
+   "lat": 56.5966708,
+   "lon": -3.3465494,
+   "name": "Burnhead Farm Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "5",
+   "website": null
+  },
+  {
+   "id": "way/213787228",
+   "lat": 56.5608504,
+   "lon": -3.3504218,
+   "name": "Burnbank Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/215077889",
+   "lat": 56.5997348,
+   "lon": -3.3335163,
+   "name": "Blairgowrie Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/215094467",
+   "lat": 56.6460508,
+   "lon": -3.4140509,
+   "name": "Corriefodly Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/215265468",
+   "lat": 56.6768852,
+   "lon": -3.461647,
+   "name": "Ballintuim Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/215313410",
+   "lat": 56.7099651,
+   "lon": -3.4131418,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/216104924",
+   "lat": 56.1686455,
+   "lon": -4.9131498,
+   "name": "Lochgoilhead Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/221615618",
+   "lat": 55.6746653,
+   "lon": -5.6653569,
+   "name": "Point Sands Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.pointsands.com/"
+  },
+  {
+   "id": "way/222901973",
+   "lat": 55.7001626,
+   "lon": -5.2764572,
+   "name": "Lochranza Caravan and Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/223416260",
+   "lat": 55.5565146,
+   "lon": -5.7082395,
+   "name": "Killegruer Caravan and Campsite",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/226246696",
+   "lat": 56.2380249,
+   "lon": -4.2339263,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/227650380",
+   "lat": 56.7658534,
+   "lon": -3.8410635,
+   "name": "River Tilt Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/227718021",
+   "lat": 55.7494365,
+   "lon": -2.1040756,
+   "name": "Chainbridge Touring Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.chainbridgecaravansite.co.uk/"
+  },
+  {
+   "id": "way/228484900",
+   "lat": 55.3004412,
+   "lon": -1.9176237,
+   "name": "Whitton Glebe Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/229580713",
+   "lat": 56.1271723,
+   "lon": -4.607511,
+   "name": "Sallochy Campsite - Woodland Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/find-a-campsite/sallochy-campsite/"
+  },
+  {
+   "id": "way/229585243",
+   "lat": 56.6695002,
+   "lon": -5.0708785,
+   "name": "Red Squirrel Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/232127707",
+   "lat": 55.9922462,
+   "lon": -4.3730152,
+   "name": "Auchengillan Outdoor Centre",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.auchengillan.com/"
+  },
+  {
+   "id": "way/232832363",
+   "lat": 55.7164343,
+   "lon": -2.738465,
+   "name": "Thirlestane Castle Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/233317076",
+   "lat": 55.2447641,
+   "lon": -1.8022829,
+   "name": "Croftside",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/233663541",
+   "lat": 57.5786353,
+   "lon": -4.1161975,
+   "name": "Fortrose Bay Campsite",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://fortrosebaycampsite.co.uk/"
+  },
+  {
+   "id": "way/233666111",
+   "lat": 57.5848706,
+   "lon": -4.1102193,
+   "name": "Rosemarkie Camping & Caravan Club Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.fortrosebaycampsite.co.uk/"
+  },
+  {
+   "id": "way/234729566",
+   "lat": 55.5637828,
+   "lon": -2.7104438,
+   "name": "Roulotte Retreat",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/236797900",
+   "lat": 55.4943856,
+   "lon": -2.6247925,
+   "name": "Feather Down - Chesters",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.featherdown.co.uk/chesters-scotland-borders"
+  },
+  {
+   "id": "way/237378254",
+   "lat": 56.0192584,
+   "lon": -4.9006063,
+   "name": "Gairletter Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/239194553",
+   "lat": 55.5257335,
+   "lon": -5.1303726,
+   "name": "Middleton's Caravan & Camping Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/239310674",
+   "lat": 55.7581517,
+   "lon": -1.9985911,
+   "name": "Berwick Seaview Caravan and Motorhome Club Campsite",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.caravanclub.co.uk/club-sites/england/north-east-england/northumberland/berwick-seaview-club-campsite/?utm_source=localsearch&utm_medium=organic&utm_campaign=gmb"
+  },
+  {
+   "id": "way/239482597",
+   "lat": 56.6142359,
+   "lon": -3.2279108,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/239944824",
+   "lat": 55.3729268,
+   "lon": -1.8630408,
+   "name": "Coeburn",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/239947471",
+   "lat": 55.444153,
+   "lon": -1.9058415,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/240117609",
+   "lat": 55.542221,
+   "lon": -2.0071422,
+   "name": "Bridgend Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.wyldecrestparks.co.uk/property_location/bridgend-park/"
+  },
+  {
+   "id": "way/240265875",
+   "lat": 55.5479596,
+   "lon": -2.0266296,
+   "name": "Highburn House Country Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.highburn-house.co.uk/"
+  },
+  {
+   "id": "way/240286157",
+   "lat": 55.2681392,
+   "lon": -2.0882182,
+   "name": "Billsmoorfoot",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/240723827",
+   "lat": 56.69556,
+   "lon": -3.7243017,
+   "name": "Milton of Fonab Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.fonab.co.uk/"
+  },
+  {
+   "id": "way/243536273",
+   "lat": 55.7141612,
+   "lon": -2.1199588,
+   "name": "Salutation Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/247718135",
+   "lat": 56.7698758,
+   "lon": -3.8460157,
+   "name": "Blair Castle Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.blaircastlecaravanpark.co.uk/"
+  },
+  {
+   "id": "way/251871641",
+   "lat": 55.9169961,
+   "lon": -2.3672474,
+   "name": "Chesterfield Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/252141054",
+   "lat": 55.5400513,
+   "lon": -5.1260137,
+   "name": "Park Avenue Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/252392375",
+   "lat": 55.7559303,
+   "lon": -4.9397975,
+   "name": "Millport Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/254006458",
+   "lat": 55.7516091,
+   "lon": -1.9928211,
+   "name": "Elm Bank Coastal Retreat",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/255503814",
+   "lat": 55.4633534,
+   "lon": -5.5461487,
+   "name": "Peninver Sands Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/255503820",
+   "lat": 55.467348,
+   "lon": -5.5454607,
+   "name": "Peninver Sands Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/256181692",
+   "lat": 55.2903678,
+   "lon": -3.1886369,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/256494452",
+   "lat": 55.5809045,
+   "lon": -5.4849083,
+   "name": "Carradale Bay Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/257476951",
+   "lat": 55.3112086,
+   "lon": -5.6501123,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/258583520",
+   "lat": 57.202183,
+   "lon": -6.2877801,
+   "name": "Glenbrittle Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.dunvegancastle.com/glenbrittle/campsite/"
+  },
+  {
+   "id": "way/260377709",
+   "lat": 55.268804,
+   "lon": -1.7148974,
+   "name": "Felmoor Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://felmoorpark.com/"
+  },
+  {
+   "id": "way/260377729",
+   "lat": 55.2708682,
+   "lon": -1.7171123,
+   "name": "Bockenfield Country Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/260728180",
+   "lat": 56.1814217,
+   "lon": -3.1769783,
+   "name": "Kingdom Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/260732848",
+   "lat": 56.2047793,
+   "lon": -3.1398155,
+   "name": "Balbirnie Park Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/fife/balbirnie-park-club-campsite/"
+  },
+  {
+   "id": "way/262088878",
+   "lat": 56.9321819,
+   "lon": -5.8612605,
+   "name": "Sunnyside Croft Touring Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.sunnysidetouringsite.co.uk/"
+  },
+  {
+   "id": "way/263318922",
+   "lat": 57.9568055,
+   "lon": -3.9937197,
+   "name": "Golspie Links Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/266589748",
+   "lat": 55.8049097,
+   "lon": -2.0306549,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/268080948",
+   "lat": 57.6829819,
+   "lon": -2.6862857,
+   "name": "Portsoy Links Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/269327391",
+   "lat": 56.4776586,
+   "lon": -5.400869,
+   "name": "North Ledaig Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/276724742",
+   "lat": 55.9124452,
+   "lon": -3.4344021,
+   "name": "Linwater Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/279669800",
+   "lat": 56.477711,
+   "lon": -6.9216558,
+   "name": "Balinoe Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://tireecampsite.co.uk/"
+  },
+  {
+   "id": "way/282730875",
+   "lat": 56.4959686,
+   "lon": -5.4073031,
+   "name": "Elderberry Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/282730876",
+   "lat": 56.4979647,
+   "lon": -5.4129616,
+   "name": "Highfield",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/282730881",
+   "lat": 56.4984072,
+   "lon": -5.4185717,
+   "name": "Tralee Bay Holidays",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.tralee.com"
+  },
+  {
+   "id": "way/283628991",
+   "lat": 57.7386036,
+   "lon": -5.7671914,
+   "name": "Sands Caravan and Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://sandscaravanandcamping.co.uk/"
+  },
+  {
+   "id": "way/286795096",
+   "lat": 58.1851065,
+   "lon": -7.0250315,
+   "name": "Ardroil Caravan & Campervan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/287631944",
+   "lat": 55.6098332,
+   "lon": -3.7896231,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/287823852",
+   "lat": 56.1074146,
+   "lon": -4.6383561,
+   "name": "Luss Camping and Caravanning Club Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/288720809",
+   "lat": 58.168309,
+   "lon": -5.3075745,
+   "name": "Shore Caravan Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.shorecaravansite.co.uk/"
+  },
+  {
+   "id": "way/290295131",
+   "lat": 58.1683759,
+   "lon": -5.3055375,
+   "name": "Hillhead Caravans",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://achmelvich-holidays.co.uk/"
+  },
+  {
+   "id": "way/292117256",
+   "lat": 55.6428672,
+   "lon": -4.6739396,
+   "name": "Eglinton Camping and Touring Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.north-ayrshire.gov.uk/leisure-parks-and-events/eglinton/camp.aspx"
+  },
+  {
+   "id": "way/292622230",
+   "lat": 55.7113638,
+   "lon": -2.0445912,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/293097965",
+   "lat": 58.4432929,
+   "lon": -3.1050439,
+   "name": "Wick Caravan & Camping Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/294255993",
+   "lat": 56.7087392,
+   "lon": -2.4532954,
+   "name": "South Links Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://visitangus.com/south-links-holiday-park/"
+  },
+  {
+   "id": "way/297147337",
+   "lat": 57.6801565,
+   "lon": -2.5719788,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/298243767",
+   "lat": 56.6892867,
+   "lon": -6.1322979,
+   "name": "Ardnamurchan Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://ardnamurchancampsite.com/"
+  },
+  {
+   "id": "way/298245135",
+   "lat": 56.7193371,
+   "lon": -6.1655166,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/298597113",
+   "lat": 57.2548229,
+   "lon": -4.5005193,
+   "name": "Loch Ness Shores",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.campingandcaravanningclub.co.uk/campsites/uk/inverness/lowerfoyers/lochnessshores"
+  },
+  {
+   "id": "way/298686161",
+   "lat": 56.5763781,
+   "lon": -6.2784069,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/300932364",
+   "lat": 55.6511287,
+   "lon": -2.00697,
+   "name": "Barmoor Castle Coutry Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/301503340",
+   "lat": 55.5708842,
+   "lon": -1.7030014,
+   "name": "Elford Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://elfordcaravanpark.com/"
+  },
+  {
+   "id": "way/301531883",
+   "lat": 58.5292094,
+   "lon": -4.4319846,
+   "name": "Bayview campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.bayviewcampsite.co.uk"
+  },
+  {
+   "id": "way/301540666",
+   "lat": 57.2833083,
+   "lon": -5.6262632,
+   "name": "Reraig caravan site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.reraigcamping.com/"
+  },
+  {
+   "id": "way/301567791",
+   "lat": 55.6337647,
+   "lon": -4.7618082,
+   "name": "Sandylands Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/301602493",
+   "lat": 55.7113567,
+   "lon": -4.8375785,
+   "name": "Crosbie Towers",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/302110672",
+   "lat": 55.675529,
+   "lon": -4.8537807,
+   "name": "Waterside Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/302111483",
+   "lat": 55.6650349,
+   "lon": -4.8377174,
+   "name": "Glenview Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/302792026",
+   "lat": 56.687449,
+   "lon": -5.1064415,
+   "name": "Invercoe Caravan & Camping Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.invercoe.co.uk/"
+  },
+  {
+   "id": "way/303219086",
+   "lat": 55.410359,
+   "lon": -3.1417519,
+   "name": "Angecroft Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/305284229",
+   "lat": 56.3877787,
+   "lon": -5.5185491,
+   "name": "Oban Holiday Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://highlandholidays.com/parks/oban/"
+  },
+  {
+   "id": "way/308444275",
+   "lat": 55.5963215,
+   "lon": -5.6875031,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/309641946",
+   "lat": 55.6410292,
+   "lon": -4.7352056,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/315336236",
+   "lat": 55.9642166,
+   "lon": -2.4643182,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/315549302",
+   "lat": 57.1726656,
+   "lon": -2.1504949,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/319911251",
+   "lat": 57.6219018,
+   "lon": -6.1957598,
+   "name": "Staffin Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.staffincampsite.co.uk/"
+  },
+  {
+   "id": "way/320636675",
+   "lat": 57.0539812,
+   "lon": -7.4458753,
+   "name": "Sgùrabhal Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/322740798",
+   "lat": 56.4173469,
+   "lon": -5.1902733,
+   "name": "Loch Awe Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/323035339",
+   "lat": 58.191824,
+   "lon": -5.3350546,
+   "name": "Clachtoll Beach Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.clachtollbeachcampsite.com/"
+  },
+  {
+   "id": "way/332876537",
+   "lat": 56.2062921,
+   "lon": -4.7431364,
+   "name": "MacTavish Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/337815700",
+   "lat": 56.3749269,
+   "lon": -4.0055108,
+   "name": "Twenty Shilling Wood Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://twentyshillingwoodholidaypark.co.uk/"
+  },
+  {
+   "id": "way/338178923",
+   "lat": 56.3797364,
+   "lon": -3.9691996,
+   "name": "West Lodge Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/338180639",
+   "lat": 56.3667914,
+   "lon": -3.8456226,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/339423031",
+   "lat": 58.2172909,
+   "lon": -6.9403628,
+   "name": "Tràigh na Beirigh",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.isle-of-lewis.com/accommodation/camping-and-hostels/valtos-campsite/"
+  },
+  {
+   "id": "way/339594208",
+   "lat": 57.8633869,
+   "lon": -6.9771365,
+   "name": "Traigh Horgabost Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/343013900",
+   "lat": 56.4295166,
+   "lon": -3.4471539,
+   "name": "Scone Camping and Caravanning Club Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.campingandcaravanningclub.co.uk/campsites/uk/tayside/scone/scone"
+  },
+  {
+   "id": "way/343729732",
+   "lat": 56.8455919,
+   "lon": -5.1615305,
+   "name": "Linnhe Lochside Holiday Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.linnhe-lochside-holidays.co.uk/"
+  },
+  {
+   "id": "way/343729733",
+   "lat": 56.8432963,
+   "lon": -5.1594008,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/343859943",
+   "lat": 56.2917483,
+   "lon": -3.1148849,
+   "name": "Annsmuir Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/344009773",
+   "lat": 56.0539251,
+   "lon": -4.9167649,
+   "name": "Glenfinart Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/345048762",
+   "lat": 57.0020038,
+   "lon": -3.3955353,
+   "name": "Braemar Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.braemarcaravanpark.co.uk/"
+  },
+  {
+   "id": "way/345545702",
+   "lat": 55.6574284,
+   "lon": -1.9277769,
+   "name": "West Kyloe Farm Old Mill",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/360508851",
+   "lat": 55.4304841,
+   "lon": -4.6846892,
+   "name": "Craig Tara",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.haven.com/parks/scotland/craig-tara"
+  },
+  {
+   "id": "way/361630131",
+   "lat": 56.2301015,
+   "lon": -2.6792561,
+   "name": "Kilrenny Mill Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://www.grangemuirchaletpark.co.uk/kilrenny-mill-c1vx"
+  },
+  {
+   "id": "way/361667415",
+   "lat": 55.4262672,
+   "lon": -4.7102814,
+   "name": "Heads of Ayr Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/361700127",
+   "lat": 57.3396015,
+   "lon": -4.5352145,
+   "name": "Loch Ness Glamping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.lochnessglamping.co.uk/"
+  },
+  {
+   "id": "way/361707053",
+   "lat": 56.2304303,
+   "lon": -2.6817077,
+   "name": "Silverdyke Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/361860799",
+   "lat": 57.2414737,
+   "lon": -2.6943444,
+   "name": "Haughton House Park Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/365713482",
+   "lat": 56.885177,
+   "lon": -4.8351151,
+   "name": "Bunroy Caravan & Camping Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://de.bunroypark.co.uk/"
+  },
+  {
+   "id": "way/365713483",
+   "lat": 57.5435481,
+   "lon": -5.50178,
+   "name": "Torridon Camp Site",
+   "kind": "camp_site",
+   "fee": "donation",
+   "motorhome": "no",
+   "website": "https://www.highland.gov.uk/info/379/countryside_facilities_and_wildlife/44/our_camping_sites/2"
+  },
+  {
+   "id": "way/365715681",
+   "lat": 57.8727925,
+   "lon": -5.2622599,
+   "name": "Badrallach Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://badrallach.com/"
+  },
+  {
+   "id": "way/368983507",
+   "lat": 56.2314035,
+   "lon": -3.0181634,
+   "name": "Letham Feus Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/369982269",
+   "lat": 56.3886818,
+   "lon": -4.1397334,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/370538844",
+   "lat": 56.0692605,
+   "lon": -4.2463157,
+   "name": "Campsie Glen Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/371099371",
+   "lat": 56.3042866,
+   "lon": -3.6759894,
+   "name": "Grand Eagles Luxury Lodge Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/371129900",
+   "lat": 56.3946052,
+   "lon": -4.1577642,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/371247161",
+   "lat": 56.4876308,
+   "lon": -4.2841068,
+   "name": "High Creagan Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/371309244",
+   "lat": 56.1544835,
+   "lon": -3.6722101,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/371313338",
+   "lat": 56.141763,
+   "lon": -3.7842559,
+   "name": "The Woods Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/372028398",
+   "lat": 56.7103531,
+   "lon": -3.4094153,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/372223210",
+   "lat": 56.4989471,
+   "lon": -6.004361,
+   "name": "Killiechronan Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/372719176",
+   "lat": 56.1403943,
+   "lon": -4.3534746,
+   "name": "Trossachs Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.trossachsholidays.co.uk/"
+  },
+  {
+   "id": "way/376090119",
+   "lat": 55.5120299,
+   "lon": -5.0979226,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/376602239",
+   "lat": 56.4258126,
+   "lon": -4.6694099,
+   "name": "Strathfillan Wigwams",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.wigwamholidays.com/strathfillan"
+  },
+  {
+   "id": "way/376602248",
+   "lat": 56.5182719,
+   "lon": -4.7709118,
+   "name": null,
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/376793507",
+   "lat": 55.3028509,
+   "lon": -3.4552049,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383029696",
+   "lat": 55.2199694,
+   "lon": -4.854475,
+   "name": "Byne Hill Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383036494",
+   "lat": 55.2124158,
+   "lon": -4.8762441,
+   "name": "Ardmillan Castle Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383042241",
+   "lat": 55.3547736,
+   "lon": -4.7063148,
+   "name": "The Ranch",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383042882",
+   "lat": 55.3548491,
+   "lon": -4.7693267,
+   "name": "Culzean Castle Camping and Caravanning Club Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383043690",
+   "lat": 55.3780362,
+   "lon": -4.7698632,
+   "name": "Croyburnfoot",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383043691",
+   "lat": 55.3766499,
+   "lon": -4.7593004,
+   "name": "Culzean Bay",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383434686",
+   "lat": 55.5047226,
+   "lon": -4.4716608,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383453071",
+   "lat": 55.5645507,
+   "lon": -4.564979,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383575373",
+   "lat": 55.4541212,
+   "lon": -4.5238645,
+   "name": "Sundrum Castle Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383576990",
+   "lat": 55.4445458,
+   "lon": -4.587254,
+   "name": "Crofthead Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383583088",
+   "lat": 55.5171972,
+   "lon": -4.0696295,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/383653319",
+   "lat": 55.2963374,
+   "lon": -4.6637537,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/388119798",
+   "lat": 55.2679201,
+   "lon": -1.8291073,
+   "name": "Tindles Hill Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://tindleshillcaravanpark.co.uk"
+  },
+  {
+   "id": "way/389097153",
+   "lat": 55.4233417,
+   "lon": -5.7156739,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/389203417",
+   "lat": 56.6183857,
+   "lon": -2.9017376,
+   "name": "Lochlands Leisure Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.lochlandsholidaypark.co.uk/"
+  },
+  {
+   "id": "way/393877267",
+   "lat": 55.88113,
+   "lon": -3.1175888,
+   "name": "Kevock Vale Park Retirement Living",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/397607810",
+   "lat": 55.7481431,
+   "lon": -4.9466414,
+   "name": "Westbourne House Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/399148889",
+   "lat": 56.100337,
+   "lon": -4.562326,
+   "name": "Milarrochy Bay Camping And Caravanning Club Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.campingandcaravanningclub.co.uk/campsites/uk/glasgow/drymen/milarrochy-bay-camping-and-caravanning-club-site/"
+  },
+  {
+   "id": "way/406090634",
+   "lat": 56.6436678,
+   "lon": -2.8984774,
+   "name": "Lochside Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/407436655",
+   "lat": 56.5718552,
+   "lon": -2.6227578,
+   "name": "Woodley Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/407746202",
+   "lat": 55.2097959,
+   "lon": -6.2567566,
+   "name": "Hayes Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/407746518",
+   "lat": 55.2103106,
+   "lon": -6.2490247,
+   "name": "Causeway Coast Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/408076206",
+   "lat": 56.5475633,
+   "lon": -2.6186333,
+   "name": "Elliot Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/409166378",
+   "lat": 56.5702658,
+   "lon": -2.5487344,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/409673774",
+   "lat": 56.5054148,
+   "lon": -2.7179214,
+   "name": "Woodlands Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.woodlandscaravanpark.net/"
+  },
+  {
+   "id": "way/409893456",
+   "lat": 56.4914437,
+   "lon": -2.7761129,
+   "name": "Barry Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.barrydownsofficial.net/tourers---caravans.html"
+  },
+  {
+   "id": "way/410754150",
+   "lat": 56.5953889,
+   "lon": -2.6483812,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/411471155",
+   "lat": 56.3247317,
+   "lon": -2.8409096,
+   "name": "Craigtoun Meadows Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://craigtounmeadows.co.uk/"
+  },
+  {
+   "id": "way/412171383",
+   "lat": 56.6472695,
+   "lon": -2.8254858,
+   "name": "Foresterseat Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/414763975",
+   "lat": 55.5913508,
+   "lon": -1.823123,
+   "name": "South Meadows Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/415342721",
+   "lat": 57.4200962,
+   "lon": -4.0969141,
+   "name": "Touring and camping pitches",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.auchnahillin.co.uk/"
+  },
+  {
+   "id": "way/416173994",
+   "lat": 56.6325337,
+   "lon": -4.8270653,
+   "name": "Glencoe Mountain Resort",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.glencoemountain.co.uk/accommodation/"
+  },
+  {
+   "id": "way/416537272",
+   "lat": 56.4329711,
+   "lon": -4.7075527,
+   "name": "Tyndrum Holiday Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://highlandholidays.com/holiday-parks/tyndrum/"
+  },
+  {
+   "id": "way/416935030",
+   "lat": 55.2404365,
+   "lon": -2.5893823,
+   "name": "Ravenshill Forest Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/416939070",
+   "lat": 55.2372524,
+   "lon": -2.5861455,
+   "name": "Kielder Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.kieldercampsite.co.uk/"
+  },
+  {
+   "id": "way/418573669",
+   "lat": 56.5004303,
+   "lon": -3.0542893,
+   "name": "Caravan Storage Compound",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/419038972",
+   "lat": 56.3304322,
+   "lon": -4.7174665,
+   "name": "Beinglas Farm",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/421035667",
+   "lat": 55.5636405,
+   "lon": -1.7601311,
+   "name": "Orchard Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/421839483",
+   "lat": 56.7806485,
+   "lon": -2.3711455,
+   "name": "Miltonhaven Seaside Caravan Park & Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://miltonhaven.co.uk"
+  },
+  {
+   "id": "way/421852254",
+   "lat": 56.843784,
+   "lon": -2.2744929,
+   "name": "Inverbervie Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/422371905",
+   "lat": 57.4975174,
+   "lon": -1.7945635,
+   "name": "The Lido Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.peterheadlidocaravanpark.co.uk/"
+  },
+  {
+   "id": "way/422508057",
+   "lat": 56.9034529,
+   "lon": -2.217465,
+   "name": "Cloak Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/423147957",
+   "lat": 56.525924,
+   "lon": -5.3095621,
+   "name": "Oban Camping & Caravanning Club Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/423179246",
+   "lat": 56.6450626,
+   "lon": -3.0091459,
+   "name": "Drumshademuir Caravan & Camping Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://drumshademuir.com/"
+  },
+  {
+   "id": "way/426095158",
+   "lat": 56.888973,
+   "lon": -4.8613881,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/426524300",
+   "lat": 56.2015537,
+   "lon": -5.1071193,
+   "name": "Argyll Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.argyllcaravanpark.com/"
+  },
+  {
+   "id": "way/428450016",
+   "lat": 55.3582869,
+   "lon": -2.1110429,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/428777840",
+   "lat": 56.8034725,
+   "lon": -2.7527874,
+   "name": "Clochie Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/433804138",
+   "lat": 56.2090175,
+   "lon": -3.0021617,
+   "name": "Glenview Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/434529443",
+   "lat": 56.1476011,
+   "lon": -4.6615879,
+   "name": "Inverbeg Holiday Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/436375321",
+   "lat": 57.0328135,
+   "lon": -2.509329,
+   "name": "Silver Ladies Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/436388322",
+   "lat": 55.618123,
+   "lon": -3.5129902,
+   "name": "Biggar Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/436787673",
+   "lat": 56.1595408,
+   "lon": -4.3680356,
+   "name": "Cobleland Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/436969253",
+   "lat": 56.2073673,
+   "lon": -2.7592851,
+   "name": "St Monans Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.abbeyford.com/our-parks/st-monans-holiday-park/"
+  },
+  {
+   "id": "way/439225127",
+   "lat": 55.8649653,
+   "lon": -3.6411085,
+   "name": "Mosshall Farm Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/440059054",
+   "lat": 56.6969868,
+   "lon": -5.566788,
+   "name": "Sunart Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://sunartcamping.com/"
+  },
+  {
+   "id": "way/440235438",
+   "lat": 55.6266798,
+   "lon": -2.8303934,
+   "name": "Kilnknowe Park Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/440911669",
+   "lat": 56.4752491,
+   "lon": -4.3217082,
+   "name": "Maragowan Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/442107178",
+   "lat": 56.985387,
+   "lon": -7.4119941,
+   "name": "Croft 183",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.croft183.com/"
+  },
+  {
+   "id": "way/444950589",
+   "lat": 55.4902826,
+   "lon": -3.6857,
+   "name": "Mount View Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/445947395",
+   "lat": 56.2227412,
+   "lon": -2.9402886,
+   "name": "Woodland Gardens Caravan & Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.woodland-gardens.co.uk/"
+  },
+  {
+   "id": "way/445947397",
+   "lat": 56.2198888,
+   "lon": -2.9400686,
+   "name": "Largo House Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/458614201",
+   "lat": 56.2235208,
+   "lon": -5.027827,
+   "name": "St Catherine's Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/462878062",
+   "lat": 55.8637588,
+   "lon": -3.441172,
+   "name": "Hilly Cow Wigwams",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.hillycowwigwams.co.uk/"
+  },
+  {
+   "id": "way/469086788",
+   "lat": 55.6907756,
+   "lon": -4.0569221,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/470297915",
+   "lat": 56.2442664,
+   "lon": -4.7123958,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/470725607",
+   "lat": 55.3417487,
+   "lon": -4.8073155,
+   "name": "Old Mill Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/471961017",
+   "lat": 56.3367043,
+   "lon": -2.8995117,
+   "name": "Nydie Caravan And Camping Site",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/475056054",
+   "lat": 57.6350496,
+   "lon": -3.5722298,
+   "name": "Kinloss Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/478657373",
+   "lat": 55.5916703,
+   "lon": -5.1741364,
+   "name": "Glen Rosa Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/480459362",
+   "lat": 55.2142681,
+   "lon": -6.5458276,
+   "name": "Holiday Home Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/482807142",
+   "lat": 55.3345461,
+   "lon": -4.8033788,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/482807143",
+   "lat": 55.3362235,
+   "lon": -4.8015193,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/482808230",
+   "lat": 55.332996,
+   "lon": -4.8124998,
+   "name": "Redgates Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/482808863",
+   "lat": 55.2925457,
+   "lon": -4.8264491,
+   "name": "Turnberry Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/484585835",
+   "lat": 55.9629639,
+   "lon": -2.4004094,
+   "name": null,
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/484751539",
+   "lat": 58.6425092,
+   "lon": -3.0706668,
+   "name": "Natural Retreats",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/486753672",
+   "lat": 56.6728886,
+   "lon": -5.0840704,
+   "name": "Glencoe Camping & Caravanning Club",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.campingandcaravanningclub.co.uk/campsites/uk/argyll/ballachulish/glencoe"
+  },
+  {
+   "id": "way/486837929",
+   "lat": 56.1431501,
+   "lon": -3.1246456,
+   "name": "North Lodge Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.northlodgeholidaypark.com/"
+  },
+  {
+   "id": "way/487531524",
+   "lat": 55.8266885,
+   "lon": -3.0048316,
+   "name": "Borthwick",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.midlothianscouts.org.uk/borthwick/"
+  },
+  {
+   "id": "way/488214865",
+   "lat": 55.8229914,
+   "lon": -3.2560683,
+   "name": "Carsewell Guide Camp",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/488402228",
+   "lat": 56.0340313,
+   "lon": -4.9823211,
+   "name": "Stratheck Holiday Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/488484821",
+   "lat": 55.8551964,
+   "lon": -5.2133699,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/488525075",
+   "lat": 55.8337657,
+   "lon": -5.0447878,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/489243251",
+   "lat": 56.0564072,
+   "lon": -4.9829434,
+   "name": "Loch Eck Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://argyllholidays.com/holiday-home-sales/parks/loch-eck-caravan-park"
+  },
+  {
+   "id": "way/494020423",
+   "lat": 56.7159413,
+   "lon": -3.8749655,
+   "name": "Ardgualich Farm & Loch Tummel Camp Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/495226843",
+   "lat": 55.9816103,
+   "lon": -3.6152689,
+   "name": "Loch House Farm Cavavan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/497985244",
+   "lat": 56.8656429,
+   "lon": -2.6015038,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/498347876",
+   "lat": 55.6473828,
+   "lon": -3.1389556,
+   "name": "Glentress Forest Lodges",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.glentressforestlodges.co.uk/"
+  },
+  {
+   "id": "way/498362022",
+   "lat": 57.0225801,
+   "lon": -2.5900773,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/498362028",
+   "lat": 57.0277759,
+   "lon": -2.5945697,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/498363031",
+   "lat": 55.619003,
+   "lon": -3.0514287,
+   "name": "Tweedside Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/499387670",
+   "lat": 55.974402,
+   "lon": -4.9252677,
+   "name": "Hunter's Quay Holiday Village",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://argyllholidays.com/"
+  },
+  {
+   "id": "way/500798676",
+   "lat": 56.2374327,
+   "lon": -4.1801213,
+   "name": "Keltie Bridge",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://keltiebridge.co.uk/"
+  },
+  {
+   "id": "way/503615214",
+   "lat": 58.0225341,
+   "lon": -4.3951154,
+   "name": "Lairg Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "http://www.lairgcaravanpark.co.uk/"
+  },
+  {
+   "id": "way/508451975",
+   "lat": 55.2470376,
+   "lon": -4.8561492,
+   "name": "Strathavon Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/510252946",
+   "lat": 58.2282313,
+   "lon": -6.3911491,
+   "name": "Laxdale Holiday Park (overflow) Camping Field",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/514886562",
+   "lat": 57.4723545,
+   "lon": -4.4718995,
+   "name": "Beauly Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.beaulyholidaypark.scot/"
+  },
+  {
+   "id": "way/514897700",
+   "lat": 56.5798059,
+   "lon": -3.6323427,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/514967558",
+   "lat": 57.6614967,
+   "lon": -3.6083516,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/514967569",
+   "lat": 57.6512042,
+   "lon": -3.5893732,
+   "name": "Findhorn Bay Holiday Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.findhornbayholidaypark.com/"
+  },
+  {
+   "id": "way/519443516",
+   "lat": 55.8714438,
+   "lon": -3.0761822,
+   "name": "Lothian Bridge Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/529478144",
+   "lat": 56.5606842,
+   "lon": -3.5965868,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/536977044",
+   "lat": 57.4697029,
+   "lon": -4.1494782,
+   "name": "Ardtower Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://www.ardtower-caravanpark.com/"
+  },
+  {
+   "id": "way/546179666",
+   "lat": 56.5623834,
+   "lon": -2.8362987,
+   "name": "Douglaswood Scout Centre",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.douglaswood.org.uk/"
+  },
+  {
+   "id": "way/547996561",
+   "lat": 56.4946802,
+   "lon": -4.2497279,
+   "name": "Loch Tay Highland Lodges",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/547996565",
+   "lat": 56.4939824,
+   "lon": -4.2567891,
+   "name": "Cruachan Farm Caravan and Camping Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/559561811",
+   "lat": 57.591774,
+   "lon": -2.3149511,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/561883735",
+   "lat": 57.0572345,
+   "lon": -2.4701623,
+   "name": "Silverbank Caravan Club Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/562252432",
+   "lat": 57.2131871,
+   "lon": -5.5131786,
+   "name": "Moyle Park Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.moyleparkcampsite.co.uk/"
+  },
+  {
+   "id": "way/563802075",
+   "lat": 57.6573664,
+   "lon": -2.4439007,
+   "name": "Headiton Holidays",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/565082633",
+   "lat": 57.657776,
+   "lon": -2.4870337,
+   "name": "Myrus Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/566792651",
+   "lat": 56.3926388,
+   "lon": -5.5003006,
+   "name": "Roseview Caravan Park and Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://www.roseviewoban.co.uk"
+  },
+  {
+   "id": "way/577152068",
+   "lat": 56.7866909,
+   "lon": -2.5766042,
+   "name": "Dovecot Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/577555147",
+   "lat": 57.0874189,
+   "lon": -4.0560079,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "no",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/577557475",
+   "lat": 55.3343402,
+   "lon": -4.8153456,
+   "name": "Sandy Beach Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.headsofayr-caravanpark.co.uk/sandy-beach-caravan-park"
+  },
+  {
+   "id": "way/578557552",
+   "lat": 56.6620933,
+   "lon": -3.1968645,
+   "name": "Nethercraig Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.nethercraig.com/"
+  },
+  {
+   "id": "way/581020365",
+   "lat": 58.5503004,
+   "lon": -3.9128396,
+   "name": "North Coast Touring Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/584772391",
+   "lat": 55.8951866,
+   "lon": -3.2587145,
+   "name": "Bonaly Scout Centre",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/585225904",
+   "lat": 56.6957565,
+   "lon": -6.1203537,
+   "name": "Lochan nan Àl Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/590423589",
+   "lat": 57.5330735,
+   "lon": -2.4579036,
+   "name": "Turriff Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.turriffcaravanpark.com/"
+  },
+  {
+   "id": "way/599431573",
+   "lat": 56.7213761,
+   "lon": -2.4815644,
+   "name": "Tayock Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://tayockpark.co.uk/"
+  },
+  {
+   "id": "way/599488301",
+   "lat": 56.5883185,
+   "lon": -2.8171453,
+   "name": "Greenhillock Glamping",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://greenglamping.co.uk/"
+  },
+  {
+   "id": "way/605401052",
+   "lat": 57.6822868,
+   "lon": -2.7475302,
+   "name": "Sandend Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/606490611",
+   "lat": 57.4009406,
+   "lon": -2.1572867,
+   "name": "Ythan Valley Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/609973614",
+   "lat": 58.3196005,
+   "lon": -6.6866924,
+   "name": "Eilean Fraoich Camp Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/614293924",
+   "lat": 56.5756109,
+   "lon": -2.5622337,
+   "name": "Seaton Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/619706410",
+   "lat": 57.9922264,
+   "lon": -7.0849655,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/620126991",
+   "lat": 57.6611439,
+   "lon": -2.4380308,
+   "name": "Wester Bonnyton Caravan & Camping Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/623175463",
+   "lat": 55.5221662,
+   "lon": -4.5920423,
+   "name": "Dutch House Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://dutch-house.com/"
+  },
+  {
+   "id": "way/625528589",
+   "lat": 56.6056408,
+   "lon": -3.9753502,
+   "name": "Balloch Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.ballochpark.co.uk/"
+  },
+  {
+   "id": "way/626389122",
+   "lat": 56.7210832,
+   "lon": -3.7709419,
+   "name": "Faskally Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.faskally.co.uk/"
+  },
+  {
+   "id": "way/635792322",
+   "lat": 56.2617602,
+   "lon": -2.6118706,
+   "name": "Sauchope Links Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://largoleisureholidays.co.uk/our-parks/sauchope-links-park"
+  },
+  {
+   "id": "way/639680484",
+   "lat": 57.9059071,
+   "lon": -3.9967279,
+   "name": "Granny's Heilan' Hame Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/641142514",
+   "lat": 55.7004473,
+   "lon": -2.0114878,
+   "name": "Raglan Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/641248870",
+   "lat": 57.0930166,
+   "lon": -2.5755549,
+   "name": "Campfield Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/649514135",
+   "lat": 57.607012,
+   "lon": -3.0877268,
+   "name": "Burnside Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://burnsidefochaberscaravanpark.co.uk"
+  },
+  {
+   "id": "way/651186395",
+   "lat": 56.6559711,
+   "lon": -2.5074227,
+   "name": "Lunan Bay Campsite",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.lunan.scot/"
+  },
+  {
+   "id": "way/652503157",
+   "lat": 56.1929354,
+   "lon": -3.3322895,
+   "name": "Portmoak Caravan Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/653827229",
+   "lat": 55.4571129,
+   "lon": -1.7697611,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/663716603",
+   "lat": 55.7690214,
+   "lon": -2.0737083,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/666535957",
+   "lat": 56.7087709,
+   "lon": -4.0178982,
+   "name": "Tummel Valley Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/667625606",
+   "lat": 55.462513,
+   "lon": -1.7761672,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/670864604",
+   "lat": 55.5312771,
+   "lon": -1.9150181,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/678390539",
+   "lat": 55.3017659,
+   "lon": -1.9141871,
+   "name": "Coquetdale Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/680785621",
+   "lat": 57.9539816,
+   "lon": -6.7555646,
+   "name": "Maraig Footpath",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/681074509",
+   "lat": 57.9207377,
+   "lon": -6.6934362,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/688460772",
+   "lat": 55.3119029,
+   "lon": -1.9751565,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/689521133",
+   "lat": 56.2352355,
+   "lon": -4.4291639,
+   "name": "Loch Katrine Eco Camp",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://www.lochkatrine.com/lodges"
+  },
+  {
+   "id": "way/690956449",
+   "lat": 58.6410166,
+   "lon": -3.101221,
+   "name": "Stroma View",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/700210261",
+   "lat": 55.2759623,
+   "lon": -4.4025232,
+   "name": "Loch Doon Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/702708243",
+   "lat": 56.7124752,
+   "lon": -5.2365818,
+   "name": "Bunree Caravan Club Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.caravanclub.co.uk/club-sites/scotland/highlands/bunree-caravan-club-site/"
+  },
+  {
+   "id": "way/706802566",
+   "lat": 57.1896901,
+   "lon": -4.6202561,
+   "name": "Inver Coille",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/708129469",
+   "lat": 56.0537392,
+   "lon": -4.4322689,
+   "name": "Drymen Camping",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://drymencamping.co.uk"
+  },
+  {
+   "id": "way/712544884",
+   "lat": 57.1732955,
+   "lon": -3.795247,
+   "name": "Rothiemurchus Camp and Caravan",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://rothiemurchus.net/visit/stay/"
+  },
+  {
+   "id": "way/715371337",
+   "lat": 57.1036661,
+   "lon": -7.3568564,
+   "name": "Kilbride Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "http://www.kilbridecampsite.co.uk/"
+  },
+  {
+   "id": "way/723856917",
+   "lat": 58.6458786,
+   "lon": -3.3435119,
+   "name": "WIndhaven",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://windhaven.co.uk/"
+  },
+  {
+   "id": "way/723957343",
+   "lat": 55.2420345,
+   "lon": -2.1862357,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/724507836",
+   "lat": 55.2438396,
+   "lon": -2.1868694,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/730332520",
+   "lat": 55.6597607,
+   "lon": -4.6123593,
+   "name": "Viewfield Manor Leisure Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/730780122",
+   "lat": 55.5948204,
+   "lon": -4.5544719,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/741933205",
+   "lat": 56.1380062,
+   "lon": -3.3127615,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/753847131",
+   "lat": 55.9923854,
+   "lon": -3.8433675,
+   "name": "Wheel Caravan park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.thewheelcaravanpark.co.uk/"
+  },
+  {
+   "id": "way/754514395",
+   "lat": 55.983941,
+   "lon": -3.7472111,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/754651303",
+   "lat": 57.6404369,
+   "lon": -3.5760075,
+   "name": "Seaview Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/761092843",
+   "lat": 55.7560417,
+   "lon": -4.9185849,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/764543498",
+   "lat": 56.4366778,
+   "lon": -3.1968137,
+   "name": "Inchmartine Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/766092749",
+   "lat": 57.6705669,
+   "lon": -2.5554501,
+   "name": "Banff Links Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/769614857",
+   "lat": 55.595802,
+   "lon": -1.7401597,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/770330236",
+   "lat": 57.2636171,
+   "lon": -3.6321135,
+   "name": "The Lazy Duck",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.lazyduck.co.uk/"
+  },
+  {
+   "id": "way/775342423",
+   "lat": 55.545555,
+   "lon": -4.6562846,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/779720609",
+   "lat": 55.9419154,
+   "lon": -4.8757355,
+   "name": "Cloch Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://clochholidaypark.com/"
+  },
+  {
+   "id": "way/783933442",
+   "lat": 58.0634001,
+   "lon": -4.4266146,
+   "name": "Pondside Camping & Accommodation",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.pondside.co.uk"
+  },
+  {
+   "id": "way/784018847",
+   "lat": 56.5228828,
+   "lon": -5.9389221,
+   "name": "Salen Bay Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.salenbaycampsite.co.uk/"
+  },
+  {
+   "id": "way/793281715",
+   "lat": 57.6516229,
+   "lon": -2.3341668,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/798293390",
+   "lat": 57.5520888,
+   "lon": -3.9151187,
+   "name": "Barrow Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.barnshighland.com/"
+  },
+  {
+   "id": "way/807643981",
+   "lat": 57.535813,
+   "lon": -2.9464732,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/807817738",
+   "lat": 57.5169071,
+   "lon": -7.2858203,
+   "name": "Moorcroft Campsite and Bunkhouse",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.moorcroftholidays.com/"
+  },
+  {
+   "id": "way/808481252",
+   "lat": 55.8593174,
+   "lon": -4.8807491,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/827068519",
+   "lat": 56.5518611,
+   "lon": -5.8857577,
+   "name": null,
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/830382623",
+   "lat": 57.1042024,
+   "lon": -5.3817787,
+   "name": "Kinloch Hourn Estate Camping Area",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/830432100",
+   "lat": 57.079544,
+   "lon": -5.5131584,
+   "name": "Barrisdale Estate Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.barrisdaleestate.com/home"
+  },
+  {
+   "id": "way/833455266",
+   "lat": 56.1947,
+   "lon": -4.7913881,
+   "name": "Stay the Night Ardgartan",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://forestryandland.gov.scot/staythenight"
+  },
+  {
+   "id": "way/833827083",
+   "lat": 57.0289232,
+   "lon": -5.6692901,
+   "name": "Long Beach Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/834641437",
+   "lat": 56.1483466,
+   "lon": -5.1227915,
+   "name": "Stucreoch Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/838140577",
+   "lat": 58.6376769,
+   "lon": -3.1687591,
+   "name": "Ferry View Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.ferryview.scot/"
+  },
+  {
+   "id": "way/849422217",
+   "lat": 55.9001739,
+   "lon": -2.1382674,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/850168529",
+   "lat": 56.224486,
+   "lon": -2.9132982,
+   "name": "Monturpie Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.monturpie.co.uk/"
+  },
+  {
+   "id": "way/857506555",
+   "lat": 57.8335029,
+   "lon": -3.8318922,
+   "name": "Portmahomack Caravan Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.highlander.zetnet.co.uk/caravan/"
+  },
+  {
+   "id": "way/868165578",
+   "lat": 56.4194203,
+   "lon": -4.4692368,
+   "name": "Glen Dochart Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/869935636",
+   "lat": 56.3940438,
+   "lon": -4.1086069,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/871385763",
+   "lat": 57.7953617,
+   "lon": -6.8884055,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/873426457",
+   "lat": 55.2029737,
+   "lon": -1.7860286,
+   "name": "Selby Woods Scout Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/873438274",
+   "lat": 55.2685694,
+   "lon": -1.8304959,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/873439387",
+   "lat": 55.2710804,
+   "lon": -1.8203227,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/884693761",
+   "lat": 55.4974151,
+   "lon": -4.3475348,
+   "name": "Catrine House Caravan and Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/887481901",
+   "lat": 57.2355787,
+   "lon": -2.369597,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/893653366",
+   "lat": 56.782825,
+   "lon": -2.3933589,
+   "name": "St Cyrus Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/916488240",
+   "lat": 55.7640423,
+   "lon": -2.1092597,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/917172663",
+   "lat": 58.2267514,
+   "lon": -6.3916497,
+   "name": "Laxdale Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://laxdaleholidaypark.com/"
+  },
+  {
+   "id": "way/918167022",
+   "lat": 55.6464639,
+   "lon": -2.265265,
+   "name": "Coldstream Holiday Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/920979378",
+   "lat": 56.5204745,
+   "lon": -3.3623629,
+   "name": "Beech Hedge Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/920997315",
+   "lat": 56.402203,
+   "lon": -3.1992014,
+   "name": "Fernlea CL Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/929761839",
+   "lat": 56.5901492,
+   "lon": -3.416272,
+   "name": "Quarryhill Caravan and Motorhome Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/938208316",
+   "lat": 55.6606414,
+   "lon": -3.2045031,
+   "name": "Rosetta Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/946583940",
+   "lat": 57.058236,
+   "lon": -6.5123802,
+   "name": "Canna Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.cannacampsite.com/"
+  },
+  {
+   "id": "way/948465163",
+   "lat": 56.9798605,
+   "lon": -7.5125402,
+   "name": "Wavecrest Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.wavecrestcampsite.co.uk"
+  },
+  {
+   "id": "way/948465180",
+   "lat": 56.9788615,
+   "lon": -7.5152653,
+   "name": "Borve Camping and Caravan Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.barracamping.co.uk/"
+  },
+  {
+   "id": "way/949129886",
+   "lat": 56.5257894,
+   "lon": -2.7268463,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/949339832",
+   "lat": 57.4025515,
+   "lon": -5.4866871,
+   "name": "The Wee Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://weecampsite.com/"
+  },
+  {
+   "id": "way/956171568",
+   "lat": 57.4879917,
+   "lon": -3.2421309,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/958524978",
+   "lat": 55.4262618,
+   "lon": -2.7401127,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/963199070",
+   "lat": 56.7796955,
+   "lon": -2.4168467,
+   "name": "Ecclesgreig Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/963259700",
+   "lat": 57.023133,
+   "lon": -2.5678408,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/963394743",
+   "lat": 57.2189592,
+   "lon": -2.3526192,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/963394759",
+   "lat": 57.187575,
+   "lon": -2.2757739,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/964077618",
+   "lat": 56.5449127,
+   "lon": -5.2868787,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/981920536",
+   "lat": 55.8045277,
+   "lon": -2.1246982,
+   "name": "Shepherd's Rest",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://shepherds-rest.co.uk/"
+  },
+  {
+   "id": "way/981920547",
+   "lat": 55.804811,
+   "lon": -2.1301042,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/981920548",
+   "lat": 55.8044313,
+   "lon": -2.1272018,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/985600965",
+   "lat": 56.327747,
+   "lon": -6.356122,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/986681319",
+   "lat": 57.0483543,
+   "lon": -2.497839,
+   "name": "Banchory Lodge Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.banchorylodgecaravanpark.co.uk/"
+  },
+  {
+   "id": "way/989002899",
+   "lat": 55.8699785,
+   "lon": -2.1894785,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/990666611",
+   "lat": 55.8831237,
+   "lon": -2.1655687,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/990666785",
+   "lat": 55.8779418,
+   "lon": -2.1518985,
+   "name": "Colania Dene",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/990872730",
+   "lat": 56.5510513,
+   "lon": -5.3058828,
+   "name": "Creagan Station Tourers Camper Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://appinholidayhomes.co.uk/"
+  },
+  {
+   "id": "way/991086954",
+   "lat": 55.8897277,
+   "lon": -2.1681297,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/992125988",
+   "lat": 55.8883255,
+   "lon": -2.146616,
+   "name": "Scoutscroft Touring",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/992298822",
+   "lat": 56.6167286,
+   "lon": -2.8528705,
+   "name": "Ladenford Den",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/993504984",
+   "lat": 57.901276,
+   "lon": -5.560395,
+   "name": "Mellon Udrigle Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://www.ukcampsite.co.uk/sites/details.asp?revid=19452"
+  },
+  {
+   "id": "way/995722692",
+   "lat": 55.549709,
+   "lon": -2.8498964,
+   "name": "Victoria Park Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.liveborders.org.uk/selkirk-victoria-campsite/"
+  },
+  {
+   "id": "way/1004520170",
+   "lat": 56.7969352,
+   "lon": -2.3258947,
+   "name": "Wairds Park Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1005034728",
+   "lat": 58.5346522,
+   "lon": -3.1235344,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1016741164",
+   "lat": 57.1969159,
+   "lon": -4.6112087,
+   "name": "Loch Ness Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1037376860",
+   "lat": 56.1675883,
+   "lon": -4.0531899,
+   "name": "Blair Drummond Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.blairdrummondcaravanpark.co.uk/"
+  },
+  {
+   "id": "way/1040534034",
+   "lat": 57.4251034,
+   "lon": -6.1840087,
+   "name": "Torvaig",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.portreecampsite.co.uk/information.html"
+  },
+  {
+   "id": "way/1049628889",
+   "lat": 55.6789641,
+   "lon": -5.7342869,
+   "name": "Gigha Camp and Motorhome Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.visitgigha.co.uk/Camp-and-Motorhome-Site"
+  },
+  {
+   "id": "way/1052692068",
+   "lat": 56.2351306,
+   "lon": -2.895607,
+   "name": "Forth House",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.forthhousecaravansite.co.uk/"
+  },
+  {
+   "id": "way/1055128390",
+   "lat": 57.2267809,
+   "lon": -2.3614238,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1057024796",
+   "lat": 55.2761186,
+   "lon": -7.4290323,
+   "name": "Binnion Bay Caravan & Camping Facility",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://caravanandcampingireland.ie/"
+  },
+  {
+   "id": "way/1057604316",
+   "lat": 55.203373,
+   "lon": -6.2687489,
+   "name": "Fairhead Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1061437043",
+   "lat": 57.0190298,
+   "lon": -4.243669,
+   "name": "Laggan CL",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.lagganglamping.co.uk/camping"
+  },
+  {
+   "id": "way/1063227717",
+   "lat": 56.1821803,
+   "lon": -4.0657045,
+   "name": "Ashmill Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1068905849",
+   "lat": 55.6097837,
+   "lon": -1.7570699,
+   "name": "Budle Farm Campsite",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.ukcampsite.co.uk/sites/details.asp?revid=11660"
+  },
+  {
+   "id": "way/1068964874",
+   "lat": 56.3231826,
+   "lon": -3.625204,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1071593255",
+   "lat": 57.4704949,
+   "lon": -1.7813549,
+   "name": "Mains of Boddam Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1071722108",
+   "lat": 55.5389522,
+   "lon": -1.7013759,
+   "name": "Tewart Arms Cottage Camping & Caravan Site",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1073495441",
+   "lat": 55.6005068,
+   "lon": -1.7449117,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1074175373",
+   "lat": 55.346852,
+   "lon": -4.7713161,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1075293744",
+   "lat": 57.6980839,
+   "lon": -2.909498,
+   "name": "Findochty Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1084151387",
+   "lat": 56.4961028,
+   "lon": -5.4126767,
+   "name": "Seaview Caravan Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://seaviewparkoban.co.uk"
+  },
+  {
+   "id": "way/1085350717",
+   "lat": 56.230087,
+   "lon": -2.9372605,
+   "name": "Largo Law",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1085883074",
+   "lat": 56.3185213,
+   "lon": -3.5933035,
+   "name": "Lochmanor Holiday Lodge Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1086302896",
+   "lat": 55.7529116,
+   "lon": -5.3821415,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1086452296",
+   "lat": 55.2335439,
+   "lon": -3.8073553,
+   "name": "Penpont Caravan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://penpontholidaypark.co.uk/"
+  },
+  {
+   "id": "way/1087906305",
+   "lat": 55.6789788,
+   "lon": -1.8950826,
+   "name": "Barn at Beal campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://barnatbeal.com/camping/"
+  },
+  {
+   "id": "way/1087920633",
+   "lat": 56.0767474,
+   "lon": -4.5605507,
+   "name": "Inchcailloch Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/1089993685",
+   "lat": 57.5735284,
+   "lon": -5.0817099,
+   "name": "Ledgowan Lodge Campsite",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.ledgowanlodge.co.uk"
+  },
+  {
+   "id": "way/1090221962",
+   "lat": 55.9542806,
+   "lon": -3.5973989,
+   "name": "Beecraigs Country Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1099683145",
+   "lat": 56.7010536,
+   "lon": -4.1853496,
+   "name": "Tighnavon Glamping Pods",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1099725754",
+   "lat": 56.6741615,
+   "lon": -3.2558522,
+   "name": "Kilry Eco Pods",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1099798807",
+   "lat": 57.2883816,
+   "lon": -5.499256,
+   "name": "Dornie Wigwams",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://www.wigwamholidays.com/dornie/"
+  },
+  {
+   "id": "way/1106921504",
+   "lat": 57.2116711,
+   "lon": -3.8247588,
+   "name": "Oakwood Caravan & Camping Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1121864418",
+   "lat": 55.717601,
+   "lon": -3.9509562,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1126397130",
+   "lat": 56.0278014,
+   "lon": -5.6184661,
+   "name": "Leachive Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "http://www.leachive.co.uk/"
+  },
+  {
+   "id": "way/1126397143",
+   "lat": 56.0265954,
+   "lon": -5.6379585,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1126545849",
+   "lat": 56.0216985,
+   "lon": -3.8880909,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1132064934",
+   "lat": 55.71831,
+   "lon": -4.5766248,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "no",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1132409919",
+   "lat": 55.6928465,
+   "lon": -3.7090571,
+   "name": "Newhouse Park Farm",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1141796091",
+   "lat": 56.1489088,
+   "lon": -3.3337037,
+   "name": "Lochore Meadows Motorhome Parking",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.lochoremeadows.org/visiting/overnight-stays"
+  },
+  {
+   "id": "way/1162265521",
+   "lat": 57.2453238,
+   "lon": -5.9188481,
+   "name": "Camping Skye",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://campingskye.com/"
+  },
+  {
+   "id": "way/1162450036",
+   "lat": 56.0070179,
+   "lon": -2.7225432,
+   "name": "Station Park Caravan Site",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1162450955",
+   "lat": 56.0062819,
+   "lon": -2.7195696,
+   "name": "East Fortune Farm CL",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1163409420",
+   "lat": 57.3173666,
+   "lon": -5.672277,
+   "name": "Duirinish Holiday Lodges",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://duirinishlodges.com"
+  },
+  {
+   "id": "way/1163893445",
+   "lat": 57.2399966,
+   "lon": -5.8767374,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1168261909",
+   "lat": 55.3660854,
+   "lon": -3.4622038,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1168301884",
+   "lat": 56.0159856,
+   "lon": -4.8652469,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1169794168",
+   "lat": 57.6506363,
+   "lon": -6.4038088,
+   "name": "Camus More Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.scottishcampingguide.com/link.php?n=698&c=9"
+  },
+  {
+   "id": "way/1170405927",
+   "lat": 55.228462,
+   "lon": -6.4356564,
+   "name": "Craig House Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://craighousecampsite.myfreesites.net/"
+  },
+  {
+   "id": "way/1172724074",
+   "lat": 56.4335531,
+   "lon": -4.7124693,
+   "name": "By the Way",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://tyndrumbytheway.com"
+  },
+  {
+   "id": "way/1174253345",
+   "lat": 57.6662523,
+   "lon": -6.2541034,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://flodigarry-hostel.scot/index.html"
+  },
+  {
+   "id": "way/1175884052",
+   "lat": 57.6447467,
+   "lon": -2.9399742,
+   "name": "Greencraig Pods, Caravan & Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1176631988",
+   "lat": 57.6628431,
+   "lon": -3.6157921,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.findhornparking.com/"
+  },
+  {
+   "id": "way/1177903615",
+   "lat": 55.5578586,
+   "lon": -5.7097238,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1181191597",
+   "lat": 56.4239091,
+   "lon": -4.6695971,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1182135910",
+   "lat": 55.6427983,
+   "lon": -4.5954652,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1188413375",
+   "lat": 57.6712391,
+   "lon": -3.0833997,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1188431843",
+   "lat": 56.1431056,
+   "lon": -4.6393695,
+   "name": "Lochan Maol Dhuinne Camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1188970465",
+   "lat": 56.3898498,
+   "lon": -5.5177148,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1194030217",
+   "lat": 57.6883862,
+   "lon": -2.9286158,
+   "name": "Strathlene Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1195271879",
+   "lat": 56.4419092,
+   "lon": -2.8706729,
+   "name": "Larick Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://larickcampsite.org.uk/"
+  },
+  {
+   "id": "way/1200469100",
+   "lat": 56.6519548,
+   "lon": -4.8397145,
+   "name": null,
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1200825535",
+   "lat": 55.8564688,
+   "lon": -4.8774979,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1203150341",
+   "lat": 56.5575376,
+   "lon": -3.5698958,
+   "name": "Erigmore Leisure Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": "https://www.verdantleisure.co.uk/central-scotland/perthshire/erigmore/"
+  },
+  {
+   "id": "way/1213245784",
+   "lat": 55.9625687,
+   "lon": -2.3998847,
+   "name": null,
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/1213791794",
+   "lat": 55.471413,
+   "lon": -1.8163514,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1214650155",
+   "lat": 55.3858571,
+   "lon": -3.9521961,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1215526942",
+   "lat": 55.4228286,
+   "lon": -2.7929779,
+   "name": "Haugh Caravan Park",
+   "kind": "caravan_site",
+   "fee": "no",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1223096315",
+   "lat": 55.2122182,
+   "lon": -6.2600793,
+   "name": "Atlantic View Leisure Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1223909076",
+   "lat": 55.5325818,
+   "lon": -5.2927771,
+   "name": "Balmichael Glamping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1228061019",
+   "lat": 57.9705386,
+   "lon": -3.9912811,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1229732138",
+   "lat": 58.5014663,
+   "lon": -6.2518512,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1233360048",
+   "lat": 55.7466293,
+   "lon": -5.5654935,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1233440780",
+   "lat": 56.1738881,
+   "lon": -5.5488507,
+   "name": "Ardfern Motorhome Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.ardfernmotorhomepark.com/"
+  },
+  {
+   "id": "way/1239716606",
+   "lat": 56.3082226,
+   "lon": -3.2586278,
+   "name": "The Clink",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1253797016",
+   "lat": 57.1824353,
+   "lon": -3.0741545,
+   "name": "Cairgorns Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1253797017",
+   "lat": 57.1837941,
+   "lon": -3.0762481,
+   "name": "Cairgorns Glamping Riverside",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1262339626",
+   "lat": 57.0459514,
+   "lon": -7.4376872,
+   "name": "Barra Sands",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://barrasands.weebly.com/"
+  },
+  {
+   "id": "way/1266755959",
+   "lat": 57.5858014,
+   "lon": -3.1449928,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1276161343",
+   "lat": 56.0520972,
+   "lon": -4.5258706,
+   "name": "Lagganbeg Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1282954984",
+   "lat": 55.3275545,
+   "lon": -3.4388428,
+   "name": "Green Frog",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1288965843",
+   "lat": 56.2881891,
+   "lon": -2.8351885,
+   "name": "Stewart's Resort",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://stewartsresort.com/"
+  },
+  {
+   "id": "way/1293291447",
+   "lat": 57.619563,
+   "lon": -5.3278574,
+   "name": "Beinn Eighe Campsite",
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/1294745087",
+   "lat": 58.5944745,
+   "lon": -3.4384888,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1295100745",
+   "lat": 56.123935,
+   "lon": -4.6516578,
+   "name": "Culag beach Camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295100746",
+   "lat": 56.2119179,
+   "lon": -4.7003265,
+   "name": "Tarbet isle camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295100747",
+   "lat": 56.2522355,
+   "lon": -4.707665,
+   "name": "Inveruglas camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295100748",
+   "lat": 56.1372263,
+   "lon": -4.65883,
+   "name": "Suie Field camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295100749",
+   "lat": 56.1710126,
+   "lon": -4.6783481,
+   "name": "Firkin Point B camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295100750",
+   "lat": 56.1660602,
+   "lon": -4.6657193,
+   "name": "Firkin Point D Wild camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295100751",
+   "lat": 56.1709494,
+   "lon": -4.6789962,
+   "name": "Firkin Point A camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295100752",
+   "lat": 56.1705984,
+   "lon": -4.6763197,
+   "name": "Firkin Point C camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295100753",
+   "lat": 56.1753545,
+   "lon": -4.7934653,
+   "name": "Coilessan camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295204497",
+   "lat": 56.176138,
+   "lon": -4.4822074,
+   "name": "Loch Ard camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1295204498",
+   "lat": 56.2259158,
+   "lon": -4.4074301,
+   "name": "Loch Achray South camping permit area March-September",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "way/1300956466",
+   "lat": 57.4785192,
+   "lon": -7.2135669,
+   "name": "The Creel Yard Camp site and Bunk Houses",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.creelyardpods.co.uk"
+  },
+  {
+   "id": "way/1312042252",
+   "lat": 55.5974083,
+   "lon": -3.788056,
+   "name": "Collierhall Farm Caravan Site",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1314372940",
+   "lat": 55.2892753,
+   "lon": -6.1904946,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1314406036",
+   "lat": 57.6926002,
+   "lon": -4.0195494,
+   "name": "Nigg Ferry Hotel Motorhome Parking",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.ukcampsite.co.uk/sites/details.asp?revid=2977"
+  },
+  {
+   "id": "way/1315974738",
+   "lat": 55.754312,
+   "lon": -4.9273229,
+   "name": "Garrison Motorhome Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1323301173",
+   "lat": 57.1367009,
+   "lon": -4.6874489,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1323499299",
+   "lat": 55.4128947,
+   "lon": -2.3821266,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1323647181",
+   "lat": 55.8695867,
+   "lon": -4.3322519,
+   "name": "Jubilee Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1323647182",
+   "lat": 55.8697504,
+   "lon": -4.3337842,
+   "name": "Dunroman Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1332184177",
+   "lat": 57.183832,
+   "lon": -3.833672,
+   "name": "High Range Holiday Complex",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1342099452",
+   "lat": 57.9595592,
+   "lon": -4.4082663,
+   "name": "Falls of Shin",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1356005620",
+   "lat": 55.6722705,
+   "lon": -3.5919589,
+   "name": "Bowmuir Farm Holidays",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1360647669",
+   "lat": 58.0010687,
+   "lon": -4.393838,
+   "name": "Lairg Glamping Pods",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lairgglampingpods.co.uk/"
+  },
+  {
+   "id": "way/1368505821",
+   "lat": 56.5939681,
+   "lon": -6.6181435,
+   "name": "Garden House campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1368509274",
+   "lat": 56.6247106,
+   "lon": -6.5297869,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1385919965",
+   "lat": 56.7141003,
+   "lon": -4.9621416,
+   "name": "Kinlochleven Aire Site",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1391593613",
+   "lat": 55.8739969,
+   "lon": -5.316271,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1408921169",
+   "lat": 56.3782584,
+   "lon": -3.3126742,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1410563707",
+   "lat": 55.6732005,
+   "lon": -4.6604743,
+   "name": "Arran Hills",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1415188067",
+   "lat": 56.4395395,
+   "lon": -5.2552841,
+   "name": "Airds Bay CL",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1416610020",
+   "lat": 55.362197,
+   "lon": -2.0165051,
+   "name": "The Farmhouse",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1423686101",
+   "lat": 56.383602,
+   "lon": -3.9379546,
+   "name": "Slow Worm",
+   "kind": "camp_site",
+   "fee": "no",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/1435257322",
+   "lat": 56.0159424,
+   "lon": -4.9752568,
+   "name": "The Secret Glen",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1436979192",
+   "lat": 56.6187184,
+   "lon": -3.9239397,
+   "name": "Aberfeldy Aire motorhome stopover",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "www.aberfeldyaire.co.uk"
+  },
+  {
+   "id": "way/1449474807",
+   "lat": 55.2892092,
+   "lon": -4.8027425,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1450125634",
+   "lat": 55.3298519,
+   "lon": -4.8086405,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1453283866",
+   "lat": 57.1435529,
+   "lon": -5.821492,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1464397971",
+   "lat": 56.2053911,
+   "lon": -2.9800172,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1465164692",
+   "lat": 55.9039941,
+   "lon": -4.7111982,
+   "name": "Auchenfoyle Camp",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1465302628",
+   "lat": 57.2748616,
+   "lon": -6.0821819,
+   "name": null,
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": null
+  },
+  {
+   "id": "way/1466341351",
+   "lat": 55.2134419,
+   "lon": -6.4911431,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1479446891",
+   "lat": 56.3051442,
+   "lon": -2.8837282,
+   "name": null,
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1497851416",
+   "lat": 58.484257,
+   "lon": -3.3601258,
+   "name": "Caithness Camping Pods",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "way/1509061903",
+   "lat": 56.8781089,
+   "lon": -6.1318605,
+   "name": "Eigg Camping Pods",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": null
+  },
+  {
+   "id": "way/1527282828",
+   "lat": 55.6073361,
+   "lon": -1.8043085,
+   "name": "Easington Farm",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://shearlingcaravansites.co.uk/caravan-site/"
+  },
+  {
+   "id": "relation/2682883",
+   "lat": 55.8302658,
+   "lon": -5.6615357,
+   "name": "Port Bàn Holiday Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.portban.com/"
+  },
+  {
+   "id": "relation/5834006",
+   "lat": 57.4313495,
+   "lon": -6.5798423,
+   "name": "Kinloch Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://kinloch-campsite.co.uk/"
+  },
+  {
+   "id": "relation/6674165",
+   "lat": 55.207793,
+   "lon": -6.2102561,
+   "name": "Maguire's Stranf Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "relation/6983312",
+   "lat": 57.4316855,
+   "lon": -5.814289,
+   "name": "Applecross Campsite",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "http://www.applecross.uk.com/campsite/"
+  },
+  {
+   "id": "relation/7589930",
+   "lat": 55.452263,
+   "lon": -2.6603791,
+   "name": "Ruberslaw Wild Woods Camping",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "no",
+   "website": "https://www.ruberslaw.co.uk/"
+  },
+  {
+   "id": "relation/7905614",
+   "lat": 56.065252,
+   "lon": -3.192982,
+   "name": "Pettycur Bay Holiday Park",
+   "kind": "caravan_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://pettycur.co.uk/"
+  },
+  {
+   "id": "relation/8593514",
+   "lat": 57.5930154,
+   "lon": -3.8500039,
+   "name": "Nairn Lochloy Holiday Park (Touring)",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "relation/11177585",
+   "lat": 55.9479616,
+   "lon": -5.6620211,
+   "name": "Castle Sween Holiday Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "relation/11341019",
+   "lat": 56.6260156,
+   "lon": -2.8652728,
+   "name": "Caldhame Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "relation/12733620",
+   "lat": 56.6472957,
+   "lon": -4.0126283,
+   "name": "Glengoulandie Camping & Caravanning",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.glengoulandie.net/"
+  },
+  {
+   "id": "relation/12812125",
+   "lat": 57.3439437,
+   "lon": -4.7590119,
+   "name": "Cannich Woodland Camping and Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": "yes",
+   "website": "https://www.highlandcamping.co.uk/"
+  },
+  {
+   "id": "relation/14083781",
+   "lat": 56.3806964,
+   "lon": -4.2135034,
+   "name": "Loch Earn South Shore B",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "no",
+   "website": "https://www.lochlomond-trossachs.org/things-to-do/camping/get-a-permit/"
+  },
+  {
+   "id": "relation/14225953",
+   "lat": 56.3848414,
+   "lon": -3.9427483,
+   "name": "Campervan Site",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "relation/14225959",
+   "lat": 56.3891503,
+   "lon": -3.937436,
+   "name": "Comrie Croft",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": "https://www.comriecroft.com/"
+  },
+  {
+   "id": "relation/15898434",
+   "lat": 56.8411981,
+   "lon": -2.6641294,
+   "name": "Glenesk Caravan Park",
+   "kind": "camp_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "relation/16147019",
+   "lat": 58.5697052,
+   "lon": -4.742546,
+   "name": "Sango Sands",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://sangosands.com/camping-and-caravanning-home/"
+  },
+  {
+   "id": "relation/16387053",
+   "lat": 55.3637844,
+   "lon": -3.9150658,
+   "name": null,
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  },
+  {
+   "id": "relation/16438387",
+   "lat": 55.8357648,
+   "lon": -5.4480464,
+   "name": "Tarbert Holiday Park",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.tarbertholidaypark.co.uk/"
+  },
+  {
+   "id": "relation/17873575",
+   "lat": 57.6039744,
+   "lon": -7.51847,
+   "name": "Balranald Hebridean Holidays",
+   "kind": "camp_site",
+   "fee": "yes",
+   "motorhome": "yes",
+   "website": "https://www.balranaldhebrideanholidays.com/"
+  },
+  {
+   "id": "relation/19925431",
+   "lat": 55.5221662,
+   "lon": -4.5920423,
+   "name": "Dutch House Caravan Park",
+   "kind": "caravan_site",
+   "fee": null,
+   "motorhome": null,
+   "website": null
+  }
+ ]
+}
