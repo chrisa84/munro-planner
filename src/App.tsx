@@ -14,6 +14,7 @@ export default function App() {
   const [parkups, setParkups] = useState<ParkUp[]>([])
   const [tab, setTab] = useState<'munros' | 'trip'>('munros')
   const [route, setRoute] = useState<TripRoute | null>(null)
+  const [sidebarOpen, setSidebarOpen] = useState(() => window.innerWidth > 700)
   const [routeError, setRouteError] = useState<string | null>(null)
   const [routeLoading, setRouteLoading] = useState(false)
   const mapRef = useRef<LeafletMap | null>(null)
@@ -79,12 +80,30 @@ export default function App() {
   }, [stopsKey, store.singleTrackFactor])
 
   const flyTo = useCallback((lat: number, lon: number, zoom = 13) => {
+    // On phones the sidebar covers the map — close it so the fly-to is visible.
+    if (window.innerWidth <= 700) {
+      setSidebarOpen(false)
+      setTimeout(() => mapRef.current?.invalidateSize(), 250)
+    }
     mapRef.current?.flyTo([lat, lon], zoom, { duration: 0.8 })
   }, [])
 
+  const toggleSidebar = () => {
+    setSidebarOpen((o) => !o)
+    setTimeout(() => mapRef.current?.invalidateSize(), 250)
+  }
+
   return (
     <div className="app">
-      <aside className="sidebar">
+      <button
+        className="sidebar-toggle"
+        onClick={toggleSidebar}
+        title={sidebarOpen ? 'Hide panel' : 'Show panel'}
+        aria-label={sidebarOpen ? 'Hide panel' : 'Show panel'}
+      >
+        {sidebarOpen ? '✕' : '☰'}
+      </button>
+      <aside className={sidebarOpen ? 'sidebar' : 'sidebar closed'}>
         <header className="sidebar-header">
           <h1>Munro Camper Planner</h1>
           <div className="progress">

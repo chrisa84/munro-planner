@@ -248,9 +248,66 @@ button {
   min-width: 0;
 }
 
+.sidebar-toggle {
+  position: fixed;
+  top: 10px;
+  left: 370px;
+  z-index: 1200;
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 8px;
+  background: #17241d;
+  color: #e6ede8;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 35%);
+  transition: left 0.2s ease;
+}
+
+.sidebar.closed + aside,
+.sidebar {
+  transition: margin-left 0.2s ease, transform 0.2s ease;
+}
+
+.sidebar.closed {
+  margin-left: -360px;
+}
+
+.sidebar.closed ~ * .sidebar-toggle,
+.app:has(.sidebar.closed) .sidebar-toggle {
+  left: 10px;
+}
+
+@media (max-width: 700px) {
+  .sidebar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: min(88vw, 360px);
+    z-index: 1100;
+    box-shadow: 2px 0 12px rgb(0 0 0 / 40%);
+  }
+
+  .sidebar.closed {
+    margin-left: 0;
+    transform: translateX(-105%);
+  }
+
+  .sidebar-toggle {
+    left: auto;
+    right: 10px;
+    top: 10px;
+  }
+}
+
 .map {
   height: 100%;
   width: 100%;
+}
+
+/* Make room for the sidebar toggle above the zoom control. */
+.leaflet-top.leaflet-left {
+  margin-top: 46px;
 }
 
 /* Map icons */
