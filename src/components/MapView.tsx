@@ -1,4 +1,4 @@
-import { useMemo, useState, type RefObject } from 'react'
+import { useEffect, useMemo, useState, type RefObject } from 'react'
 import L, { type Map as LeafletMap, type LatLngBounds } from 'leaflet'
 import {
   MapContainer,
@@ -20,6 +20,12 @@ const carparkIcon = L.divIcon({ className: 'carpark-icon', html: 'P', iconSize: 
 const parkupIcon = L.divIcon({ className: 'parkup-icon', html: '⛺', iconSize: [22, 22], iconAnchor: [11, 11] })
 const overnightIcon = L.divIcon({ className: 'parkup-icon', html: '🚐', iconSize: [22, 22], iconAnchor: [11, 11] })
 const laybyIcon = L.divIcon({ className: 'layby-icon', html: 'L', iconSize: [16, 16], iconAnchor: [8, 8] })
+const informalIcon = L.divIcon({ className: 'informal-icon', html: '▲', iconSize: [16, 16], iconAnchor: [8, 8] })
+
+/** Unnamed OSM camp_sites are almost always informal wild-camp pitches, not businesses. */
+function isInformalSite(p: ParkUp) {
+  return p.kind === 'camp_site' && !p.name
+}
 
 const KIND_LABEL: Record<string, string> = {
   camp_site: 'Campsite',
@@ -50,6 +56,10 @@ function ViewTracker({ onChange }: { onChange: (zoom: number, bounds: LatLngBoun
     moveend: () => onChange(map.getZoom(), map.getBounds()),
     zoomend: () => onChange(map.getZoom(), map.getBounds()),
   })
+  useEffect(() => {
+    onChange(map.getZoom(), map.getBounds())
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [map])
   return null
 }
 
@@ -117,8 +127,15 @@ function ContextStop({
 }
 
 function ParkupMarker({ p, addStop }: { p: ParkUp; addStop: (stop: TripStop) => void }) {
-  const icon = p.category === 'site' ? parkupIcon : p.category === 'overnight' ? overnightIcon : laybyIcon
-  const label = KIND_LABEL[p.kind] ?? 'Park-up'
+  const informal = isInformalSite(p)
+  const icon = informal
+    ? informalIcon
+    : p.category === 'site'
+      ? parkupIcon
+      : p.category === 'overnight'
+        ? overnightIcon
+        : laybyIcon
+  const label = informal ? 'Informal camp spot' : (KIND_LABEL[p.kind] ?? 'Park-up')
   return (
     <Marker position={[p.lat, p.lon]} icon={icon}>
       <Popup>
@@ -130,7 +147,7 @@ function ParkupMarker({ p, addStop }: { p: ParkUp; addStop: (stop: TripStop) => 
             {p.fee ? ` · fee: ${p.fee}` : ''}
             {p.motorhome ? ` · motorhomes: ${p.motorhome}` : ''}
           </div>
-          {p.category !== 'site' && (
+          {(p.category !== 'site' || informal) && (
             <div className="popup-sub">Check local signage — OSM tags are no guarantee of overnight tolerance.</div>
           )}
           <div className="popup-links">
@@ -185,12 +202,16 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
 
   const visibleSites = useMemo(() => {
     if (view.zoom < 9 || !view.bounds) return []
-    return parkups.filter((p) => p.category === 'site' && view.bounds!.contains([p.lat, p.lon]))
+    return parkups.filter(
+      (p) => p.category === 'site' && !isInformalSite(p) && view.bounds!.contains([p.lat, p.lon]),
+    )
   }, [parkups, view])
 
   const visibleLaybys = useMemo(() => {
     if (view.zoom < 10 || !view.bounds) return []
-    return parkups.filter((p) => p.category !== 'site' && view.bounds!.contains([p.lat, p.lon]))
+    return parkups.filter(
+      (p) => (p.category !== 'site' || isInformalSite(p)) && view.bounds!.contains([p.lat, p.lon]),
+    )
   }, [parkups, view])
 
   const nearestCarparks = (m: Munro) =>
@@ -215,7 +236,8 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
             <TileLayer
               url={`https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{z}/{x}/{y}.png?key=${OS_KEY}`}
               attribution="© Crown copyright and database rights 2026 Ordnance Survey"
-              maxZoom={16}
+              maxNativeZoom={16}
+              maxZoom={19}
             />
           </LayersControl.BaseLayer>
         )}
@@ -276,7 +298,15 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
           </LayerGroup>
         </LayersControl.Overlay>
 
-        <LayersControl.Overlay checked name="Laybys & overnight spots (zoom in)">
+        <LayersControl.Overlay name="Hiking routes (OSM)">
+          <TileLayer
+            url="https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png"
+            attribution='© <a href="https://waymarkedtrails.org">Waymarked Trails</a> (CC-BY-SA)'
+            maxZoom={18}
+          />
+        </LayersControl.Overlay>
+
+        <LayersControl.Overlay checked name="Laybys, informal & overnight spots (zoom in)">
           <LayerGroup>
             {visibleLaybys.map((p) => (
               <ParkupMarker key={p.id} p={p} addStop={addStop} />

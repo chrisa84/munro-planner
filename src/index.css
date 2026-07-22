@@ -331,6 +331,15 @@ button {
   border-radius: 50%;
 }
 
+.informal-icon {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #2e7d46;
+  background: none;
+  text-shadow: 0 0 2px #fff, 0 0 2px #fff;
+}
+
 .layby-icon {
   font-size: 11px;
   font-weight: 700;
