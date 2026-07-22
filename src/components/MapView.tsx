@@ -16,6 +16,7 @@ import type { Store } from '../hooks/useStore'
 const OS_KEY = import.meta.env.VITE_OS_MAPS_KEY as string | undefined
 
 const carparkIcon = L.divIcon({ className: 'carpark-icon', html: 'P', iconSize: [20, 20], iconAnchor: [10, 10] })
+const startIcon = L.divIcon({ className: 'start-icon', html: '⚑', iconSize: [20, 20], iconAnchor: [4, 18] })
 
 function stopIcon(n: number) {
   return L.divIcon({ className: 'stop-icon', html: String(n), iconSize: [24, 24], iconAnchor: [12, 12] })
@@ -40,20 +41,31 @@ function ViewTracker({ onChange }: { onChange: (zoom: number, bounds: LatLngBoun
   return null
 }
 
-function ContextStop({ addStop }: { addStop: (stop: TripStop) => void }) {
+function ContextStop({
+  addStop,
+  munros,
+  setStart,
+}: {
+  addStop: (stop: TripStop) => void
+  munros: Munro[]
+  setStart: (munroId: number, pos: { lat: number; lon: number } | null) => void
+}) {
   const [pos, setPos] = useState<[number, number] | null>(null)
   useMapEvents({
     contextmenu: (e) => setPos([e.latlng.lat, e.latlng.lng]),
     click: () => setPos(null),
   })
   if (!pos) return null
+  const nearest = munros
+    .map((m) => ({ m, dist: haversineKm(pos[0], pos[1], m.lat, m.lon) }))
+    .sort((a, b) => a.dist - b.dist)
+    .slice(0, 3)
   return (
     <Popup position={pos} eventHandlers={{ remove: () => setPos(null) }}>
       <div className="popup">
-        <strong>Custom stop</strong>
-        <div className="popup-coords">
+        <strong>
           {pos[0].toFixed(4)}, {pos[1].toFixed(4)}
-        </div>
+        </strong>
         <button
           onClick={() => {
             addStop({
@@ -68,6 +80,25 @@ function ContextStop({ addStop }: { addStop: (stop: TripStop) => void }) {
         >
           + Add to trip
         </button>
+        <div className="popup-carparks">
+          <em>Set as walk start for:</em>
+          {nearest.map(({ m, dist }) => (
+            <div key={m.id} className="popup-carpark-row">
+              <span>
+                {m.name} ({dist.toFixed(1)} km)
+              </span>
+              <button
+                title="Pin as this munro's start"
+                onClick={() => {
+                  setStart(m.id, { lat: pos[0], lon: pos[1] })
+                  setPos(null)
+                }}
+              >
+                ⚑
+              </button>
+            </div>
+          ))}
+        </div>
       </div>
     </Popup>
   )
@@ -125,7 +156,7 @@ export default function MapView({ munros, carparks, store, addStop, activeTrip, 
       </LayersControl>
 
       <ViewTracker onChange={(zoom, bounds) => setView({ zoom, bounds })} />
-      <ContextStop addStop={addStop} />
+      <ContextStop addStop={addStop} munros={munros} setStart={store.setStart} />
 
       {munros.map((m) => {
         const done = store.doneSet.has(m.id)
@@ -162,6 +193,23 @@ export default function MapView({ munros, carparks, store, addStop, activeTrip, 
                   </a>
                 </div>
                 <button onClick={() => store.toggleDone(m.id)}>{done ? '✓ Bagged — unmark' : 'Mark as bagged'}</button>
+                {store.starts[m.id] ? (
+                  <button
+                    onClick={() =>
+                      addStop({
+                        id: `start/${m.id}`,
+                        kind: 'custom',
+                        name: `Start: ${m.name}`,
+                        lat: store.starts[m.id].lat,
+                        lon: store.starts[m.id].lon,
+                      })
+                    }
+                  >
+                    + Add walk start to trip
+                  </button>
+                ) : (
+                  <div className="popup-sub">No start pinned — right-click the road start to set one.</div>
+                )}
                 {carparks.length > 0 && (
                   <div className="popup-carparks">
                     <em>Nearby car parks:</em>
@@ -222,6 +270,33 @@ export default function MapView({ munros, carparks, store, addStop, activeTrip, 
           </Popup>
         </Marker>
       ))}
+
+      {Object.entries(store.starts).map(([munroId, pos]) => {
+        const m = munros.find((x) => x.id === Number(munroId))
+        return (
+          <Marker key={`start-${munroId}`} position={[pos.lat, pos.lon]} icon={startIcon}>
+            <Popup>
+              <div className="popup">
+                <strong>Walk start: {m?.name ?? munroId}</strong>
+                <button
+                  onClick={() =>
+                    addStop({
+                      id: `start/${munroId}`,
+                      kind: 'custom',
+                      name: `Start: ${m?.name ?? munroId}`,
+                      lat: pos.lat,
+                      lon: pos.lon,
+                    })
+                  }
+                >
+                  + Add to trip
+                </button>
+                <button onClick={() => store.setStart(Number(munroId), null)}>Remove pin</button>
+              </div>
+            </Popup>
+          </Marker>
+        )
+      })}
 
       {activeTrip?.stops.map((s, i) => (
         <Marker key={s.id} position={[s.lat, s.lon]} icon={stopIcon(i + 1)}>

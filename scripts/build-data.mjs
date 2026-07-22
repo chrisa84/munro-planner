@@ -10,7 +10,7 @@
 //   node scripts/build-data.mjs --verify    # also HEAD-check walkhighlands URLs
 //   node scripts/build-data.mjs --carparks  # also rebuild carparks.json (slow, hits Overpass)
 
-import { writeFileSync, mkdirSync } from 'node:fs'
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import AdmZip from 'adm-zip'
@@ -257,14 +257,25 @@ async function overpassQuery(query) {
 async function buildCarparks(munros) {
   const CHUNK = 35
   const found = new Map()
+  // Overpass is flaky; cache each chunk's raw elements so reruns resume.
+  const cacheDir = path.join(path.dirname(fileURLToPath(import.meta.url)), '.overpass-cache')
+  mkdirSync(cacheDir, { recursive: true })
   for (let i = 0; i < munros.length; i += CHUNK) {
     const chunk = munros.slice(i, i + CHUNK)
+    const cacheFile = path.join(cacheDir, `chunk-${i}.json`)
     const arounds = chunk
       .map((m) => `nwr["amenity"="parking"](around:${CARPARK_RADIUS_M},${m.lat},${m.lon});`)
       .join('\n')
     const query = `[out:json][timeout:240];(\n${arounds}\n);out center tags;`
     console.log(`Overpass chunk ${i / CHUNK + 1}/${Math.ceil(munros.length / CHUNK)} ...`)
-    const json = await overpassQuery(query)
+    let json
+    if (existsSync(cacheFile)) {
+      console.log('  (cached)')
+      json = JSON.parse(readFileSync(cacheFile, 'utf8'))
+    } else {
+      json = await overpassQuery(query)
+      writeFileSync(cacheFile, JSON.stringify(json))
+    }
     for (const el of json.elements) {
       const lat = el.lat ?? el.center?.lat
       const lon = el.lon ?? el.center?.lon

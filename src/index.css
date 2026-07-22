@@ -265,6 +265,14 @@ button {
   border: 1px solid #fff;
 }
 
+.start-icon {
+  color: #1a7a3a;
+  font-size: 20px;
+  line-height: 20px;
+  text-shadow: 0 0 2px #fff, 0 0 2px #fff;
+  background: none;
+}
+
 .stop-icon {
   background: #e08a00;
   color: #fff;

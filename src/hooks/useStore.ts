@@ -8,9 +8,11 @@ interface Persisted {
   trips: Trip[]
   activeTripId: string | null
   singleTrackFactor: number
+  /** munro id -> user-pinned walk start point */
+  starts: Record<number, { lat: number; lon: number }>
 }
 
-const DEFAULTS: Persisted = { done: [], trips: [], activeTripId: null, singleTrackFactor: 1.25 }
+const DEFAULTS: Persisted = { done: [], trips: [], activeTripId: null, singleTrackFactor: 1.25, starts: {} }
 
 function load(): Persisted {
   try {
@@ -50,6 +52,15 @@ export function useStore() {
     setState((s) => ({ ...s, singleTrackFactor: f }))
   }, [])
 
+  const setStart = useCallback((munroId: number, pos: { lat: number; lon: number } | null) => {
+    setState((s) => {
+      const starts = { ...s.starts }
+      if (pos) starts[munroId] = pos
+      else delete starts[munroId]
+      return { ...s, starts }
+    })
+  }, [])
+
   const exportJson = useCallback(() => {
     const blob = new Blob([localStorage.getItem(KEY) ?? '{}'], { type: 'application/json' })
     const a = document.createElement('a')
@@ -73,6 +84,7 @@ export function useStore() {
     setTrips,
     setActiveTripId,
     setSingleTrackFactor,
+    setStart,
     exportJson,
     importJson,
   }
