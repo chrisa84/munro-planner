@@ -1,3 +1,15 @@
+export interface MunroRoute {
+  name: string
+  url: string
+  startName: string | null
+  startLat: number
+  startLon: number
+  startGridref: string | null
+  distance: string | null
+  time: string | null
+  ascent: string | null
+}
+
 export interface Munro {
   id: number
   name: string
@@ -10,6 +22,7 @@ export interface Munro {
   walkhighlands: string
   stevenfallon: string | null
   hillbagging: string
+  routes: MunroRoute[]
 }
 
 export interface CarPark {

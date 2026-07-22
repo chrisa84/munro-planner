@@ -193,7 +193,34 @@ export default function MapView({ munros, carparks, store, addStop, activeTrip, 
                   </a>
                 </div>
                 <button onClick={() => store.toggleDone(m.id)}>{done ? '✓ Bagged — unmark' : 'Mark as bagged'}</button>
-                {store.starts[m.id] ? (
+                {m.routes.length > 0 && (
+                  <div className="popup-carparks">
+                    <em>Walk starts (walkhighlands):</em>
+                    {m.routes.map((r, ri) => (
+                      <div key={ri} className="popup-carpark-row">
+                        <span title={`${r.name}${r.distance ? ` · ${r.distance}` : ''}${r.time ? ` · ${r.time}` : ''}`}>
+                          {r.startName ?? r.name}
+                          {r.startGridref ? ` (${r.startGridref})` : ''}
+                        </span>
+                        <button
+                          title="Add this start to trip"
+                          onClick={() =>
+                            addStop({
+                              id: `whstart/${m.id}/${ri}`,
+                              kind: 'custom',
+                              name: r.startName ?? `Start: ${m.name}`,
+                              lat: r.startLat,
+                              lon: r.startLon,
+                            })
+                          }
+                        >
+                          +
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {store.starts[m.id] && (
                   <button
                     onClick={() =>
                       addStop({
@@ -205,10 +232,8 @@ export default function MapView({ munros, carparks, store, addStop, activeTrip, 
                       })
                     }
                   >
-                    + Add walk start to trip
+                    + Add pinned start to trip
                   </button>
-                ) : (
-                  <div className="popup-sub">No start pinned — right-click the road start to set one.</div>
                 )}
                 {carparks.length > 0 && (
                   <div className="popup-carparks">

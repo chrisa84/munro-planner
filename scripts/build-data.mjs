@@ -19,11 +19,18 @@ import { parse } from 'csv-parse/sync'
 const OUT_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', 'data')
 const DOBIH_ZIP_URL = 'https://www.hill-bagging.co.uk/dobih-downloads/hillcsv.zip'
 const FALLON_CSV_URL = 'https://www.stevenfallon.co.uk/downloads/munrolist.csv'
+// Walkhighlands route start points, scraped by github.com/dzfranklin/munro-access
+// (Apache-2.0 repo; underlying start data © walkhighlands — personal use only).
+const WH_ROUTES_URL =
+  'https://raw.githubusercontent.com/dzfranklin/munro-access/main/data_sources/walkhighlands/munro_routes.jsonl'
 const OVERPASS_URLS = [
   'https://overpass-api.de/api/interpreter',
   'https://overpass.kumi.systems/api/interpreter',
+  'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
 ]
-const CARPARK_RADIUS_M = 6000
+// Search for parking around each walkhighlands route START (not the summit) —
+// far lighter Overpass queries and far more relevant results.
+const CARPARK_RADIUS_M = 1500
 
 const args = new Set(process.argv.slice(2))
 
@@ -202,6 +209,19 @@ async function loadFallonPages() {
   }
 }
 
+async function loadWhRoutes() {
+  console.log('Downloading walkhighlands route starts (munro-access) ...')
+  const text = (await fetchBuffer(WH_ROUTES_URL)).toString('utf8')
+  const byNumber = new Map()
+  for (const line of text.split('\n')) {
+    if (!line.trim()) continue
+    const row = JSON.parse(line)
+    byNumber.set(row.number, row)
+  }
+  console.log(`WH route entries: ${byNumber.size}`)
+  return byNumber
+}
+
 async function verifyWalkhighlands(munros) {
   console.log('Verifying walkhighlands URLs (HEAD requests, ~1/sec) ...')
   const failures = []
@@ -232,7 +252,7 @@ function haversineKm(lat1, lon1, lat2, lon2) {
 
 async function overpassQuery(query) {
   let lastErr
-  for (let attempt = 0; attempt < 4; attempt++) {
+  for (let attempt = 0; attempt < 9; attempt++) {
     const url = OVERPASS_URLS[attempt % OVERPASS_URLS.length]
     try {
       const res = await fetch(url, {
@@ -255,19 +275,35 @@ async function overpassQuery(query) {
 }
 
 async function buildCarparks(munros) {
-  const CHUNK = 35
+  // Unique route start points (several munros share a start).
+  const starts = []
+  const seenStart = new Set()
+  for (const m of munros) {
+    for (const r of m.routes) {
+      const key = `${r.startLat.toFixed(3)},${r.startLon.toFixed(3)}`
+      if (seenStart.has(key)) {
+        starts.find((s) => s.key === key).munros.push(m.id)
+      } else {
+        seenStart.add(key)
+        starts.push({ key, lat: r.startLat, lon: r.startLon, munros: [m.id] })
+      }
+    }
+  }
+  console.log(`Unique route starts: ${starts.length}`)
+
+  const CHUNK = 40
   const found = new Map()
   // Overpass is flaky; cache each chunk's raw elements so reruns resume.
   const cacheDir = path.join(path.dirname(fileURLToPath(import.meta.url)), '.overpass-cache')
   mkdirSync(cacheDir, { recursive: true })
-  for (let i = 0; i < munros.length; i += CHUNK) {
-    const chunk = munros.slice(i, i + CHUNK)
+  for (let i = 0; i < starts.length; i += CHUNK) {
+    const chunk = starts.slice(i, i + CHUNK)
     const cacheFile = path.join(cacheDir, `chunk-${i}.json`)
     const arounds = chunk
       .map((m) => `nwr["amenity"="parking"](around:${CARPARK_RADIUS_M},${m.lat},${m.lon});`)
       .join('\n')
     const query = `[out:json][timeout:240];(\n${arounds}\n);out center tags;`
-    console.log(`Overpass chunk ${i / CHUNK + 1}/${Math.ceil(munros.length / CHUNK)} ...`)
+    console.log(`Overpass chunk ${i / CHUNK + 1}/${Math.ceil(starts.length / CHUNK)} ...`)
     let json
     if (existsSync(cacheFile)) {
       console.log('  (cached)')
@@ -295,9 +331,13 @@ async function buildCarparks(munros) {
 
   const carparks = [...found.values()]
   for (const cp of carparks) {
-    cp.munros = munros
-      .filter((m) => haversineKm(cp.lat, cp.lon, m.lat, m.lon) <= CARPARK_RADIUS_M / 1000)
-      .map((m) => m.id)
+    cp.munros = [
+      ...new Set(
+        starts
+          .filter((s) => haversineKm(cp.lat, cp.lon, s.lat, s.lon) <= CARPARK_RADIUS_M / 1000)
+          .flatMap((s) => s.munros),
+      ),
+    ]
   }
   console.log(`Car parks: ${carparks.length}`)
   return carparks
@@ -305,15 +345,44 @@ async function buildCarparks(munros) {
 
 const dobih = await loadDobihMunros()
 const fallon = await loadFallonPages()
+const whRoutes = await loadWhRoutes()
 
 const munros = dobih
-  .map((m) => ({
-    ...m,
-    walkhighlands: `https://www.walkhighlands.co.uk/munros/${WH_EXCEPTIONS[m.id] || slugify(m.name)}`,
-    stevenfallon: fallon(m.x, m.y),
-    hillbagging: `https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=${m.id}`,
-  }))
+  .map((m) => {
+    const wh = whRoutes.get(m.id)
+    const derivedSlug = WH_EXCEPTIONS[m.id] || slugify(m.name)
+    const scrapedSlug = wh?.page?.match(/munros\/([a-z0-9\-]+)/)?.[1]
+    if (scrapedSlug && scrapedSlug !== derivedSlug) {
+      console.log(`WH slug mismatch for ${m.name} (${m.id}): derived '${derivedSlug}' vs scraped '${scrapedSlug}'`)
+    }
+    // Search-verified exceptions beat the munro-access scrape (which has occasional
+    // shared-route artifacts, e.g. Ben Lui -> beinn-a-chleibh); the scrape beats
+    // naive name slugification.
+    const slug = WH_EXCEPTIONS[m.id] || scrapedSlug || slugify(m.name)
+    return {
+      ...m,
+      walkhighlands: `https://www.walkhighlands.co.uk/munros/${slug}`,
+      stevenfallon: fallon(m.x, m.y),
+      hillbagging: `https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=${m.id}`,
+      routes: (wh?.routes ?? [])
+        .filter((r) => Array.isArray(r.startLngLat))
+        .map((r) => ({
+          name: r.name,
+          url: r.page,
+          startName: r.startName || null,
+          startLat: r.startLngLat[1],
+          startLon: r.startLngLat[0],
+          startGridref: normGridref(r.stats?.['Start Grid Ref']) || null,
+          distance: r.stats?.Distance || null,
+          time: r.stats?.['Time (summer conditions)'] || null,
+          ascent: r.stats?.Ascent || null,
+        })),
+    }
+  })
   .sort((a, b) => a.name.localeCompare(b.name))
+
+const noRoutes = munros.filter((m) => m.routes.length === 0)
+if (noRoutes.length) console.log(`No WH routes for ${noRoutes.length}: ${noRoutes.map((m) => m.name).join(', ')}`)
 
 const missingFallon = munros.filter((m) => !m.stevenfallon)
 if (missingFallon.length) {
