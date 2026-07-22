@@ -331,6 +331,17 @@ button {
   border-radius: 50%;
 }
 
+.layby-icon {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+  color: #fff;
+  background: #5b6770;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
 .start-icon {
   color: #1a7a3a;
   font-size: 20px;

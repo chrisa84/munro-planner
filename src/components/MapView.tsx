@@ -18,6 +18,15 @@ const OS_KEY = import.meta.env.VITE_OS_MAPS_KEY as string | undefined
 
 const carparkIcon = L.divIcon({ className: 'carpark-icon', html: 'P', iconSize: [20, 20], iconAnchor: [10, 10] })
 const parkupIcon = L.divIcon({ className: 'parkup-icon', html: '⛺', iconSize: [22, 22], iconAnchor: [11, 11] })
+const overnightIcon = L.divIcon({ className: 'parkup-icon', html: '🚐', iconSize: [22, 22], iconAnchor: [11, 11] })
+const laybyIcon = L.divIcon({ className: 'layby-icon', html: 'L', iconSize: [16, 16], iconAnchor: [8, 8] })
+
+const KIND_LABEL: Record<string, string> = {
+  camp_site: 'Campsite',
+  caravan_site: 'Caravan/motorhome site',
+  rest_area: 'Rest area',
+  layby: 'Layby',
+}
 const startIcon = L.divIcon({ className: 'start-icon', html: '⚑', iconSize: [20, 20], iconAnchor: [4, 18] })
 
 function stopIcon(n: number) {
@@ -107,6 +116,57 @@ function ContextStop({
   )
 }
 
+function ParkupMarker({ p, addStop }: { p: ParkUp; addStop: (stop: TripStop) => void }) {
+  const icon = p.category === 'site' ? parkupIcon : p.category === 'overnight' ? overnightIcon : laybyIcon
+  const label = KIND_LABEL[p.kind] ?? 'Park-up'
+  return (
+    <Marker position={[p.lat, p.lon]} icon={icon}>
+      <Popup>
+        <div className="popup">
+          <strong>{p.name ?? label}</strong>
+          <div className="popup-sub">
+            {label}
+            {p.category === 'overnight' ? ' · tagged overnight-OK in OSM' : ''}
+            {p.fee ? ` · fee: ${p.fee}` : ''}
+            {p.motorhome ? ` · motorhomes: ${p.motorhome}` : ''}
+          </div>
+          {p.category !== 'site' && (
+            <div className="popup-sub">Check local signage — OSM tags are no guarantee of overnight tolerance.</div>
+          )}
+          <div className="popup-links">
+            {p.website && (
+              <a href={p.website} target="_blank" rel="noreferrer">
+                Website
+              </a>
+            )}
+            <a
+              href={`https://park4night.com/en/search?lat=${p.lat.toFixed(4)}&lng=${p.lon.toFixed(4)}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              park4night
+            </a>
+            <a
+              href={`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Google Maps
+            </a>
+          </div>
+          <button
+            onClick={() =>
+              addStop({ id: p.id, kind: 'parkup', name: p.name ?? label, lat: p.lat, lon: p.lon })
+            }
+          >
+            + Add to trip
+          </button>
+        </div>
+      </Popup>
+    </Marker>
+  )
+}
+
 function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number) {
   const rad = Math.PI / 180
   const a =
@@ -123,9 +183,14 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
     return carparks.filter((c) => view.bounds!.contains([c.lat, c.lon]))
   }, [carparks, view])
 
-  const visibleParkups = useMemo(() => {
+  const visibleSites = useMemo(() => {
     if (view.zoom < 9 || !view.bounds) return []
-    return parkups.filter((p) => view.bounds!.contains([p.lat, p.lon]))
+    return parkups.filter((p) => p.category === 'site' && view.bounds!.contains([p.lat, p.lon]))
+  }, [parkups, view])
+
+  const visibleLaybys = useMemo(() => {
+    if (view.zoom < 10 || !view.bounds) return []
+    return parkups.filter((p) => p.category !== 'site' && view.bounds!.contains([p.lat, p.lon]))
   }, [parkups, view])
 
   const nearestCarparks = (m: Munro) =>
@@ -203,48 +268,18 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
           </LayerGroup>
         </LayersControl.Overlay>
 
-        <LayersControl.Overlay checked name="Overnight stops (zoom in)">
+        <LayersControl.Overlay checked name="Campsites (zoom in)">
           <LayerGroup>
-            {visibleParkups.map((p) => (
-              <Marker key={p.id} position={[p.lat, p.lon]} icon={parkupIcon}>
-                <Popup>
-                  <div className="popup">
-                    <strong>{p.name ?? (p.kind === 'caravan_site' ? 'Caravan site' : 'Campsite')}</strong>
-                    <div className="popup-sub">
-                      {p.kind === 'caravan_site' ? 'Caravan/motorhome site' : 'Campsite'}
-                      {p.fee ? ` · fee: ${p.fee}` : ''}
-                      {p.motorhome ? ` · motorhomes: ${p.motorhome}` : ''}
-                    </div>
-                    <div className="popup-links">
-                      {p.website && (
-                        <a href={p.website} target="_blank" rel="noreferrer">
-                          Website
-                        </a>
-                      )}
-                      <a
-                        href={`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}`}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Google Maps
-                      </a>
-                    </div>
-                    <button
-                      onClick={() =>
-                        addStop({
-                          id: p.id,
-                          kind: 'parkup',
-                          name: p.name ?? 'Overnight stop',
-                          lat: p.lat,
-                          lon: p.lon,
-                        })
-                      }
-                    >
-                      + Add to trip
-                    </button>
-                  </div>
-                </Popup>
-              </Marker>
+            {visibleSites.map((p) => (
+              <ParkupMarker key={p.id} p={p} addStop={addStop} />
+            ))}
+          </LayerGroup>
+        </LayersControl.Overlay>
+
+        <LayersControl.Overlay checked name="Laybys & overnight spots (zoom in)">
+          <LayerGroup>
+            {visibleLaybys.map((p) => (
+              <ParkupMarker key={p.id} p={p} addStop={addStop} />
             ))}
           </LayerGroup>
         </LayersControl.Overlay>

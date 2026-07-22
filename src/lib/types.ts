@@ -39,7 +39,8 @@ export interface ParkUp {
   lat: number
   lon: number
   name: string | null
-  kind: 'camp_site' | 'caravan_site'
+  kind: 'camp_site' | 'caravan_site' | 'rest_area' | 'layby'
+  category: 'site' | 'overnight' | 'layby'
   fee: string | null
   motorhome: string | null
   website: string | null

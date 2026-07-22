@@ -343,34 +343,61 @@ async function buildCarparks(munros) {
   return carparks
 }
 
+function parkupCategory(t) {
+  if (t.tourism === 'camp_site' || t.tourism === 'caravan_site') return 'site'
+  if (
+    t.motorhome === 'yes' ||
+    t.motorhome === 'designated' ||
+    t.overnight_stay === 'yes' ||
+    t.overnight_stay === 'designated' ||
+    t['motorhome:overnight'] === 'yes'
+  )
+    return 'overnight'
+  return 'layby'
+}
+
 async function buildParkups() {
-  // Campsites and caravan/motorhome sites across the Highlands & Islands —
-  // overnight candidates for the camper. One bbox query; they are sparse.
+  // Overnight candidates for the camper across the Highlands & Islands:
+  // formal sites, parking explicitly tagged motorhome/overnight-ok, and
+  // laybys/rest areas. OSM "overnight tolerated" tagging is patchy — the app
+  // links each spot to park4night for crowd wisdom.
   const query = `[out:json][timeout:240][bbox:55.2,-7.6,58.8,-1.7];
 (
   nwr["tourism"="camp_site"];
   nwr["tourism"="caravan_site"];
+  nwr["highway"="rest_area"];
+  nwr["amenity"="parking"]["parking"="layby"];
+  nwr["amenity"="parking"]["motorhome"~"yes|designated"];
+  nwr["amenity"="parking"]["overnight_stay"~"yes|designated"];
+  nwr["amenity"="parking"]["motorhome:overnight"="yes"];
 );out center tags;`
   const json = await overpassQuery(query)
   const parkups = []
+  const seen = new Set()
   for (const el of json.elements) {
+    const key = `${el.type}/${el.id}`
+    if (seen.has(key)) continue
+    seen.add(key)
     const lat = el.lat ?? el.center?.lat
     const lon = el.lon ?? el.center?.lon
     if (lat == null) continue
     const t = el.tags ?? {}
     if (t.access === 'private' || t.access === 'no') continue
     parkups.push({
-      id: `${el.type}/${el.id}`,
+      id: key,
       lat,
       lon,
       name: t.name || null,
-      kind: t.tourism,
+      kind: t.tourism || (t.highway === 'rest_area' ? 'rest_area' : 'layby'),
+      category: parkupCategory(t),
       fee: t.fee || null,
       motorhome: t.motorhome || t.caravans || null,
       website: t.website || null,
     })
   }
-  console.log(`Park-ups: ${parkups.length}`)
+  console.log(
+    `Park-ups: ${parkups.length} (sites ${parkups.filter((p) => p.category === 'site').length}, overnight-tagged ${parkups.filter((p) => p.category === 'overnight').length}, laybys/rest ${parkups.filter((p) => p.category === 'layby').length})`,
+  )
   return parkups
 }
 
