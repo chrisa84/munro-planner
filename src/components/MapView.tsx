@@ -41,6 +41,7 @@ function stopIcon(n: number) {
 
 interface Props {
   munros: Munro[]
+  corbetts: Munro[]
   carparks: CarPark[]
   parkups: ParkUp[]
   store: Store
@@ -192,8 +193,24 @@ function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number) {
   return 6371 * 2 * Math.asin(Math.sqrt(a))
 }
 
-export default function MapView({ munros, carparks, parkups, store, addStop, activeTrip, route, mapRef }: Props) {
+export default function MapView({
+  munros,
+  corbetts,
+  carparks,
+  parkups,
+  store,
+  addStop,
+  activeTrip,
+  route,
+  mapRef,
+}: Props) {
   const [view, setView] = useState<{ zoom: number; bounds: LatLngBounds | null }>({ zoom: 7, bounds: null })
+
+  const corbettIds = useMemo(() => new Set(corbetts.map((c) => c.id)), [corbetts])
+  const hills = useMemo(
+    () => (store.showCorbetts ? [...munros, ...corbetts] : munros),
+    [munros, corbetts, store.showCorbetts],
+  )
 
   const visibleCarparks = useMemo(() => {
     if (view.zoom < 11 || !view.bounds) return []
@@ -241,6 +258,13 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
             />
           </LayersControl.BaseLayer>
         )}
+        <LayersControl.BaseLayer name="OpenStreetMap (best paths)">
+          <TileLayer
+            url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            maxZoom={19}
+          />
+        </LayersControl.BaseLayer>
         <LayersControl.BaseLayer checked={!OS_KEY} name="OpenTopoMap">
           <TileLayer
             url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
@@ -316,18 +340,19 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
       </LayersControl>
 
       <ViewTracker onChange={(zoom, bounds) => setView({ zoom, bounds })} />
-      <ContextStop addStop={addStop} munros={munros} setStart={store.setStart} />
+      <ContextStop addStop={addStop} munros={hills} setStart={store.setStart} />
 
-      {munros.map((m) => {
+      {hills.map((m) => {
         const done = store.doneSet.has(m.id)
+        const corbett = corbettIds.has(m.id)
         return (
           <CircleMarker
             key={m.id}
             center={[m.lat, m.lon]}
-            radius={6}
+            radius={corbett ? 5 : 6}
             pathOptions={{
-              color: done ? '#1a7a3a' : '#b3262a',
-              fillColor: done ? '#2ea15380' : '#d9484c',
+              color: done ? '#1a7a3a' : corbett ? '#4b3d8f' : '#b3262a',
+              fillColor: done ? '#2ea15380' : corbett ? '#7b6fd0' : '#d9484c',
               fillOpacity: 0.9,
               weight: 2,
             }}
@@ -340,9 +365,11 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
                 </div>
                 <div className="popup-sub">{m.region}</div>
                 <div className="popup-links">
-                  <a href={m.walkhighlands} target="_blank" rel="noreferrer">
-                    Walkhighlands
-                  </a>
+                  {m.walkhighlands && (
+                    <a href={m.walkhighlands} target="_blank" rel="noreferrer">
+                      Walkhighlands
+                    </a>
+                  )}
                   {m.stevenfallon && (
                     <a href={m.stevenfallon} target="_blank" rel="noreferrer">
                       Steve Fallon
@@ -395,7 +422,7 @@ export default function MapView({ munros, carparks, parkups, store, addStop, act
                     + Add pinned start to trip
                   </button>
                 )}
-                {carparks.length > 0 && (
+                {carparks.length > 0 && nearestCarparks(m).length > 0 && (
                   <div className="popup-carparks">
                     <em>Nearby car parks:</em>
                     {nearestCarparks(m).map((c) => (

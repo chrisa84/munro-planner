@@ -10,9 +10,17 @@ interface Persisted {
   singleTrackFactor: number
   /** munro id -> user-pinned walk start point */
   starts: Record<number, { lat: number; lon: number }>
+  showCorbetts: boolean
 }
 
-const DEFAULTS: Persisted = { done: [], trips: [], activeTripId: null, singleTrackFactor: 1.25, starts: {} }
+const DEFAULTS: Persisted = {
+  done: [],
+  trips: [],
+  activeTripId: null,
+  singleTrackFactor: 1.25,
+  starts: {},
+  showCorbetts: false,
+}
 
 function load(): Persisted {
   try {
@@ -52,6 +60,10 @@ export function useStore() {
     setState((s) => ({ ...s, singleTrackFactor: f }))
   }, [])
 
+  const setShowCorbetts = useCallback((v: boolean) => {
+    setState((s) => ({ ...s, showCorbetts: v }))
+  }, [])
+
   const setStart = useCallback((munroId: number, pos: { lat: number; lon: number } | null) => {
     setState((s) => {
       const starts = { ...s.starts }
@@ -84,6 +96,7 @@ export function useStore() {
     setTrips,
     setActiveTripId,
     setSingleTrackFactor,
+    setShowCorbetts,
     setStart,
     exportJson,
     importJson,

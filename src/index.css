@@ -94,6 +94,28 @@ body {
   margin-top: 8px;
 }
 
+.corbett-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  color: #cfe0d5;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.corbett-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 5px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: #fff;
+  background: #4b3d8f;
+  border-radius: 4px;
+  vertical-align: 1px;
+}
+
 .munro-list,
 .stop-list {
   flex: 1;

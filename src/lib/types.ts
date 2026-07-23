@@ -19,7 +19,7 @@ export interface Munro {
   lon: number
   region: string
   area: string
-  walkhighlands: string
+  walkhighlands: string | null
   stevenfallon: string | null
   hillbagging: string
   routes: MunroRoute[]

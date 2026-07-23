@@ -10,6 +10,7 @@ import TripPanel from './components/TripPanel'
 export default function App() {
   const store = useStore()
   const [munros, setMunros] = useState<Munro[]>([])
+  const [corbetts, setCorbetts] = useState<Munro[]>([])
   const [carparks, setCarparks] = useState<CarPark[]>([])
   const [parkups, setParkups] = useState<ParkUp[]>([])
   const [tab, setTab] = useState<'munros' | 'trip'>('munros')
@@ -29,6 +30,10 @@ export default function App() {
       .then((r) => (r.ok ? r.json() : { carparks: [] }))
       .then((d) => setCarparks(d.carparks ?? []))
       .catch(() => setCarparks([]))
+    fetch(`${base}data/corbetts.json`)
+      .then((r) => (r.ok ? r.json() : { corbetts: [] }))
+      .then((d) => setCorbetts(d.corbetts ?? []))
+      .catch(() => setCorbetts([]))
     fetch(`${base}data/parkups.json`)
       .then((r) => (r.ok ? r.json() : { parkups: [] }))
       .then((d) => setParkups(d.parkups ?? []))
@@ -107,7 +112,9 @@ export default function App() {
         <header className="sidebar-header">
           <h1>Munro Camper Planner</h1>
           <div className="progress">
-            {store.doneSet.size} / {munros.length || 282} bagged
+            {munros.filter((m) => store.doneSet.has(m.id)).length} / {munros.length || 282} munros
+            {store.showCorbetts &&
+              ` · ${corbetts.filter((c) => store.doneSet.has(c.id)).length} / ${corbetts.length || 222} corbetts`}
           </div>
           <nav className="tabs">
             <button className={tab === 'munros' ? 'active' : ''} onClick={() => setTab('munros')}>
@@ -119,7 +126,7 @@ export default function App() {
           </nav>
         </header>
         {tab === 'munros' ? (
-          <Sidebar munros={munros} store={store} flyTo={flyTo} />
+          <Sidebar munros={munros} corbetts={corbetts} store={store} flyTo={flyTo} />
         ) : (
           <TripPanel
             store={store}
@@ -145,6 +152,7 @@ export default function App() {
       <main className="map-wrap">
         <MapView
           munros={munros}
+          corbetts={corbetts}
           carparks={carparks}
           parkups={parkups}
           store={store}

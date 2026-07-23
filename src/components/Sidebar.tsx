@@ -4,23 +4,33 @@ import type { Store } from '../hooks/useStore'
 
 interface Props {
   munros: Munro[]
+  corbetts: Munro[]
   store: Store
   flyTo: (lat: number, lon: number, zoom?: number) => void
 }
 
 type Filter = 'all' | 'done' | 'todo'
 
-export default function Sidebar({ munros, store, flyTo }: Props) {
+export default function Sidebar({ munros, corbetts, store, flyTo }: Props) {
   const [search, setSearch] = useState('')
   const [filter, setFilter] = useState<Filter>('all')
   const [region, setRegion] = useState('all')
   const fileInput = useRef<HTMLInputElement>(null)
 
-  const regions = useMemo(() => [...new Set(munros.map((m) => m.region))].sort(), [munros])
+  const corbettIds = useMemo(() => new Set(corbetts.map((c) => c.id)), [corbetts])
+  const hills = useMemo(
+    () =>
+      store.showCorbetts
+        ? [...munros, ...corbetts].sort((a, b) => a.name.localeCompare(b.name))
+        : munros,
+    [munros, corbetts, store.showCorbetts],
+  )
+
+  const regions = useMemo(() => [...new Set(hills.map((m) => m.region))].sort(), [hills])
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase()
-    return munros.filter((m) => {
+    return hills.filter((m) => {
       if (q && !m.name.toLowerCase().includes(q)) return false
       if (region !== 'all' && m.region !== region) return false
       const done = store.doneSet.has(m.id)
@@ -28,7 +38,7 @@ export default function Sidebar({ munros, store, flyTo }: Props) {
       if (filter === 'todo' && done) return false
       return true
     })
-  }, [munros, search, filter, region, store.doneSet])
+  }, [hills, search, filter, region, store.doneSet])
 
   return (
     <div className="panel">
@@ -39,6 +49,14 @@ export default function Sidebar({ munros, store, flyTo }: Props) {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
+        <label className="corbett-toggle">
+          <input
+            type="checkbox"
+            checked={store.showCorbetts}
+            onChange={(e) => store.setShowCorbetts(e.target.checked)}
+          />
+          Show Corbetts (2500–3000 ft)
+        </label>
         <div className="filter-row">
           <select value={region} onChange={(e) => setRegion(e.target.value)}>
             <option value="all">All regions</option>
@@ -69,6 +87,7 @@ export default function Sidebar({ munros, store, flyTo }: Props) {
               />
               <button className="munro-name" onClick={() => flyTo(m.lat, m.lon)}>
                 {m.name}
+                {corbettIds.has(m.id) && <span className="corbett-badge">C</span>}
               </button>
               <span className="munro-height">{m.height} m</span>
             </li>

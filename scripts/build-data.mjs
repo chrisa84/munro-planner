@@ -144,7 +144,7 @@ function normGridref(g) {
   return String(g || '').toUpperCase().replace(/\s+/g, '')
 }
 
-async function loadDobihMunros() {
+async function loadDobihMunros(classification = 'M') {
   console.log('Downloading DoBIH hillcsv.zip ...')
   const zip = new AdmZip(await fetchBuffer(DOBIH_ZIP_URL))
   const entry = zip.getEntries().find((e) => e.entryName.toLowerCase().endsWith('.csv'))
@@ -154,13 +154,13 @@ async function loadDobihMunros() {
 
   const sample = rows[0]
   const classificationOf = (r) => String(pick(r, 'Classification') || '').split(',').map((s) => s.trim())
-  const munros = rows.filter((r) => classificationOf(r).includes('M'))
+  const munros = rows.filter((r) => classificationOf(r).includes(classification))
   if (munros.length === 0) {
-    console.error('No Munros found — header names may have changed. Headers were:')
+    console.error(`No hills with classification ${classification} — header names may have changed. Headers were:`)
     console.error(Object.keys(sample).join(' | '))
     process.exit(1)
   }
-  console.log(`Munros (classification M): ${munros.length}`)
+  console.log(`Hills (classification ${classification}): ${munros.length}`)
 
   return munros.map((r) => ({
     id: Number(pick(r, 'Number')),
@@ -176,9 +176,9 @@ async function loadDobihMunros() {
   }))
 }
 
-async function loadFallonPages() {
-  console.log('Downloading Steve Fallon munrolist.csv ...')
-  const rows = parse((await fetchBuffer(FALLON_CSV_URL)).toString('utf8'), {
+async function loadFallonPages(url = FALLON_CSV_URL) {
+  console.log(`Downloading Steve Fallon ${url.split('/').pop()} ...`)
+  const rows = parse((await fetchBuffer(url)).toString('utf8'), {
     relax_column_count: true,
     skip_empty_lines: true,
   })
@@ -470,6 +470,35 @@ console.log(`Wrote munros.json (${munros.length} munros)`)
 }
 
 if (args.has('--verify')) await verifyWalkhighlands(munros)
+
+if (args.has('--corbetts')) {
+  const dobihC = await loadDobihMunros('C')
+  const fallonC = await loadFallonPages('https://www.stevenfallon.co.uk/downloads/corbettlist.csv')
+  const nameCount = {}
+  for (const c of dobihC) {
+    const k = slugify(c.name)
+    nameCount[k] = (nameCount[k] || 0) + 1
+  }
+  const corbetts = dobihC
+    .map((c) => ({
+      ...c,
+      // Duplicate names get an unguessable place suffix on walkhighlands —
+      // omit the link rather than guess wrong.
+      walkhighlands: nameCount[slugify(c.name)] === 1 ? `https://www.walkhighlands.co.uk/corbetts/${slugify(c.name)}` : null,
+      stevenfallon: fallonC(c.x, c.y),
+      hillbagging: `https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=${c.id}`,
+      routes: [],
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name))
+  const dupes = corbetts.filter((c) => !c.walkhighlands).length
+  const noFallon = corbetts.filter((c) => !c.stevenfallon).length
+  console.log(`Corbetts: ${corbetts.length} (no WH link for ${dupes} duplicate names, no Fallon match for ${noFallon})`)
+  writeFileSync(
+    path.join(OUT_DIR, 'corbetts.json'),
+    JSON.stringify({ generated: new Date().toISOString().slice(0, 10), count: corbetts.length, corbetts }, null, 1),
+  )
+  console.log('Wrote corbetts.json')
+}
 
 if (args.has('--parkups')) {
   const parkups = await buildParkups()
