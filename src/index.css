@@ -322,6 +322,11 @@ button {
   }
 }
 
+.map-shell {
+  position: relative;
+  height: 100%;
+}
+
 .map {
   height: 100%;
   width: 100%;
@@ -333,6 +338,18 @@ button {
 }
 
 /* Map icons */
+.frog-icon {
+  background: none;
+  border: none;
+  filter: drop-shadow(0 1px 2px rgb(0 0 0 / 45%));
+}
+
+.frog-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .carpark-icon {
   background: #1d5fa8;
   color: #fff;
@@ -391,6 +408,111 @@ button {
   text-align: center;
   border: 2px solid #fff;
   box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+}
+
+/* Map key */
+.legend-toggle,
+.map-legend {
+  position: absolute;
+  bottom: 24px;
+  left: 10px;
+  z-index: 1000;
+  background: rgb(255 255 255 / 94%);
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 35%);
+  color: #1e2a23;
+}
+
+.legend-toggle {
+  border: none;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.map-legend {
+  padding: 8px 12px 10px;
+  font-size: 12.5px;
+  max-height: min(60%, 340px);
+  overflow-y: auto;
+}
+
+.legend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.legend-header button {
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 12px;
+  padding: 0;
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 0;
+}
+
+.legend-swatch {
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.legend-swatch svg {
+  width: 20px;
+  height: 20px;
+}
+
+.legend-swatch .carpark-icon {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+}
+
+.legend-swatch .parkup-icon {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.legend-swatch .layby-icon {
+  width: 15px;
+  height: 15px;
+  line-height: 14px;
+}
+
+.legend-swatch .informal-icon {
+  font-size: 13px;
+}
+
+.legend-swatch .start-icon {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.legend-swatch .stop-icon {
+  width: 20px;
+  height: 20px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.legend-route {
+  width: 20px;
+  border-top: 3px solid #1d5fa8;
+  border-radius: 2px;
 }
 
 /* Popups */
