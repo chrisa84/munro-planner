@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-22",
+ "generated": "2026-07-24",
  "count": 282,
  "munros": [
   {
@@ -26,9 +26,24 @@
      "startGridref": "NN639820",
      "distance": "19km / 11.75 miles",
      "time": "5 - 6 hours",
-     "ascent": "824m (Profile)"
+     "ascent": "824m (Profile)",
+     "distanceKm": 19,
+     "ascentM": 824,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19,
+    "ascentM": 824,
+    "timeH": 5.5,
+    "route": "Càrn na Caim and A' Bhuidheanach Bheag from Drumochter"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1100,
+    "timeH": 8.2,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 623,
@@ -54,9 +69,24 @@
      "startGridref": "NN693998",
      "distance": "24.5km / 15.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "946m (Profile)"
+     "ascent": "946m (Profile)",
+     "distanceKm": 24.5,
+     "ascentM": 946,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 24.5,
+    "ascentM": 946,
+    "timeH": 9,
+    "route": "The Monadhliath Munros: a' Chailleach, Càrn Sgulain and Càrn Dearg from Glen Banchor"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1420,
+    "timeH": 9.8,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 1043,
@@ -82,9 +112,24 @@
      "startGridref": "NH163761",
      "distance": "16km / 10 miles",
      "time": "6 - 8 hours",
-     "ascent": "1127m (Profile)"
+     "ascent": "1127m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1127,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1127,
+    "timeH": 7,
+    "route": "Sgùrr Breac and a' Chailleach from near Braemore"
+   },
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1840,
+    "timeH": 8.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 862,
@@ -110,9 +155,24 @@
      "startGridref": "NH087120",
      "distance": "14.5km / 9 miles",
      "time": "6 - 8 hours",
-     "ascent": "1150m (Profile)"
+     "ascent": "1150m (Profile)",
+     "distanceKm": 14.5,
+     "ascentM": 1150,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.5,
+    "ascentM": 1150,
+    "timeH": 7,
+    "route": "a' Chralaig and Mullach Fraoch Choire from Cluanie"
+   },
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1850,
+    "timeH": 8.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 846,
@@ -138,9 +198,24 @@
      "startGridref": "NG961211",
      "distance": "21km / 13 miles",
      "time": "7 - 9 hours",
-     "ascent": "1196m (Profile)"
+     "ascent": "1196m (Profile)",
+     "distanceKm": 21,
+     "ascentM": 1196,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21,
+    "ascentM": 1196,
+    "timeH": 8,
+    "route": "a' Ghlas Bheinn and the Falls of Glomach from Morvich"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1500,
+    "timeH": 8.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 1014,
@@ -166,9 +241,24 @@
      "startGridref": "NH065809",
      "distance": "29km / 18 miles",
      "time": "12 - 18 hours",
-     "ascent": "2254m (Profile)"
+     "ascent": "2254m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 2254,
+     "timeH": 15
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 2254,
+    "timeH": 15,
+    "route": "The Fisherfield 6, from Shenavall"
+   },
+   "fallon": {
+    "distanceKm": 44,
+    "ascentM": 2905,
+    "timeH": 12.3,
+    "peaks": "5 Munros, 1 Corbett, plus option of more !"
+   }
   },
   {
    "id": 386,
@@ -194,9 +284,24 @@
      "startGridref": "NN627791",
      "distance": "11.5km / 7.25 miles",
      "time": "4 - 6 hours",
-     "ascent": "731m (Profile)"
+     "ascent": "731m (Profile)",
+     "distanceKm": 11.5,
+     "ascentM": 731,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11.5,
+    "ascentM": 731,
+    "timeH": 5,
+    "route": "A'Mharconaich and Geal Chàrn from Drumochter"
+   },
+   "fallon": {
+    "distanceKm": 24,
+    "ascentM": 1300,
+    "timeH": 8.2,
+    "peaks": "4 Munros, 1 Corbett"
+   }
   },
   {
    "id": 1254,
@@ -222,9 +327,24 @@
      "startGridref": "NG484296",
      "distance": "14km / 8.75 miles",
      "time": "6 - 7 hours",
-     "ascent": "1175m (Profile)"
+     "ascent": "1175m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 1175,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 1175,
+    "timeH": 6.5,
+    "route": "Am Basteir via the Bealach Basteir from Sligachan"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1550,
+    "timeH": 6.8,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 303,
@@ -250,9 +370,24 @@
      "startGridref": "NN168691",
      "distance": "16km / 10 miles",
      "time": "9 - 12 hours",
-     "ascent": "1676m (Profile)"
+     "ascent": "1676m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1676,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1676,
+    "timeH": 10.5,
+    "route": "The Ring of Steall"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1750,
+    "timeH": 6.8,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 1066,
@@ -278,9 +413,24 @@
      "startGridref": "NH278742",
      "distance": "14km / 8.75 miles",
      "time": "5 - 6 hours",
-     "ascent": "700m (Profile)"
+     "ascent": "700m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 700,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 700,
+    "timeH": 5.5,
+    "route": "Am Faochagach from the Dirrie Mòr"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 780,
+    "timeH": null,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 31,
@@ -306,9 +456,24 @@
      "startGridref": "NN369239",
      "distance": "14km / 8.75 miles",
      "time": "5.5  - 7 hours",
-     "ascent": "1045m (Profile)"
+     "ascent": "1045m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 1045,
+     "timeH": 6.25
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 1045,
+    "timeH": 6.25,
+    "route": "An Caisteal and Beinn a' Chròin from Glen Falloch"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 3400,
+    "timeH": 13,
+    "peaks": null
+   }
   },
   {
    "id": 1052,
@@ -334,9 +499,24 @@
      "startGridref": "NH278742",
      "distance": "24.75km / 15.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1435m (Profile)"
+     "ascent": "1435m (Profile)",
+     "distanceKm": 24.75,
+     "ascentM": 1435,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 24.75,
+    "ascentM": 1435,
+    "timeH": 10,
+    "route": "Sgùrr Mòr and the eastern Fannichs from the Dirrie Mòr"
+   },
+   "fallon": {
+    "distanceKm": 61,
+    "ascentM": 3050,
+    "timeH": 15.5,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 312,
@@ -362,9 +542,24 @@
      "startGridref": "NN168691",
      "distance": "16km / 10 miles",
      "time": "9 - 12 hours",
-     "ascent": "1676m (Profile)"
+     "ascent": "1676m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1676,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1676,
+    "timeH": 10.5,
+    "route": "The Ring of Steall"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1750,
+    "timeH": 6.8,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 927,
@@ -390,9 +585,24 @@
      "startGridref": "NH220315",
      "distance": "29.2km / 18.25 miles",
      "time": "11 - 14 hours",
-     "ascent": "1820m (Profile)"
+     "ascent": "1820m (Profile)",
+     "distanceKm": 29.2,
+     "ascentM": 1820,
+     "timeH": 12.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29.2,
+    "ascentM": 1820,
+    "timeH": 12.5,
+    "route": "The Loch Mullardoch Munros circuit"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1775,
+    "timeH": 6.6,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 407,
@@ -418,9 +628,24 @@
      "startGridref": "NO063897",
      "distance": "42km / 26 miles",
      "time": "11 - 12 hours",
-     "ascent": "1059m (Profile)"
+     "ascent": "1059m (Profile)",
+     "distanceKm": 42,
+     "ascentM": 1059,
+     "timeH": 11.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 42,
+    "ascentM": 1059,
+    "timeH": 11.5,
+    "route": "An Scarsoch and Càrn an Fhìdhleir from the Linn of Dee"
+   },
+   "fallon": {
+    "distanceKm": 38,
+    "ascentM": 970,
+    "timeH": 6.7,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 433,
@@ -446,9 +671,24 @@
      "startGridref": "NO139832",
      "distance": "15.75km / 9.75 miles",
      "time": "5 - 6 hours",
-     "ascent": "655m (Profile)"
+     "ascent": "655m (Profile)",
+     "distanceKm": 15.75,
+     "ascentM": 655,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.75,
+    "ascentM": 655,
+    "timeH": 5.5,
+    "route": "An Socach from Glen Clunie"
+   },
+   "fallon": {
+    "distanceKm": 40,
+    "ascentM": 2050,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 845,
@@ -474,9 +714,24 @@
      "startGridref": "NH079202",
      "distance": "20km / 12.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1484m (Profile)"
+     "ascent": "1484m (Profile)",
+     "distanceKm": 20,
+     "ascentM": 1484,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20,
+    "ascentM": 1484,
+    "timeH": 10,
+    "route": "Sgùrr nan Ceathreamhnan Munros from Alltbeithe"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1400,
+    "timeH": 6.6,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 931,
@@ -502,9 +757,24 @@
      "startGridref": "NH220315",
      "distance": "29.2km / 18.25 miles",
      "time": "11 - 14 hours",
-     "ascent": "1820m (Profile)"
+     "ascent": "1820m (Profile)",
+     "distanceKm": 29.2,
+     "ascentM": 1820,
+     "timeH": 12.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29.2,
+    "ascentM": 1820,
+    "timeH": 12.5,
+    "route": "The Loch Mullardoch Munros circuit"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 6.6,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 142,
@@ -530,9 +800,24 @@
      "startGridref": "NN677395",
      "distance": "16.5km / 10.25 miles",
      "time": "7 - 8 hours",
-     "ascent": "1230m (Profile)"
+     "ascent": "1230m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1230,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16.5,
+    "ascentM": 1230,
+    "timeH": 7.5,
+    "route": "Circuit of Coire nan Cat"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 2035,
+    "timeH": 8.4,
+    "peaks": "7 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 1003,
@@ -558,9 +843,24 @@
      "startGridref": "NH093879",
      "distance": "20km / 12.5 miles",
      "time": "9 - 10 hours",
-     "ascent": "1415m (Profile)"
+     "ascent": "1415m (Profile)",
+     "distanceKm": 20,
+     "ascentM": 1415,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20,
+    "ascentM": 1415,
+    "timeH": 9.5,
+    "route": "An Teallach traverse, Dundonnell"
+   },
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1270,
+    "timeH": 5.3,
+    "peaks": "northward over easy ground to Glas Mheall Mòr; eastward over rocky ground to Glas Mheall Liath; and southward continuing the classic traverse to its fellow Munro, Sgùrr Fiona. The trig point on Bidein a’ Ghlas Thuill's top offers breathtaking, panoramic views and a remarkable perspective of the An Teallach rugged ridgeline."
+   }
   },
   {
    "id": 1004,
@@ -586,9 +886,24 @@
      "startGridref": "NH093879",
      "distance": "20km / 12.5 miles",
      "time": "9 - 10 hours",
-     "ascent": "1415m (Profile)"
+     "ascent": "1415m (Profile)",
+     "distanceKm": 20,
+     "ascentM": 1415,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20,
+    "ascentM": 1415,
+    "timeH": 9.5,
+    "route": "An Teallach traverse, Dundonnell"
+   },
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1270,
+    "timeH": 5.3,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 685,
@@ -614,9 +929,24 @@
      "startGridref": "NH079117",
      "distance": "26.75km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1818m (Profile)"
+     "ascent": "1818m (Profile)",
+     "distanceKm": 26.75,
+     "ascentM": 1818,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.75,
+    "ascentM": 1818,
+    "timeH": 10,
+    "route": "South Glen Shiel Ridge walk"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1975,
+    "timeH": 8.8,
+    "peaks": "7 Munros, option of 2 more Munros and 1 Corbett"
+   }
   },
   {
    "id": 279,
@@ -642,7 +972,10 @@
      "startGridref": "NN168691",
      "distance": "16.5km / 10.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "1430m (Profile)"
+     "ascent": "1430m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1430,
+     "timeH": 9
     },
     {
      "name": "The Aonachs via the gondola",
@@ -653,9 +986,24 @@
      "startGridref": "NN187755",
      "distance": "9.5km / 6 miles",
      "time": "4.5 - 5.5 hours",
-     "ascent": "860m (Profile)"
+     "ascent": "860m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 860,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 860,
+    "timeH": 5,
+    "route": "The Aonachs via the gondola"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1450,
+    "timeH": 8.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 347,
@@ -681,9 +1029,24 @@
      "startGridref": "NN522761",
      "distance": "18.5km / 11.5 miles",
      "time": "8 - 9 hours",
-     "ascent": "1110m (Profile)"
+     "ascent": "1110m (Profile)",
+     "distanceKm": 18.5,
+     "ascentM": 1110,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18.5,
+    "ascentM": 1110,
+    "timeH": 8.5,
+    "route": "Aonach Beag, Geal Chàrn, Beinn Èibhinn and Càrn Dearg from Culra"
+   },
+   "fallon": {
+    "distanceKm": 56,
+    "ascentM": 2400,
+    "timeH": 11.1,
+    "peaks": "6 Munros"
+   }
   },
   {
    "id": 179,
@@ -709,7 +1072,10 @@
      "startGridref": "NN174567",
      "distance": "9.5km / 6 miles",
      "time": "8 - 9 hours",
-     "ascent": "1100m (Profile)"
+     "ascent": "1100m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 1100,
+     "timeH": 8.5
     },
     {
      "name": "Meall Dearg from the north",
@@ -720,9 +1086,24 @@
      "startGridref": "NN142607",
      "distance": "8.5km / 5.25 miles",
      "time": "5 - 6 hours",
-     "ascent": "905m (Profile)"
+     "ascent": "905m (Profile)",
+     "distanceKm": 8.5,
+     "ascentM": 905,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 8.5,
+    "ascentM": 905,
+    "timeH": 5.5,
+    "route": "Meall Dearg from the north"
+   },
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 1200,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 178,
@@ -748,9 +1129,24 @@
      "startGridref": "NN174567",
      "distance": "9.5km / 6 miles",
      "time": "8 - 9 hours",
-     "ascent": "1100m (Profile)"
+     "ascent": "1100m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 1100,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 1100,
+    "timeH": 8.5,
+    "route": "The Aonach Eagach ridge from Glencoe"
+   },
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 1200,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 828,
@@ -776,9 +1172,24 @@
      "startGridref": "NH009135",
      "distance": "10km / 6.25 miles",
      "time": "6 - 8 hours",
-     "ascent": "1274m (Profile)"
+     "ascent": "1274m (Profile)",
+     "distanceKm": 10,
+     "ascentM": 1274,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10,
+    "ascentM": 1274,
+    "timeH": 7,
+    "route": "Sgùrr a Bhealaich Dheirg and the Brothers of Kintail"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1650,
+    "timeH": 6.8,
+    "peaks": "4 Munros, 1 Corbett"
+   }
   },
   {
    "id": 281,
@@ -804,7 +1215,10 @@
      "startGridref": "NN168691",
      "distance": "16.5km / 10.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "1430m (Profile)"
+     "ascent": "1430m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1430,
+     "timeH": 9
     },
     {
      "name": "The Aonachs via the gondola",
@@ -815,9 +1229,24 @@
      "startGridref": "NN187755",
      "distance": "9.5km / 6 miles",
      "time": "4.5 - 5.5 hours",
-     "ascent": "860m (Profile)"
+     "ascent": "860m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 860,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 860,
+    "timeH": 5,
+    "route": "The Aonachs via the gondola"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1450,
+    "timeH": 8.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 195,
@@ -843,9 +1272,24 @@
      "startGridref": "NN084584",
      "distance": "15.5km / 9.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1387m (Profile)"
+     "ascent": "1387m (Profile)",
+     "distanceKm": 15.5,
+     "ascentM": 1387,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.5,
+    "ascentM": 1387,
+    "timeH": 8,
+    "route": "Beinn a'Bheithir ridge from Ballachulish"
+   },
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1300,
+    "timeH": 5.2,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 198,
@@ -871,9 +1315,24 @@
      "startGridref": "NN084584",
      "distance": "15.5km / 9.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1387m (Profile)"
+     "ascent": "1387m (Profile)",
+     "distanceKm": 15.5,
+     "ascentM": 1387,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.5,
+    "ascentM": 1387,
+    "timeH": 8,
+    "route": "Beinn a'Bheithir ridge from Ballachulish"
+   },
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1300,
+    "timeH": 5.2,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 529,
@@ -899,9 +1358,24 @@
      "startGridref": "NO116909",
      "distance": "28km / 17.5 miles",
      "time": "7 - 9 hours",
-     "ascent": "959m (Profile)"
+     "ascent": "959m (Profile)",
+     "distanceKm": 28,
+     "ascentM": 959,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 28,
+    "ascentM": 959,
+    "timeH": 8,
+    "route": "Beinn a'Bhuird via Glen Quoich"
+   },
+   "fallon": {
+    "distanceKm": 50,
+    "ascentM": 1740,
+    "timeH": 12.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 559,
@@ -927,9 +1401,24 @@
      "startGridref": "NO062898",
      "distance": "29km / 18 miles",
      "time": "8 - 10 hours",
-     "ascent": "878m (Profile)"
+     "ascent": "878m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 878,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 878,
+    "timeH": 9,
+    "route": "Beinn a' Chaorainn and Beinn Bhreac from Linn of Dee"
+   },
+   "fallon": {
+    "distanceKm": 50,
+    "ascentM": 1740,
+    "timeH": 12.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 663,
@@ -955,9 +1444,24 @@
      "startGridref": "NN377814",
      "distance": "16km / 10 miles",
      "time": "6 - 8 hours",
-     "ascent": "1172m (Profile)"
+     "ascent": "1172m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1172,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1172,
+    "timeH": 7,
+    "route": "Beinn a' Chaorainn & Beinn Teallach from Glen Spean"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1850,
+    "timeH": 9.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 349,
@@ -983,9 +1487,24 @@
      "startGridref": "NN432830",
      "distance": "26km / 16.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "1280m (Profile)"
+     "ascent": "1280m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 1280,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 1280,
+    "timeH": 9,
+    "route": "Beinn a' Chlachair, Geal Chàrn & Creag Pitridh from Loch Laggan"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1350,
+    "timeH": null,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 75,
@@ -1011,9 +1530,24 @@
      "startGridref": "NN239278",
      "distance": "10km / 6.25 miles",
      "time": "5 - 7 hours",
-     "ascent": "1078m (Profile)"
+     "ascent": "1078m (Profile)",
+     "distanceKm": 10,
+     "ascentM": 1078,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10,
+    "ascentM": 1078,
+    "timeH": 6,
+    "route": "Ben Lui and Beinn a' Chlèibh from Glen Lochay"
+   },
+   "fallon": {
+    "distanceKm": 18.5,
+    "ascentM": 1700,
+    "timeH": 7.5,
+    "peaks": null
+   }
   },
   {
    "id": 251,
@@ -1039,9 +1573,24 @@
      "startGridref": "NN136287",
      "distance": "13.5km / 8.5 miles",
      "time": "5.5 - 6.5 hours",
-     "ascent": "1221m (Profile)"
+     "ascent": "1221m (Profile)",
+     "distanceKm": 13.5,
+     "ascentM": 1221,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.5,
+    "ascentM": 1221,
+    "timeH": 6,
+    "route": "Beinn Eunaich and Beinn a' Chochuill from near Dalmally"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1250,
+    "timeH": 5.6,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 104,
@@ -1067,9 +1616,24 @@
      "startGridref": "NN313437",
      "distance": "21.5km / 13.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1266m (Profile)"
+     "ascent": "1266m (Profile)",
+     "distanceKm": 21.5,
+     "ascentM": 1266,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.5,
+    "ascentM": 1266,
+    "timeH": 8,
+    "route": "Beinn Achaladair and Beinn a' Chreachain from Achaladair Farm "
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1250,
+    "timeH": 5.8,
+    "peaks": "2 Munros, option of another Munro"
+   }
   },
   {
    "id": 2925,
@@ -1095,9 +1659,24 @@
      "startGridref": "NN369239",
      "distance": "14km / 8.75 miles",
      "time": "5.5  - 7 hours",
-     "ascent": "1045m (Profile)"
+     "ascent": "1045m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 1045,
+     "timeH": 6.25
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 1045,
+    "timeH": 6.25,
+    "route": "An Caisteal and Beinn a' Chròin from Glen Falloch"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 3400,
+    "timeH": 13,
+    "peaks": null
+   }
   },
   {
    "id": 422,
@@ -1123,9 +1702,24 @@
      "startGridref": "NN905671",
      "distance": "22km / 13.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1239m (Profile)"
+     "ascent": "1239m (Profile)",
+     "distanceKm": 22,
+     "ascentM": 1239,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 22,
+    "ascentM": 1239,
+    "timeH": 9,
+    "route": "Beinn a' Ghlò from Loch Moraig"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1350,
+    "timeH": 7.3,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 429,
@@ -1151,9 +1745,24 @@
      "startGridref": "NN905671",
      "distance": "22km / 13.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1239m (Profile)"
+     "ascent": "1239m (Profile)",
+     "distanceKm": 22,
+     "ascentM": 1239,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 22,
+    "ascentM": 1239,
+    "timeH": 9,
+    "route": "Beinn a' Ghlò from Loch Moraig"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1350,
+    "timeH": 7.3,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 421,
@@ -1179,9 +1788,24 @@
      "startGridref": "NN905671",
      "distance": "22km / 13.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1239m (Profile)"
+     "ascent": "1239m (Profile)",
+     "distanceKm": 22,
+     "ascentM": 1239,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 22,
+    "ascentM": 1239,
+    "timeH": 9,
+    "route": "Beinn a' Ghlò from Loch Moraig"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1350,
+    "timeH": 7.3,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 108,
@@ -1207,9 +1831,24 @@
      "startGridref": "NN313437",
      "distance": "21.5km / 13.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1266m (Profile)"
+     "ascent": "1266m (Profile)",
+     "distanceKm": 21.5,
+     "ascentM": 1266,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.5,
+    "ascentM": 1266,
+    "timeH": 8,
+    "route": "Beinn Achaladair and Beinn a' Chreachain from Achaladair Farm "
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 2560,
+    "timeH": 11.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 957,
@@ -1235,9 +1874,24 @@
      "startGridref": "NG868576",
      "distance": "10.5km / 6.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "1190m (Profile)"
+     "ascent": "1190m (Profile)",
+     "distanceKm": 10.5,
+     "ascentM": 1190,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10.5,
+    "ascentM": 1190,
+    "timeH": 7.5,
+    "route": "Beinn Alligin ridge traverse"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1250,
+    "timeH": 4.6,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 968,
@@ -1263,9 +1917,24 @@
      "startGridref": "NG868576",
      "distance": "10.5km / 6.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "1190m (Profile)"
+     "ascent": "1190m (Profile)",
+     "distanceKm": 10.5,
+     "ascentM": 1190,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10.5,
+    "ascentM": 1190,
+    "timeH": 7.5,
+    "route": "Beinn Alligin ridge traverse"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1250,
+    "timeH": 4.6,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 112,
@@ -1291,9 +1960,24 @@
      "startGridref": "NN297396",
      "distance": "14.3km / 9 miles",
      "time": "6 - 8 hours",
-     "ascent": "1228m (Profile)"
+     "ascent": "1228m (Profile)",
+     "distanceKm": 14.3,
+     "ascentM": 1228,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.3,
+    "ascentM": 1228,
+    "timeH": 7,
+    "route": "Beinn Dòrain and Beinn an Dòthaidh from Bridge of Orchy"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 2560,
+    "timeH": 11.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 354,
@@ -1319,9 +2003,24 @@
      "startGridref": "NN522761",
      "distance": "17km / 10.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "1021m (Profile)"
+     "ascent": "1021m (Profile)",
+     "distanceKm": 17,
+     "ascentM": 1021,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17,
+    "ascentM": 1021,
+    "timeH": 7.5,
+    "route": "Ben Alder via the Long Leachas, with Beinn Bheòil"
+   },
+   "fallon": {
+    "distanceKm": 56,
+    "ascentM": 2400,
+    "timeH": 11.1,
+    "peaks": "6 Munros"
+   }
   },
   {
    "id": 587,
@@ -1347,9 +2046,24 @@
      "startGridref": "NO062898",
      "distance": "29km / 18 miles",
      "time": "8 - 10 hours",
-     "ascent": "878m (Profile)"
+     "ascent": "878m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 878,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 878,
+    "timeH": 9,
+    "route": "Beinn a' Chaorainn and Beinn Bhreac from Linn of Dee"
+   },
+   "fallon": {
+    "distanceKm": 50,
+    "ascentM": 1740,
+    "timeH": 12.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 538,
@@ -1375,9 +2089,24 @@
      "startGridref": "NN850985",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1505m (Profile)"
+     "ascent": "1505m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1505,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 1505,
+    "timeH": 10,
+    "route": "Beinn Bhrotain and Monadh Mòr from Glen Feshie"
+   },
+   "fallon": {
+    "distanceKm": 37,
+    "ascentM": 1425,
+    "timeH": null,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 70,
@@ -1403,9 +2132,24 @@
      "startGridref": "NN193127",
      "distance": "21.5km / 13.25 miles",
      "time": "7 - 8 hours",
-     "ascent": "955m (Profile)"
+     "ascent": "955m (Profile)",
+     "distanceKm": 21.5,
+     "ascentM": 955,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.5,
+    "ascentM": 955,
+    "timeH": 7.5,
+    "route": "Beinn Bhuidhe via Glen Fyne"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1025,
+    "timeH": 6,
+    "peaks": null
+   }
   },
   {
    "id": 38,
@@ -1431,9 +2175,24 @@
      "startGridref": "NN318184",
      "distance": "13km / 8 miles",
      "time": "5  - 6.5 hours",
-     "ascent": "948m (Profile)"
+     "ascent": "948m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 948,
+     "timeH": 5.75
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 948,
+    "timeH": 5.75,
+    "route": "Beinn Chabhair from Inverarnan"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 3400,
+    "timeH": 13,
+    "peaks": null
+   }
   },
   {
    "id": 152,
@@ -1459,9 +2218,24 @@
      "startGridref": "NN355281",
      "distance": "11.5km / 7.25 miles",
      "time": "5 - 7 hours",
-     "ascent": "910m (Profile)"
+     "ascent": "910m (Profile)",
+     "distanceKm": 11.5,
+     "ascentM": 910,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11.5,
+    "ascentM": 910,
+    "timeH": 6,
+    "route": "Ben Challum from Kirkton Farm"
+   },
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 975,
+    "timeH": 4.5,
+    "peaks": "1 Munro, option of 2 Corbetts"
+   }
   },
   {
    "id": 406,
@@ -1487,9 +2261,24 @@
      "startGridref": "NN874662",
      "distance": "29km / 18 miles",
      "time": "7 - 9 hours",
-     "ascent": "990m (Profile)"
+     "ascent": "990m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 990,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 990,
+    "timeH": 8,
+    "route": "Beinn Dearg from the Old Bridge of Tilt, Blair Atholl"
+   },
+   "fallon": {
+    "distanceKm": 31,
+    "ascentM": 1170,
+    "timeH": 5.5,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 1062,
@@ -1515,9 +2304,24 @@
      "startGridref": "NH181852",
      "distance": "27km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1569m (Profile)"
+     "ascent": "1569m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1569,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1569,
+    "timeH": 10,
+    "route": "Beinn Dearg Munros circuit from Inverlael"
+   },
+   "fallon": {
+    "distanceKm": 35,
+    "ascentM": 2600,
+    "timeH": null,
+    "peaks": "6 Munros, option of 1 Graham"
+   }
   },
   {
    "id": 105,
@@ -1543,9 +2347,24 @@
      "startGridref": "NN297396",
      "distance": "14.3km / 9 miles",
      "time": "6 - 8 hours",
-     "ascent": "1228m (Profile)"
+     "ascent": "1228m (Profile)",
+     "distanceKm": 14.3,
+     "ascentM": 1228,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.3,
+    "ascentM": 1228,
+    "timeH": 7,
+    "route": "Beinn Dòrain and Beinn an Dòthaidh from Bridge of Orchy"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 2560,
+    "timeH": 11.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 69,
@@ -1571,9 +2390,24 @@
      "startGridref": "NN343291",
      "distance": "17km / 10.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "1230m (Profile)"
+     "ascent": "1230m (Profile)",
+     "distanceKm": 17,
+     "ascentM": 1230,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17,
+    "ascentM": 1230,
+    "timeH": 7.5,
+    "route": "Ben Oss and Beinn Dubhchraig from Dalrigh"
+   },
+   "fallon": {
+    "distanceKm": 18.5,
+    "ascentM": 1700,
+    "timeH": 7.5,
+    "peaks": null
+   }
   },
   {
    "id": 348,
@@ -1599,9 +2433,24 @@
      "startGridref": "NN522761",
      "distance": "18.5km / 11.5 miles",
      "time": "8 - 9 hours",
-     "ascent": "1110m (Profile)"
+     "ascent": "1110m (Profile)",
+     "distanceKm": 18.5,
+     "ascentM": 1110,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18.5,
+    "ascentM": 1110,
+    "timeH": 8.5,
+    "route": "Aonach Beag, Geal Chàrn, Beinn Èibhinn and Càrn Dearg from Culra"
+   },
+   "fallon": {
+    "distanceKm": 56,
+    "ascentM": 2400,
+    "timeH": 11.1,
+    "peaks": "6 Munros"
+   }
   },
   {
    "id": 955,
@@ -1627,9 +2476,24 @@
      "startGridref": "NG958569",
      "distance": "18km / 11.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1116m (Profile)"
+     "ascent": "1116m (Profile)",
+     "distanceKm": 18,
+     "ascentM": 1116,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18,
+    "ascentM": 1116,
+    "timeH": 8,
+    "route": "Beinn Eighe via Coire Mhic Fhearchair"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1250,
+    "timeH": 6.3,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 956,
@@ -1655,9 +2519,24 @@
      "startGridref": "NG958569",
      "distance": "18km / 11.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1116m (Profile)"
+     "ascent": "1116m (Profile)",
+     "distanceKm": 18,
+     "ascentM": 1116,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18,
+    "ascentM": 1116,
+    "timeH": 8,
+    "route": "Beinn Eighe via Coire Mhic Fhearchair"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1250,
+    "timeH": 6.3,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 249,
@@ -1683,9 +2562,24 @@
      "startGridref": "NN136287",
      "distance": "13.5km / 8.5 miles",
      "time": "5.5 - 6.5 hours",
-     "ascent": "1221m (Profile)"
+     "ascent": "1221m (Profile)",
+     "distanceKm": 13.5,
+     "ascentM": 1221,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.5,
+    "ascentM": 1221,
+    "timeH": 6,
+    "route": "Beinn Eunaich and Beinn a' Chochuill from near Dalmally"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1250,
+    "timeH": 5.6,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 823,
@@ -1711,9 +2605,24 @@
      "startGridref": "NG961211",
      "distance": "16.75km / 10.5 miles",
      "time": "6 - 7 hours",
-     "ascent": "1234m (Profile)"
+     "ascent": "1234m (Profile)",
+     "distanceKm": 16.75,
+     "ascentM": 1234,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16.75,
+    "ascentM": 1234,
+    "timeH": 6.5,
+    "route": "Beinn Fhada from Morvich"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1500,
+    "timeH": 8.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 201,
@@ -1739,9 +2648,24 @@
      "startGridref": "NN036488",
      "distance": "14.25km / 8.75 miles",
      "time": "5 - 6 hours",
-     "ascent": "980m (Profile)"
+     "ascent": "980m (Profile)",
+     "distanceKm": 14.25,
+     "ascentM": 980,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.25,
+    "ascentM": 980,
+    "timeH": 5.5,
+    "route": "Beinn Fhionnlaidh from Elleric, Glen Creran"
+   },
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 1550,
+    "timeH": 11.7,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 826,
@@ -1767,9 +2691,24 @@
      "startGridref": "NH216242",
      "distance": "28km / 17.5 miles",
      "time": "10 - 13 hours",
-     "ascent": "1727m (Profile)"
+     "ascent": "1727m (Profile)",
+     "distanceKm": 28,
+     "ascentM": 1727,
+     "timeH": 11.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 28,
+    "ascentM": 1727,
+    "timeH": 11.5,
+    "route": "Càrn Eige, Mam Sodhail and Beinn Fhionnlaidh from Glen Affric"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 11.2,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 144,
@@ -1795,9 +2734,24 @@
      "startGridref": "NN608377",
      "distance": "11km / 6.75 miles",
      "time": "4 - 6 hours",
-     "ascent": "942m (Profile)"
+     "ascent": "942m (Profile)",
+     "distanceKm": 11,
+     "ascentM": 942,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11,
+    "ascentM": 942,
+    "timeH": 5,
+    "route": "Ben Lawers and Beinn Ghlas"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 2035,
+    "timeH": 8.4,
+    "peaks": "7 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 68,
@@ -1823,9 +2777,24 @@
      "startGridref": "NN294048",
      "distance": "13.5km / 8.5 miles",
      "time": "6 - 7 hours",
-     "ascent": "1325m (Profile)"
+     "ascent": "1325m (Profile)",
+     "distanceKm": 13.5,
+     "ascentM": 1325,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.5,
+    "ascentM": 1325,
+    "timeH": 6.5,
+    "route": "Beinn Ìme and Beinn Narnain from Arrochar"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2440,
+    "timeH": 10,
+    "peaks": null
+   }
   },
   {
    "id": 425,
@@ -1851,9 +2820,24 @@
      "startGridref": "NO089892",
      "distance": "32km / 20 miles",
      "time": "9 - 10 hours",
-     "ascent": "983m (Profile)"
+     "ascent": "983m (Profile)",
+     "distanceKm": 32,
+     "ascentM": 983,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 32,
+    "ascentM": 983,
+    "timeH": 9.5,
+    "route": "Beinn Iutharn Mhòr and Càrn Bhac from Inverey"
+   },
+   "fallon": {
+    "distanceKm": 40,
+    "ascentM": 2050,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 983,
@@ -1879,9 +2863,24 @@
      "startGridref": "NH004483",
      "distance": "15.25km / 9.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "1054m (Profile)"
+     "ascent": "1054m (Profile)",
+     "distanceKm": 15.25,
+     "ascentM": 1054,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.25,
+    "ascentM": 1054,
+    "timeH": 7.5,
+    "route": "Beinn Liath Mhòr from Achnashellach"
+   },
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 1750,
+    "timeH": 8.2,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 1046,
@@ -1907,9 +2906,24 @@
      "startGridref": "NH278742",
      "distance": "24.75km / 15.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1435m (Profile)"
+     "ascent": "1435m (Profile)",
+     "distanceKm": 24.75,
+     "ascentM": 1435,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 24.75,
+    "ascentM": 1435,
+    "timeH": 10,
+    "route": "Sgùrr Mòr and the eastern Fannichs from the Dirrie Mòr"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1150,
+    "timeH": 15.5,
+    "peaks": "4 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 122,
@@ -1935,9 +2949,24 @@
      "startGridref": "NN328331",
      "distance": "23.5km / 14.5 miles",
      "time": "6.5 - 7.5 hours",
-     "ascent": "920m (Profile)"
+     "ascent": "920m (Profile)",
+     "distanceKm": 23.5,
+     "ascentM": 920,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 23.5,
+    "ascentM": 920,
+    "timeH": 7,
+    "route": "Beinn Mhanach via the Auch Gleann"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 2560,
+    "timeH": 11.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 531,
@@ -1963,7 +2992,10 @@
      "startGridref": "NH989059",
      "distance": "19km / 11.75 miles",
      "time": "8 - 9 hours",
-     "ascent": "1560m (Profile)"
+     "ascent": "1560m (Profile)",
+     "distanceKm": 19,
+     "ascentM": 1560,
+     "timeH": 8.5
     },
     {
      "name": "Beinn Meadhoin and Derry Cairngorm from the Linn of Dee",
@@ -1974,9 +3006,24 @@
      "startGridref": "NO062898",
      "distance": "31km / 19.25 miles",
      "time": "9 - 10 hours",
-     "ascent": "1200m (Profile)"
+     "ascent": "1200m (Profile)",
+     "distanceKm": 31,
+     "ascentM": 1200,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19,
+    "ascentM": 1560,
+    "timeH": 8.5,
+    "route": "Beinn Mheadhoin from Coire Cas via the Shelter Stone"
+   },
+   "fallon": {
+    "distanceKm": 27,
+    "ascentM": 1730,
+    "timeH": 9.7,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 364,
@@ -2002,9 +3049,24 @@
      "startGridref": "NN356664",
      "distance": "10km / 6.25 miles",
      "time": "3 - 5 hours",
-     "ascent": "562m (Profile)"
+     "ascent": "562m (Profile)",
+     "distanceKm": 10,
+     "ascentM": 562,
+     "timeH": 4
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10,
+    "ascentM": 562,
+    "timeH": 4,
+    "route": "Beinn na Lap from Corrour Station"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1550,
+    "timeH": null,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 254,
@@ -2030,9 +3092,24 @@
      "startGridref": "NN136468",
      "distance": "15.75km / 9.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1320m (Profile)"
+     "ascent": "1320m (Profile)",
+     "distanceKm": 15.75,
+     "ascentM": 1320,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.75,
+    "ascentM": 1320,
+    "timeH": 8,
+    "route": "Beinn nan Aighenan from Glen Etive"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2560,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 74,
@@ -2058,9 +3135,24 @@
      "startGridref": "NN294048",
      "distance": "13.5km / 8.5 miles",
      "time": "6 - 7 hours",
-     "ascent": "1325m (Profile)"
+     "ascent": "1325m (Profile)",
+     "distanceKm": 13.5,
+     "ascentM": 1325,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.5,
+    "ascentM": 1325,
+    "timeH": 6.5,
+    "route": "Beinn Ìme and Beinn Narnain from Arrochar"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2440,
+    "timeH": 10,
+    "peaks": null
+   }
   },
   {
    "id": 695,
@@ -2086,9 +3178,24 @@
      "startGridref": "NG843105",
      "distance": "10km / 6.25 miles",
      "time": "4 - 6 hours",
-     "ascent": "1095m (Profile)"
+     "ascent": "1095m (Profile)",
+     "distanceKm": 10,
+     "ascentM": 1095,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10,
+    "ascentM": 1095,
+    "timeH": 5,
+    "route": "Beinn Sgritheall from Arnisdale"
+   },
+   "fallon": {
+    "distanceKm": 7,
+    "ascentM": 1100,
+    "timeH": 3.5,
+    "peaks": "1 Munro, option of 2 Corbetts and 1 Fiona"
+   }
   },
   {
    "id": 207,
@@ -2114,9 +3221,24 @@
      "startGridref": "NN008451",
      "distance": "13km / 8 miles",
      "time": "6 - 8 hours",
-     "ascent": "1240m (Profile)"
+     "ascent": "1240m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 1240,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 1240,
+    "timeH": 7,
+    "route": "Beinn Sgulaird from Loch Creran"
+   },
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 1280,
+    "timeH": 5.3,
+    "peaks": "1 Munro, option of 1 Corbett"
+   }
   },
   {
    "id": 145,
@@ -2142,9 +3264,24 @@
      "startGridref": "NN476368",
      "distance": "25.75km / 16 miles",
      "time": "9 - 11 hours",
-     "ascent": "1470m (Profile)"
+     "ascent": "1470m (Profile)",
+     "distanceKm": 25.75,
+     "ascentM": 1470,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 25.75,
+    "ascentM": 1470,
+    "timeH": 10,
+    "route": "Beinn Heasgarnich and Creag Mhòr from Glen Lochay"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1450,
+    "timeH": 6.3,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 1019,
@@ -2170,7 +3307,10 @@
      "startGridref": "NH065809",
      "distance": "29km / 18 miles",
      "time": "12 - 18 hours",
-     "ascent": "2254m (Profile)"
+     "ascent": "2254m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 2254,
+     "timeH": 15
     },
     {
      "name": "Beinn Tarsuinn and Mullach Coire Mhic Fhearchair from Incheril via Lochan Fada",
@@ -2181,9 +3321,24 @@
      "startGridref": "NH037623",
      "distance": "32km / 20 miles",
      "time": "12 - 13 hours",
-     "ascent": "1370m (Profile)"
+     "ascent": "1370m (Profile)",
+     "distanceKm": 32,
+     "ascentM": 1370,
+     "timeH": 12.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 2254,
+    "timeH": 15,
+    "route": "The Fisherfield 6, from Shenavall"
+   },
+   "fallon": {
+    "distanceKm": 44,
+    "ascentM": 2905,
+    "timeH": 12.3,
+    "peaks": "5 Munros, 1 Corbett, plus option of more !"
+   }
   },
   {
    "id": 675,
@@ -2209,9 +3364,24 @@
      "startGridref": "NN377814",
      "distance": "16km / 10 miles",
      "time": "6 - 8 hours",
-     "ascent": "1172m (Profile)"
+     "ascent": "1172m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1172,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1172,
+    "timeH": 7,
+    "route": "Beinn a' Chaorainn & Beinn Teallach from Glen Spean"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1850,
+    "timeH": 9.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 35,
@@ -2237,9 +3407,24 @@
      "startGridref": "NN445185",
      "distance": "12.5km / 7.75 miles",
      "time": "6 - 7 hours",
-     "ascent": "1019m (Profile)"
+     "ascent": "1019m (Profile)",
+     "distanceKm": 12.5,
+     "ascentM": 1019,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12.5,
+    "ascentM": 1019,
+    "timeH": 6.5,
+    "route": "Cruach Àrdrain and Beinn Tulaichean from Inverlochlarig"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 3400,
+    "timeH": 13,
+    "peaks": null
+   }
   },
   {
    "id": 383,
@@ -2265,9 +3450,24 @@
      "startGridref": "NN632755",
      "distance": "15.75km / 9.75 miles",
      "time": "6 - 7 hours",
-     "ascent": "783m (Profile)"
+     "ascent": "783m (Profile)",
+     "distanceKm": 15.75,
+     "ascentM": 783,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.75,
+    "ascentM": 783,
+    "timeH": 6.5,
+    "route": "Beinn Udlamain and Sgàirneach Mhòr from Drumochter Pass"
+   },
+   "fallon": {
+    "distanceKm": 24,
+    "ascentM": 1300,
+    "timeH": 8.2,
+    "peaks": "4 Munros, 1 Corbett"
+   }
   },
   {
    "id": 345,
@@ -2293,9 +3493,24 @@
      "startGridref": "NN522761",
      "distance": "17km / 10.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "1021m (Profile)"
+     "ascent": "1021m (Profile)",
+     "distanceKm": 17,
+     "ascentM": 1021,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17,
+    "ascentM": 1021,
+    "timeH": 7.5,
+    "route": "Ben Alder via the Long Leachas, with Beinn Bheòil"
+   },
+   "fallon": {
+    "distanceKm": 56,
+    "ascentM": 2400,
+    "timeH": 11.1,
+    "peaks": "6 Munros"
+   }
   },
   {
    "id": 536,
@@ -2321,7 +3536,10 @@
      "startGridref": "NO188912",
      "distance": "33.5km / 20.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1000m (Profile)"
+     "ascent": "1000m (Profile)",
+     "distanceKm": 33.5,
+     "ascentM": 1000,
+     "timeH": 9
     },
     {
      "name": "Ben Avon via Strath Avon (near Tomintoul)",
@@ -2332,9 +3550,24 @@
      "startGridref": "NJ164176",
      "distance": "40.5km / 25.25 miles",
      "time": "10 - 11 hours",
-     "ascent": "1250m (Profile)"
+     "ascent": "1250m (Profile)",
+     "distanceKm": 40.5,
+     "ascentM": 1250,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 33.5,
+    "ascentM": 1000,
+    "timeH": 9,
+    "route": "Ben Avon via Gleann an-Slugain (Deeside)"
+   },
+   "fallon": {
+    "distanceKm": 50,
+    "ascentM": 1740,
+    "timeH": 12.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 1,
@@ -2360,9 +3593,24 @@
      "startGridref": "NN743273",
      "distance": "12.5km / 7.75 miles",
      "time": "4 - 5 hours",
-     "ascent": "712m (Profile)"
+     "ascent": "712m (Profile)",
+     "distanceKm": 12.5,
+     "ascentM": 712,
+     "timeH": 4.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12.5,
+    "ascentM": 712,
+    "timeH": 4.5,
+    "route": "Ben Chonzie from Glen Lednock"
+   },
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 1020,
+    "timeH": null,
+    "peaks": "1 Munro, 1 Corbett"
+   }
   },
   {
    "id": 232,
@@ -2388,9 +3636,24 @@
      "startGridref": "NN080267",
      "distance": "13.75km / 8.5 miles",
      "time": "8 - 9 hours",
-     "ascent": "1376m (Profile)"
+     "ascent": "1376m (Profile)",
+     "distanceKm": 13.75,
+     "ascentM": 1376,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.75,
+    "ascentM": 1376,
+    "timeH": 8.5,
+    "route": "Ben Cruachan and Stob Dàimh circuit"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1430,
+    "timeH": 5.8,
+    "peaks": "2 Munros, option of 5 Munro Tops and 1 Corbett"
+   }
   },
   {
    "id": 1123,
@@ -2416,9 +3679,24 @@
      "startGridref": "NC462476",
      "distance": "7.5km / 4.75 miles",
      "time": "4 - 6 hours",
-     "ascent": "946m (Profile)"
+     "ascent": "946m (Profile)",
+     "distanceKm": 7.5,
+     "ascentM": 946,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 7.5,
+    "ascentM": 946,
+    "timeH": 5,
+    "route": "Ben Hope from Strathmore"
+   },
+   "fallon": {
+    "distanceKm": 7,
+    "ascentM": 915,
+    "timeH": 3.2,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 1165,
@@ -2444,9 +3722,24 @@
      "startGridref": "NC532271",
      "distance": "14.25km / 8.75 miles",
      "time": "5 - 7 hours",
-     "ascent": "930m (Profile)"
+     "ascent": "930m (Profile)",
+     "distanceKm": 14.25,
+     "ascentM": 930,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.25,
+    "ascentM": 930,
+    "timeH": 6,
+    "route": "Ben Klibreck from Strath Vagastie"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 825,
+    "timeH": null,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 141,
@@ -2472,9 +3765,24 @@
      "startGridref": "NN608377",
      "distance": "11km / 6.75 miles",
      "time": "4 - 6 hours",
-     "ascent": "942m (Profile)"
+     "ascent": "942m (Profile)",
+     "distanceKm": 11,
+     "ascentM": 942,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11,
+    "ascentM": 942,
+    "timeH": 5,
+    "route": "Ben Lawers and Beinn Ghlas"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 2035,
+    "timeH": 8.4,
+    "peaks": "7 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 32,
@@ -2500,9 +3808,24 @@
      "startGridref": "NS359986",
      "distance": "12km / 7.5 miles",
      "time": "4.5 - 5.5 hours",
-     "ascent": "990m (Profile)"
+     "ascent": "990m (Profile)",
+     "distanceKm": 12,
+     "ascentM": 990,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12,
+    "ascentM": 990,
+    "timeH": 5,
+    "route": "Ben Lomond from Rowardennan"
+   },
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 975,
+    "timeH": 4.3,
+    "peaks": null
+   }
   },
   {
    "id": 65,
@@ -2528,9 +3851,24 @@
      "startGridref": "NN239278",
      "distance": "10km / 6.25 miles",
      "time": "5 - 7 hours",
-     "ascent": "1078m (Profile)"
+     "ascent": "1078m (Profile)",
+     "distanceKm": 10,
+     "ascentM": 1078,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10,
+    "ascentM": 1078,
+    "timeH": 6,
+    "route": "Ben Lui and Beinn a' Chlèibh from Glen Lochay"
+   },
+   "fallon": {
+    "distanceKm": 18.5,
+    "ascentM": 1700,
+    "timeH": 7.5,
+    "peaks": null
+   }
   },
   {
    "id": 518,
@@ -2556,7 +3894,10 @@
      "startGridref": "NO062898",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1068m (Profile)"
+     "ascent": "1068m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1068,
+     "timeH": 10
     },
     {
      "name": "Ben Macdui and Cairngorm from the ski centre",
@@ -2567,9 +3908,24 @@
      "startGridref": "NH989059",
      "distance": "17.5km / 11 miles",
      "time": "6 - 8 hours",
-     "ascent": "932m (Profile)"
+     "ascent": "932m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 932,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 932,
+    "timeH": 7,
+    "route": "Ben Macdui and Cairngorm from the ski centre"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1000,
+    "timeH": 10.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 26,
@@ -2595,9 +3951,24 @@
      "startGridref": "NN420263",
      "distance": "12km / 7.5 miles",
      "time": "6  - 8 hours",
-     "ascent": "1335m (Profile)"
+     "ascent": "1335m (Profile)",
+     "distanceKm": 12,
+     "ascentM": 1335,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12,
+    "ascentM": 1335,
+    "timeH": 7,
+    "route": "Ben More and Stob Binnein from Benmore Farm"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 3400,
+    "timeH": 13,
+    "peaks": null
+   }
   },
   {
    "id": 1301,
@@ -2623,7 +3994,10 @@
      "startGridref": "NM494359",
      "distance": "9.25km / 5.75 miles",
      "time": "5 - 6.5 hours",
-     "ascent": "945m (Profile)"
+     "ascent": "945m (Profile)",
+     "distanceKm": 9.25,
+     "ascentM": 945,
+     "timeH": 5.75
     },
     {
      "name": "Ben More via the A' Choich ridge",
@@ -2634,9 +4008,24 @@
      "startGridref": "NM510371",
      "distance": "14.5km / 9 miles",
      "time": "8 - 9 hours",
-     "ascent": "1255m (Profile)"
+     "ascent": "1255m (Profile)",
+     "distanceKm": 14.5,
+     "ascentM": 1255,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.25,
+    "ascentM": 945,
+    "timeH": 5.75,
+    "route": "Ben More from Dhiseig"
+   },
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 1060,
+    "timeH": 4.5,
+    "peaks": "1 Munro, option of 1 Fiona/Graham"
+   }
   },
   {
    "id": 1183,
@@ -2662,9 +4051,24 @@
      "startGridref": "NC251216",
      "distance": "17.25km / 10.75 miles",
      "time": "8.5 - 10 hours",
-     "ascent": "1077m (Profile)"
+     "ascent": "1077m (Profile)",
+     "distanceKm": 17.25,
+     "ascentM": 1077,
+     "timeH": 9.25
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.25,
+    "ascentM": 1077,
+    "timeH": 9.25,
+    "route": "Ben More Assynt and Conival from Inchnadamph"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1190,
+    "timeH": 4.3,
+    "peaks": "2 Munros and option of 1 Corbett"
+   }
   },
   {
    "id": 278,
@@ -2690,7 +4094,10 @@
      "startGridref": "NN122730",
      "distance": "17km / 10.5 miles",
      "time": "7 - 9 hours",
-     "ascent": "1352m (Profile)"
+     "ascent": "1352m (Profile)",
+     "distanceKm": 17,
+     "ascentM": 1352,
+     "timeH": 8
     },
     {
      "name": "Ben Nevis via the Càrn Mòr Dearg Arête",
@@ -2701,9 +4108,24 @@
      "startGridref": "NN144763",
      "distance": "17.5km / 11 miles",
      "time": "10 - 11 hours",
-     "ascent": "1506m (Profile)"
+     "ascent": "1506m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1506,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17,
+    "ascentM": 1352,
+    "timeH": 8,
+    "route": "Ben Nevis via the Mountain Path"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1340,
+    "timeH": 6.3,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 67,
@@ -2729,9 +4151,24 @@
      "startGridref": "NN343291",
      "distance": "17km / 10.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "1230m (Profile)"
+     "ascent": "1230m (Profile)",
+     "distanceKm": 17,
+     "ascentM": 1230,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17,
+    "ascentM": 1230,
+    "timeH": 7.5,
+    "route": "Ben Oss and Beinn Dubhchraig from Dalrigh"
+   },
+   "fallon": {
+    "distanceKm": 18.5,
+    "ascentM": 1700,
+    "timeH": 7.5,
+    "peaks": null
+   }
   },
   {
    "id": 238,
@@ -2757,9 +4194,24 @@
      "startGridref": "NN136468",
      "distance": "16km / 10 miles",
      "time": "8 - 9 hours",
-     "ascent": "1423m (Profile)"
+     "ascent": "1423m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1423,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1423,
+    "timeH": 8.5,
+    "route": "Ben Starav and Glas Bheinn Mhòr from Glen Etive"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2560,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 76,
@@ -2785,9 +4237,24 @@
      "startGridref": "NN322098",
      "distance": "11km / 6.75 miles",
      "time": "4.5  - 6.5 hours",
-     "ascent": "930m (Profile)"
+     "ascent": "930m (Profile)",
+     "distanceKm": 11,
+     "ascentM": 930,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11,
+    "ascentM": 930,
+    "timeH": 5.5,
+    "route": "Ben Vane from Inveruglas"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2440,
+    "timeH": 10,
+    "peaks": null
+   }
   },
   {
    "id": 17,
@@ -2813,9 +4280,24 @@
      "startGridref": "NN633232",
      "distance": "14.5km / 9 miles",
      "time": "6 - 7 hours",
-     "ascent": "1145m (Profile)"
+     "ascent": "1145m (Profile)",
+     "distanceKm": 14.5,
+     "ascentM": 1145,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.5,
+    "ascentM": 1145,
+    "timeH": 6.5,
+    "route": "Ben Vorlich and Stùc a' Chròin from Ardvorlich"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1190,
+    "timeH": 5.5,
+    "peaks": null
+   }
   },
   {
    "id": 71,
@@ -2841,9 +4323,24 @@
      "startGridref": "NN322098",
      "distance": "13.5km / 8.5 miles",
      "time": "5 - 6.5 hours",
-     "ascent": "945m (Profile)"
+     "ascent": "945m (Profile)",
+     "distanceKm": 13.5,
+     "ascentM": 945,
+     "timeH": 5.75
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.5,
+    "ascentM": 945,
+    "timeH": 5.75,
+    "route": "Ben Vorlich from Inveruglas via Loch Sloy"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2440,
+    "timeH": 10,
+    "peaks": null
+   }
   },
   {
    "id": 1088,
@@ -2869,9 +4366,24 @@
      "startGridref": "NH410671",
      "distance": "14km / 8.75 miles",
      "time": "4.5 - 5.5 hours",
-     "ascent": "935m (Profile)"
+     "ascent": "935m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 935,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 935,
+    "timeH": 5,
+    "route": "Ben Wyvis from near Garbat"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 910,
+    "timeH": 4.6,
+    "peaks": "1 Munro, option of 1 Corbett"
+   }
   },
   {
    "id": 191,
@@ -2897,9 +4409,24 @@
      "startGridref": "NN170569",
      "distance": "11km / 6.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1316m (Profile)"
+     "ascent": "1316m (Profile)",
+     "distanceKm": 11,
+     "ascentM": 1316,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11,
+    "ascentM": 1316,
+    "timeH": 8,
+    "route": "Bidean nam Bian via Coire nan Lochain and the Lost Valley"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1300,
+    "timeH": 4.5,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 898,
@@ -2925,9 +4452,24 @@
      "startGridref": "NG924387",
      "distance": "38km / 23.5 miles",
      "time": "16 hours / 2 days",
-     "ascent": "1530m (Profile)"
+     "ascent": "1530m (Profile)",
+     "distanceKm": 38,
+     "ascentM": 1530,
+     "timeH": 16
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 38,
+    "ascentM": 1530,
+    "timeH": 16,
+    "route": "Lurg Mhòr and Bidein a' Choire Sheasgaich, from Attadale via Bendronaig Lodge"
+   },
+   "fallon": {
+    "distanceKm": 40,
+    "ascentM": 1730,
+    "timeH": 8.1,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 320,
@@ -2953,9 +4495,24 @@
      "startGridref": "NN188623",
      "distance": "20km / 12.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1582m (Profile)"
+     "ascent": "1582m (Profile)",
+     "distanceKm": 20,
+     "ascentM": 1582,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20,
+    "ascentM": 1582,
+    "timeH": 10,
+    "route": "Sgùrr Èilde Mòr and Binnein Beag from Kinlochleven"
+   },
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 2000,
+    "timeH": null,
+    "peaks": "4 Munros, plus option of 1 Corbett"
+   }
   },
   {
    "id": 287,
@@ -2981,9 +4538,24 @@
      "startGridref": "NN187622",
      "distance": "14km / 8.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1336m (Profile)"
+     "ascent": "1336m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 1336,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 1336,
+    "timeH": 8,
+    "route": "Binnein Mòr and Na Gruagaichean"
+   },
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 2000,
+    "timeH": null,
+    "peaks": "4 Munros, plus option of 1 Corbett"
+   }
   },
   {
    "id": 1255,
@@ -3009,9 +4581,24 @@
      "startGridref": "NG560215",
      "distance": "8km / 5 miles",
      "time": "5 - 6 hours",
-     "ascent": "990m (Profile)"
+     "ascent": "990m (Profile)",
+     "distanceKm": 8,
+     "ascentM": 990,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 8,
+    "ascentM": 990,
+    "timeH": 5.5,
+    "route": "Blà Bheinn via the normal route from Loch Slapin"
+   },
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 930,
+    "timeH": 3.6,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 519,
@@ -3037,7 +4624,10 @@
      "startGridref": "NH915087",
      "distance": "26km / 16.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "1217m (Profile)"
+     "ascent": "1217m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 1217,
+     "timeH": 9
     },
     {
      "name": "Cairn Toul and Braeriach traverse",
@@ -3048,9 +4638,24 @@
      "startGridref": "NH984073",
      "distance": "36km / 22.25 miles",
      "time": "13 hours or 2 Days",
-     "ascent": "1820m (Profile)"
+     "ascent": "1820m (Profile)",
+     "distanceKm": 36,
+     "ascentM": 1820,
+     "timeH": 13
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 1217,
+    "timeH": 9,
+    "route": "Braeriach circuit from Whitewell"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1850,
+    "timeH": 10.8,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 470,
@@ -3076,7 +4681,10 @@
      "startGridref": "NO309851",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1228m (Profile)"
+     "ascent": "1228m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1228,
+     "timeH": 10
     },
     {
      "name": "Creag an Dubh Loch and Broad Cairn, Glenmuick",
@@ -3087,9 +4695,24 @@
      "startGridref": "NO309851",
      "distance": "23km / 14.25 miles",
      "time": "7 - 8 hours",
-     "ascent": "813m (Profile)"
+     "ascent": "813m (Profile)",
+     "distanceKm": 23,
+     "ascentM": 813,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 23,
+    "ascentM": 813,
+    "timeH": 7.5,
+    "route": "Creag an Dubh Loch and Broad Cairn, Glenmuick"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1340,
+    "timeH": 9.3,
+    "peaks": "5 Munros, 1 Corbett"
+   }
   },
   {
    "id": 1247,
@@ -3115,9 +4738,24 @@
      "startGridref": "NG484296",
      "distance": "13.75km / 8.5 miles",
      "time": "5 - 7 hours",
-     "ascent": "947m (Profile)"
+     "ascent": "947m (Profile)",
+     "distanceKm": 13.75,
+     "ascentM": 947,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.75,
+    "ascentM": 947,
+    "timeH": 6,
+    "route": "Bruach na Frithe via Fionn Coire or the Northwest Ridge"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1550,
+    "timeH": 6.8,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 209,
@@ -3143,9 +4781,24 @@
      "startGridref": "NN187562",
      "distance": "8km / 5 miles",
      "time": "5 - 6 hours",
-     "ascent": "900m (Profile)"
+     "ascent": "900m (Profile)",
+     "distanceKm": 8,
+     "ascentM": 900,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 8,
+    "ascentM": 900,
+    "timeH": 5.5,
+    "route": "Buachaille Etive Beag from Glencoe"
+   },
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1875,
+    "timeH": 3.7,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 202,
@@ -3171,9 +4824,24 @@
      "startGridref": "NN187562",
      "distance": "8km / 5 miles",
      "time": "5 - 6 hours",
-     "ascent": "900m (Profile)"
+     "ascent": "900m (Profile)",
+     "distanceKm": 8,
+     "ascentM": 900,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 8,
+    "ascentM": 900,
+    "timeH": 5.5,
+    "route": "Buachaille Etive Beag from Glencoe"
+   },
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 940,
+    "timeH": 3.7,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 196,
@@ -3199,9 +4867,24 @@
      "startGridref": "NN221563",
      "distance": "13km / 8 miles",
      "time": "7 - 9 hours",
-     "ascent": "1110m (Profile)"
+     "ascent": "1110m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 1110,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 1110,
+    "timeH": 8,
+    "route": "Buachaille Etive Mòr ridge from Altnafeadh"
+   },
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1875,
+    "timeH": null,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 203,
@@ -3227,9 +4910,24 @@
      "startGridref": "NN221563",
      "distance": "13km / 8 miles",
      "time": "7 - 9 hours",
-     "ascent": "1110m (Profile)"
+     "ascent": "1110m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 1110,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 1110,
+    "timeH": 8,
+    "route": "Buachaille Etive Mòr ridge from Altnafeadh"
+   },
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1875,
+    "timeH": null,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 557,
@@ -3255,9 +4953,24 @@
      "startGridref": "NH983088",
      "distance": "22.5km / 14 miles",
      "time": "6.5 - 7.5 hours",
-     "ascent": "756m (Profile)"
+     "ascent": "756m (Profile)",
+     "distanceKm": 22.5,
+     "ascentM": 756,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 22.5,
+    "ascentM": 756,
+    "timeH": 7,
+    "route": "Bynack More from Glenmore Lodge"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 860,
+    "timeH": 5.5,
+    "peaks": "1 Munro, 1 Corbett"
+   }
   },
   {
    "id": 468,
@@ -3283,9 +4996,24 @@
      "startGridref": "NO309851",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1228m (Profile)"
+     "ascent": "1228m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1228,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 1228,
+    "timeH": 10,
+    "route": "The White Mounth Munros round"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1340,
+    "timeH": 9.3,
+    "peaks": "5 Munros, 1 Corbett"
+   }
   },
   {
    "id": 525,
@@ -3311,7 +5039,10 @@
      "startGridref": "NH989059",
      "distance": "11km / 6.75 miles",
      "time": "5 - 6 hours",
-     "ascent": "775m (Profile)"
+     "ascent": "775m (Profile)",
+     "distanceKm": 11,
+     "ascentM": 775,
+     "timeH": 5.5
     },
     {
      "name": "Ben Macdui and Cairngorm from the ski centre",
@@ -3322,7 +5053,10 @@
      "startGridref": "NH989059",
      "distance": "17.5km / 11 miles",
      "time": "6 - 8 hours",
-     "ascent": "932m (Profile)"
+     "ascent": "932m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 932,
+     "timeH": 7
     },
     {
      "name": "The Fiacaill Ridge scramble to Cairn Lochan and Cairn Gorm",
@@ -3333,9 +5067,24 @@
      "startGridref": "NH989059",
      "distance": "10.25km / 6.25 miles",
      "time": "5 - 6 hours",
-     "ascent": "775m (Profile)"
+     "ascent": "775m (Profile)",
+     "distanceKm": 10.25,
+     "ascentM": 775,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10.25,
+    "ascentM": 775,
+    "timeH": 5.5,
+    "route": "The Fiacaill Ridge scramble to Cairn Lochan and Cairn Gorm"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1000,
+    "timeH": 10.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 463,
@@ -3361,9 +5110,24 @@
      "startGridref": "NO147799",
      "distance": "19.25km / 12 miles",
      "time": "6.5 - 7.5 hours",
-     "ascent": "891m (Profile)"
+     "ascent": "891m (Profile)",
+     "distanceKm": 19.25,
+     "ascentM": 891,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19.25,
+    "ascentM": 891,
+    "timeH": 7,
+    "route": "Glas Maol Munros from the Cairnwell Pass"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 521,
@@ -3389,9 +5153,24 @@
      "startGridref": "NH984073",
      "distance": "36km / 22.25 miles",
      "time": "13 hours or 2 Days",
-     "ascent": "1820m (Profile)"
+     "ascent": "1820m (Profile)",
+     "distanceKm": 36,
+     "ascentM": 1820,
+     "timeH": 13
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 36,
+    "ascentM": 1820,
+    "timeH": 13,
+    "route": "Cairn Toul and Braeriach traverse"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1850,
+    "timeH": 10.8,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 409,
@@ -3417,9 +5196,24 @@
      "startGridref": "NN874662",
      "distance": "26km / 16.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "930m (Profile)"
+     "ascent": "930m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 930,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 930,
+    "timeH": 8,
+    "route": "Càrn a' Chlamain from Glen Tilt"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1090,
+    "timeH": null,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 459,
@@ -3445,9 +5239,24 @@
      "startGridref": "NO309851",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1228m (Profile)"
+     "ascent": "1228m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1228,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 1228,
+    "timeH": 10,
+    "route": "The White Mounth Munros round"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1340,
+    "timeH": 9.3,
+    "peaks": "5 Munros, 1 Corbett"
+   }
   },
   {
    "id": 428,
@@ -3473,9 +5282,24 @@
      "startGridref": "NO138781",
      "distance": "13km / 8 miles",
      "time": "5 - 6 hours",
-     "ascent": "595m (Profile)"
+     "ascent": "595m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 595,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 595,
+    "timeH": 5.5,
+    "route": "The Cairnwell Munros from the pass"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 567,
@@ -3501,9 +5325,24 @@
      "startGridref": "NO062898",
      "distance": "22.5km / 14 miles",
      "time": "6 - 7 hours",
-     "ascent": "648m (Profile)"
+     "ascent": "648m (Profile)",
+     "distanceKm": 22.5,
+     "ascentM": 648,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 22.5,
+    "ascentM": 648,
+    "timeH": 6.5,
+    "route": "Càrn a'Mhàim from the Linn of Dee"
+   },
+   "fallon": {
+    "distanceKm": 35,
+    "ascentM": 1850,
+    "timeH": 10.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 408,
@@ -3529,9 +5368,24 @@
      "startGridref": "NO063897",
      "distance": "42km / 26 miles",
      "time": "11 - 12 hours",
-     "ascent": "1059m (Profile)"
+     "ascent": "1059m (Profile)",
+     "distanceKm": 42,
+     "ascentM": 1059,
+     "timeH": 11.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 42,
+    "ascentM": 1059,
+    "timeH": 11.5,
+    "route": "An Scarsoch and Càrn an Fhìdhleir from the Linn of Dee"
+   },
+   "fallon": {
+    "distanceKm": 38,
+    "ascentM": 970,
+    "timeH": 6.7,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 426,
@@ -3557,9 +5411,24 @@
      "startGridref": "NO105701",
      "distance": "27km / 16.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1085m (Profile)"
+     "ascent": "1085m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1085,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1085,
+    "timeH": 9,
+    "route": "Glas Tulaichean and Càrn an Rìgh from the Spittal of Glenshee"
+   },
+   "fallon": {
+    "distanceKm": 40,
+    "ascentM": 2050,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 465,
@@ -3585,9 +5454,24 @@
      "startGridref": "NO309851",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1228m (Profile)"
+     "ascent": "1228m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1228,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 1228,
+    "timeH": 10,
+    "route": "The White Mounth Munros round"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1340,
+    "timeH": 9.3,
+    "peaks": "5 Munros, 1 Corbett"
+   }
   },
   {
    "id": 467,
@@ -3613,9 +5497,24 @@
      "startGridref": "NO147799",
      "distance": "19.25km / 12 miles",
      "time": "6.5 - 7.5 hours",
-     "ascent": "891m (Profile)"
+     "ascent": "891m (Profile)",
+     "distanceKm": 19.25,
+     "ascentM": 891,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19.25,
+    "ascentM": 891,
+    "timeH": 7,
+    "route": "Glas Maol Munros from the Cairnwell Pass"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 438,
@@ -3641,9 +5540,24 @@
      "startGridref": "NO138781",
      "distance": "13km / 8 miles",
      "time": "5 - 6 hours",
-     "ascent": "595m (Profile)"
+     "ascent": "595m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 595,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 595,
+    "timeH": 5.5,
+    "route": "The Cairnwell Munros from the pass"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 432,
@@ -3669,9 +5583,24 @@
      "startGridref": "NO089892",
      "distance": "32km / 20 miles",
      "time": "9 - 10 hours",
-     "ascent": "983m (Profile)"
+     "ascent": "983m (Profile)",
+     "distanceKm": 32,
+     "ascentM": 983,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 32,
+    "ascentM": 983,
+    "timeH": 9.5,
+    "route": "Beinn Iutharn Mhòr and Càrn Bhac from Inverey"
+   },
+   "fallon": {
+    "distanceKm": 40,
+    "ascentM": 2050,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 352,
@@ -3697,9 +5626,24 @@
      "startGridref": "NN522761",
      "distance": "18.5km / 11.5 miles",
      "time": "8 - 9 hours",
-     "ascent": "1110m (Profile)"
+     "ascent": "1110m (Profile)",
+     "distanceKm": 18.5,
+     "ascentM": 1110,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18.5,
+    "ascentM": 1110,
+    "timeH": 8.5,
+    "route": "Aonach Beag, Geal Chàrn, Beinn Èibhinn and Càrn Dearg from Culra"
+   },
+   "fallon": {
+    "distanceKm": 56,
+    "ascentM": 2400,
+    "timeH": 11.1,
+    "peaks": "6 Munros"
+   }
   },
   {
    "id": 363,
@@ -3725,9 +5669,24 @@
      "startGridref": "NN356664",
      "distance": "21.75km / 13.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "973m (Profile)"
+     "ascent": "973m (Profile)",
+     "distanceKm": 21.75,
+     "ascentM": 973,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.75,
+    "ascentM": 973,
+    "timeH": 7.5,
+    "route": "Càrn Dearg and Sgòr Gaibhre from Corrour Station"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1550,
+    "timeH": 5.2,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 621,
@@ -3753,9 +5712,24 @@
      "startGridref": "NN693998",
      "distance": "24.5km / 15.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "946m (Profile)"
+     "ascent": "946m (Profile)",
+     "distanceKm": 24.5,
+     "ascentM": 946,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 24.5,
+    "ascentM": 946,
+    "timeH": 9,
+    "route": "The Monadhliath Munros: a' Chailleach, Càrn Sgulain and Càrn Dearg from Glen Banchor"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1420,
+    "timeH": 9.8,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 803,
@@ -3781,9 +5755,24 @@
      "startGridref": "NH216242",
      "distance": "28km / 17.5 miles",
      "time": "10 - 13 hours",
-     "ascent": "1727m (Profile)"
+     "ascent": "1727m (Profile)",
+     "distanceKm": 28,
+     "ascentM": 1727,
+     "timeH": 11.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 28,
+    "ascentM": 1727,
+    "timeH": 11.5,
+    "route": "Càrn Eige, Mam Sodhail and Beinn Fhionnlaidh from Glen Affric"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 11.2,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 871,
@@ -3809,9 +5798,24 @@
      "startGridref": "NH144103",
      "distance": "17.5km / 11 miles",
      "time": "7 - 8 hours",
-     "ascent": "1260m (Profile)"
+     "ascent": "1260m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1260,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 1260,
+    "timeH": 7.5,
+    "route": "Sgùrr nan Conbhairean from Loch Cluanie"
+   },
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1850,
+    "timeH": 8.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 109,
@@ -3837,9 +5841,24 @@
      "startGridref": "NN666482",
      "distance": "17.5km / 11 miles",
      "time": "7 - 8 hours",
-     "ascent": "1330m (Profile)"
+     "ascent": "1330m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1330,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 1330,
+    "timeH": 7.5,
+    "route": "Càrn Mairg circuit from Invervar"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1450,
+    "timeH": 6.7,
+    "peaks": "4 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 668,
@@ -3865,9 +5884,24 @@
      "startGridref": "NN482872",
      "distance": "21km / 13 miles",
      "time": "8 - 10 hours",
-     "ascent": "1080m (Profile)"
+     "ascent": "1080m (Profile)",
+     "distanceKm": 21,
+     "ascentM": 1080,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21,
+    "ascentM": 1080,
+    "timeH": 9,
+    "route": "Creag Meagaidh Munros circuit"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1850,
+    "timeH": 9.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 107,
@@ -3893,9 +5927,24 @@
      "startGridref": "NN666482",
      "distance": "17.5km / 11 miles",
      "time": "7 - 8 hours",
-     "ascent": "1330m (Profile)"
+     "ascent": "1330m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1330,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 1330,
+    "timeH": 7.5,
+    "route": "Càrn Mairg circuit from Invervar"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1450,
+    "timeH": 6.7,
+    "peaks": "4 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 282,
@@ -3921,9 +5970,24 @@
      "startGridref": "NN144763",
      "distance": "17.5km / 11 miles",
      "time": "10 - 11 hours",
-     "ascent": "1506m (Profile)"
+     "ascent": "1506m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1506,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 1506,
+    "timeH": 10.5,
+    "route": "Ben Nevis via the Càrn Mòr Dearg Arête"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1520,
+    "timeH": 6.5,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 389,
@@ -3949,9 +6013,24 @@
      "startGridref": "NN639820",
      "distance": "19km / 11.75 miles",
      "time": "5 - 6 hours",
-     "ascent": "824m (Profile)"
+     "ascent": "824m (Profile)",
+     "distanceKm": 19,
+     "ascentM": 824,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19,
+    "ascentM": 824,
+    "timeH": 5.5,
+    "route": "Càrn na Caim and A' Bhuidheanach Bheag from Drumochter"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1100,
+    "timeH": 8.2,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 895,
@@ -3977,9 +6056,24 @@
      "startGridref": "NH283386",
      "distance": "25km / 15.5 miles",
      "time": "7 - 10 hours",
-     "ascent": "1567m (Profile)"
+     "ascent": "1567m (Profile)",
+     "distanceKm": 25,
+     "ascentM": 1567,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 25,
+    "ascentM": 1567,
+    "timeH": 8.5,
+    "route": "Circuit of the Strathfarrar Munros"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1580,
+    "timeH": 6.9,
+    "peaks": "4 Munros, option of 1 Fiona/Graham"
+   }
   },
   {
    "id": 936,
@@ -4005,9 +6099,24 @@
      "startGridref": "NH220315",
      "distance": "29.2km / 18.25 miles",
      "time": "11 - 14 hours",
-     "ascent": "1820m (Profile)"
+     "ascent": "1820m (Profile)",
+     "distanceKm": 29.2,
+     "ascentM": 1820,
+     "timeH": 12.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29.2,
+    "ascentM": 1820,
+    "timeH": 12.5,
+    "route": "The Loch Mullardoch Munros circuit"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 6.6,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 626,
@@ -4033,9 +6142,24 @@
      "startGridref": "NN693998",
      "distance": "24.5km / 15.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "946m (Profile)"
+     "ascent": "946m (Profile)",
+     "distanceKm": 24.5,
+     "ascentM": 946,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 24.5,
+    "ascentM": 946,
+    "timeH": 9,
+    "route": "The Monadhliath Munros: a' Chailleach, Càrn Sgulain and Càrn Dearg from Glen Banchor"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1420,
+    "timeH": 9.8,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 351,
@@ -4061,9 +6185,24 @@
      "startGridref": "NN350782",
      "distance": "13.5km / 8.5 miles",
      "time": "6 - 7 hours",
-     "ascent": "915m (Profile)"
+     "ascent": "915m (Profile)",
+     "distanceKm": 13.5,
+     "ascentM": 915,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.5,
+    "ascentM": 915,
+    "timeH": 6.5,
+    "route": "Chno Dearg and Stob Coire Sgriodain from Fersit"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1250,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 834,
@@ -4089,9 +6228,24 @@
      "startGridref": "NH087122",
      "distance": "12.5km / 7.75 miles",
      "time": "5 - 7 hours",
-     "ascent": "1040m (Profile)"
+     "ascent": "1040m (Profile)",
+     "distanceKm": 12.5,
+     "ascentM": 1040,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12.5,
+    "ascentM": 1040,
+    "timeH": 6,
+    "route": "Ciste Dhubh and Am Bathach from the Cluanie Inn"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1650,
+    "timeH": 6.8,
+    "peaks": "4 Munros, 1 Corbett"
+   }
   },
   {
    "id": 1063,
@@ -4117,9 +6271,24 @@
      "startGridref": "NH181852",
      "distance": "27km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1569m (Profile)"
+     "ascent": "1569m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1569,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1569,
+    "timeH": 10,
+    "route": "Beinn Dearg Munros circuit from Inverlael"
+   },
+   "fallon": {
+    "distanceKm": 35,
+    "ascentM": 2600,
+    "timeH": null,
+    "peaks": "6 Munros, option of 1 Graham"
+   }
   },
   {
    "id": 1184,
@@ -4145,9 +6314,24 @@
      "startGridref": "NC251216",
      "distance": "17.25km / 10.75 miles",
      "time": "8.5 - 10 hours",
-     "ascent": "1077m (Profile)"
+     "ascent": "1077m (Profile)",
+     "distanceKm": 17.25,
+     "ascentM": 1077,
+     "timeH": 9.25
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.25,
+    "ascentM": 1077,
+    "timeH": 9.25,
+    "route": "Ben More Assynt and Conival from Inchnadamph"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1190,
+    "timeH": 4.3,
+    "peaks": "2 Munros and option of 1 Corbett"
+   }
   },
   {
    "id": 700,
@@ -4173,9 +6357,24 @@
      "startGridref": "NH079117",
      "distance": "26.75km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1818m (Profile)"
+     "ascent": "1818m (Profile)",
+     "distanceKm": 26.75,
+     "ascentM": 1818,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.75,
+    "ascentM": 1818,
+    "timeH": 10,
+    "route": "South Glen Shiel Ridge walk"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1975,
+    "timeH": 8.8,
+    "peaks": "7 Munros, option of 2 more Munros and 1 Corbett"
+   }
   },
   {
    "id": 472,
@@ -4201,7 +6400,10 @@
      "startGridref": "NO147799",
      "distance": "19.25km / 12 miles",
      "time": "6.5 - 7.5 hours",
-     "ascent": "891m (Profile)"
+     "ascent": "891m (Profile)",
+     "distanceKm": 19.25,
+     "ascentM": 891,
+     "timeH": 7
     },
     {
      "name": "Monega Hill and Glas Maol round from Glen Isla",
@@ -4212,9 +6414,24 @@
      "startGridref": "NO192698",
      "distance": "20.75km / 13 miles",
      "time": "7 - 7.5 hours",
-     "ascent": "1135m (Profile)"
+     "ascent": "1135m (Profile)",
+     "distanceKm": 20.75,
+     "ascentM": 1135,
+     "timeH": 7.25
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19.25,
+    "ascentM": 891,
+    "timeH": 7,
+    "route": "Glas Maol Munros from the Cairnwell Pass"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 658,
@@ -4240,9 +6457,24 @@
      "startGridref": "NN482872",
      "distance": "21km / 13 miles",
      "time": "8 - 10 hours",
-     "ascent": "1080m (Profile)"
+     "ascent": "1080m (Profile)",
+     "distanceKm": 21,
+     "ascentM": 1080,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21,
+    "ascentM": 1080,
+    "timeH": 9,
+    "route": "Creag Meagaidh Munros circuit"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1850,
+    "timeH": 9.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 148,
@@ -4268,9 +6500,24 @@
      "startGridref": "NN476368",
      "distance": "25.75km / 16 miles",
      "time": "9 - 11 hours",
-     "ascent": "1470m (Profile)"
+     "ascent": "1470m (Profile)",
+     "distanceKm": 25.75,
+     "ascentM": 1470,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 25.75,
+    "ascentM": 1470,
+    "timeH": 10,
+    "route": "Beinn Heasgarnich and Creag Mhòr from Glen Lochay"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1450,
+    "timeH": 6.3,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 708,
@@ -4296,9 +6543,24 @@
      "startGridref": "NH079117",
      "distance": "26.75km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1818m (Profile)"
+     "ascent": "1818m (Profile)",
+     "distanceKm": 26.75,
+     "ascentM": 1818,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.75,
+    "ascentM": 1818,
+    "timeH": 10,
+    "route": "South Glen Shiel Ridge walk"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1975,
+    "timeH": 8.8,
+    "peaks": "7 Munros, option of 2 more Munros and 1 Corbett"
+   }
   },
   {
    "id": 367,
@@ -4324,9 +6586,24 @@
      "startGridref": "NN432830",
      "distance": "26km / 16.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "1280m (Profile)"
+     "ascent": "1280m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 1280,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 1280,
+    "timeH": 9,
+    "route": "Beinn a' Chlachair, Geal Chàrn & Creag Pitridh from Loch Laggan"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1350,
+    "timeH": null,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 235,
@@ -4352,9 +6629,24 @@
      "startGridref": "NN266525",
      "distance": "10.5km / 6.5 miles",
      "time": "5 - 7 hours",
-     "ascent": "1093m (Profile)"
+     "ascent": "1093m (Profile)",
+     "distanceKm": 10.5,
+     "ascentM": 1093,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10.5,
+    "ascentM": 1093,
+    "timeH": 6,
+    "route": "Meall a' Bhùiridh and Creise from the White Corries ski centre"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1950,
+    "timeH": 8.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 30,
@@ -4380,9 +6672,24 @@
      "startGridref": "NN445185",
      "distance": "12.5km / 7.75 miles",
      "time": "6 - 7 hours",
-     "ascent": "1019m (Profile)"
+     "ascent": "1019m (Profile)",
+     "distanceKm": 12.5,
+     "ascentM": 1019,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12.5,
+    "ascentM": 1019,
+    "timeH": 6.5,
+    "route": "Cruach Àrdrain and Beinn Tulaichean from Inverlochlarig"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 3400,
+    "timeH": 13,
+    "peaks": null
+   }
   },
   {
    "id": 539,
@@ -4408,7 +6715,10 @@
      "startGridref": "NO062898",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1068m (Profile)"
+     "ascent": "1068m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1068,
+     "timeH": 10
     },
     {
      "name": "Beinn Meadhoin and Derry Cairngorm from the Linn of Dee",
@@ -4419,9 +6729,24 @@
      "startGridref": "NO062898",
      "distance": "31km / 19.25 miles",
      "time": "9 - 10 hours",
-     "ascent": "1200m (Profile)"
+     "ascent": "1200m (Profile)",
+     "distanceKm": 31,
+     "ascentM": 1200,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 1068,
+    "timeH": 10,
+    "route": "Ben Macdui and Derry Cairngorm from the Linn of Dee"
+   },
+   "fallon": {
+    "distanceKm": 35,
+    "ascentM": 1850,
+    "timeH": 10.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 483,
@@ -4447,9 +6772,24 @@
      "startGridref": "NO284760",
      "distance": "14.5km / 9 miles",
      "time": "4.5 - 5.5 hours",
-     "ascent": "835m (Profile)"
+     "ascent": "835m (Profile)",
+     "distanceKm": 14.5,
+     "ascentM": 835,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.5,
+    "ascentM": 835,
+    "timeH": 5,
+    "route": "Driesh and Mayar from Glen Doll"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 900,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 692,
@@ -4475,9 +6815,24 @@
      "startGridref": "NH079117",
      "distance": "26.75km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1818m (Profile)"
+     "ascent": "1818m (Profile)",
+     "distanceKm": 26.75,
+     "ascentM": 1818,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.75,
+    "ascentM": 1818,
+    "timeH": 10,
+    "route": "South Glen Shiel Ridge walk"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1975,
+    "timeH": 8.8,
+    "peaks": "7 Munros, option of 2 more Munros and 1 Corbett"
+   }
   },
   {
    "id": 1068,
@@ -4503,9 +6858,24 @@
      "startGridref": "NH181852",
      "distance": "27km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1569m (Profile)"
+     "ascent": "1569m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1569,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1569,
+    "timeH": 10,
+    "route": "Beinn Dearg Munros circuit from Inverlael"
+   },
+   "fallon": {
+    "distanceKm": 35,
+    "ascentM": 2600,
+    "timeH": null,
+    "peaks": "6 Munros, option of 1 Graham"
+   }
   },
   {
    "id": 1050,
@@ -4531,9 +6901,24 @@
      "startGridref": "NH164586",
      "distance": "12km / 7.5 miles",
      "time": "5 - 6 hours",
-     "ascent": "807m (Profile)"
+     "ascent": "807m (Profile)",
+     "distanceKm": 12,
+     "ascentM": 807,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12,
+    "ascentM": 807,
+    "timeH": 5.5,
+    "route": "Fionn Bheinn from Achnasheen"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 860,
+    "timeH": 3.9,
+    "peaks": "1 Munro, option of 1 Fiona/Graham"
+   }
   },
   {
    "id": 741,
@@ -4559,9 +6944,24 @@
      "startGridref": "NH068023",
      "distance": "15.5km / 9.75 miles",
      "time": "5 - 7 hours",
-     "ascent": "850m (Profile)"
+     "ascent": "850m (Profile)",
+     "distanceKm": 15.5,
+     "ascentM": 850,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.5,
+    "ascentM": 850,
+    "timeH": 6,
+    "route": "Gairich from Loch Quioch"
+   },
+   "fallon": {
+    "distanceKm": 39,
+    "ascentM": 3240,
+    "timeH": 15.1,
+    "peaks": "5 Munros, 1 Corbett"
+   }
   },
   {
    "id": 732,
@@ -4587,9 +6987,24 @@
      "startGridref": "NM988916",
      "distance": "26km / 16.25 miles",
      "time": "10 - 12 hours",
-     "ascent": "1523m (Profile)"
+     "ascent": "1523m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 1523,
+     "timeH": 11
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 1523,
+    "timeH": 11,
+    "route": "Sgùrr na Cìche Munros from Loch Arkaig"
+   },
+   "fallon": {
+    "distanceKm": 29,
+    "ascentM": 1510,
+    "timeH": 15.1,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 350,
@@ -4615,9 +7030,24 @@
      "startGridref": "NN432830",
      "distance": "26km / 16.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "1280m (Profile)"
+     "ascent": "1280m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 1280,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 1280,
+    "timeH": 9,
+    "route": "Beinn a' Chlachair, Geal Chàrn & Creag Pitridh from Loch Laggan"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1350,
+    "timeH": null,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 624,
@@ -4643,9 +7073,24 @@
      "startGridref": "NN521948",
      "distance": "12.5km / 7.75 miles",
      "time": "5 - 6 hours",
-     "ascent": "625m (Profile)"
+     "ascent": "625m (Profile)",
+     "distanceKm": 12.5,
+     "ascentM": 625,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12.5,
+    "ascentM": 625,
+    "timeH": 5.5,
+    "route": "Geal Chàrn from Garva Bridge"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1420,
+    "timeH": 9.8,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 346,
@@ -4671,9 +7116,24 @@
      "startGridref": "NN522761",
      "distance": "18.5km / 11.5 miles",
      "time": "8 - 9 hours",
-     "ascent": "1110m (Profile)"
+     "ascent": "1110m (Profile)",
+     "distanceKm": 18.5,
+     "ascentM": 1110,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18.5,
+    "ascentM": 1110,
+    "timeH": 8.5,
+    "route": "Aonach Beag, Geal Chàrn, Beinn Èibhinn and Càrn Dearg from Culra"
+   },
+   "fallon": {
+    "distanceKm": 56,
+    "ascentM": 2400,
+    "timeH": 11.1,
+    "peaks": "6 Munros"
+   }
   },
   {
    "id": 392,
@@ -4699,9 +7159,24 @@
      "startGridref": "NN627791",
      "distance": "11.5km / 7.25 miles",
      "time": "4 - 6 hours",
-     "ascent": "731m (Profile)"
+     "ascent": "731m (Profile)",
+     "distanceKm": 11.5,
+     "ascentM": 731,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11.5,
+    "ascentM": 731,
+    "timeH": 5,
+    "route": "A'Mharconaich and Geal Chàrn from Drumochter"
+   },
+   "fallon": {
+    "distanceKm": 24,
+    "ascentM": 1300,
+    "timeH": 8.2,
+    "peaks": "4 Munros, 1 Corbett"
+   }
   },
   {
    "id": 245,
@@ -4727,9 +7202,24 @@
      "startGridref": "NN136468",
      "distance": "16km / 10 miles",
      "time": "8 - 9 hours",
-     "ascent": "1423m (Profile)"
+     "ascent": "1423m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1423,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1423,
+    "timeH": 8.5,
+    "route": "Ben Starav and Glas Bheinn Mhòr from Glen Etive"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2560,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 461,
@@ -4755,7 +7245,10 @@
      "startGridref": "NO147799",
      "distance": "19.25km / 12 miles",
      "time": "6.5 - 7.5 hours",
-     "ascent": "891m (Profile)"
+     "ascent": "891m (Profile)",
+     "distanceKm": 19.25,
+     "ascentM": 891,
+     "timeH": 7
     },
     {
      "name": "Monega Hill and Glas Maol round from Glen Isla",
@@ -4766,9 +7259,24 @@
      "startGridref": "NO192698",
      "distance": "20.75km / 13 miles",
      "time": "7 - 7.5 hours",
-     "ascent": "1135m (Profile)"
+     "ascent": "1135m (Profile)",
+     "distanceKm": 20.75,
+     "ascentM": 1135,
+     "timeH": 7.25
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19.25,
+    "ascentM": 891,
+    "timeH": 7,
+    "route": "Glas Maol Munros from the Cairnwell Pass"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 424,
@@ -4794,9 +7302,24 @@
      "startGridref": "NO105701",
      "distance": "27km / 16.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1085m (Profile)"
+     "ascent": "1085m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1085,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1085,
+    "timeH": 9,
+    "route": "Glas Tulaichean and Càrn an Rìgh from the Spittal of Glenshee"
+   },
+   "fallon": {
+    "distanceKm": 40,
+    "ascentM": 2050,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 683,
@@ -4822,9 +7345,24 @@
      "startGridref": "NH029029",
      "distance": "12km / 7.5 miles",
      "time": "5 - 7 hours",
-     "ascent": "1130m (Profile)"
+     "ascent": "1130m (Profile)",
+     "distanceKm": 12,
+     "ascentM": 1130,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12,
+    "ascentM": 1130,
+    "timeH": 6,
+    "route": "Gleouraich & Spidean Mialach "
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1225,
+    "timeH": 5.5,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 773,
@@ -4850,9 +7388,24 @@
      "startGridref": "NM960794",
      "distance": "21km / 13 miles",
      "time": "7 - 9 hours",
-     "ascent": "1228m (Profile)"
+     "ascent": "1228m (Profile)",
+     "distanceKm": 21,
+     "ascentM": 1228,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21,
+    "ascentM": 1228,
+    "timeH": 8,
+    "route": "Gulvain via Gleann Fionnlighe"
+   },
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1250,
+    "timeH": 6.8,
+    "peaks": "1 Munro, option of 1 Corbett"
+   }
   },
   {
    "id": 731,
@@ -4878,9 +7431,24 @@
      "startGridref": "NG765002",
      "distance": "22.5km / 14 miles",
      "time": "9 - 12 hours",
-     "ascent": "1399m (Profile)"
+     "ascent": "1399m (Profile)",
+     "distanceKm": 22.5,
+     "ascentM": 1399,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 22.5,
+    "ascentM": 1399,
+    "timeH": 10.5,
+    "route": "Ladhar Bheinn circuit via Aonach Sgoilite, from Inverie"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1775,
+    "timeH": 8.4,
+    "peaks": "1 Munro, 2 Corbetts"
+   }
   },
   {
    "id": 954,
@@ -4906,9 +7474,24 @@
      "startGridref": "NG935566",
      "distance": "11.5km / 7.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "1326m (Profile)"
+     "ascent": "1326m (Profile)",
+     "distanceKm": 11.5,
+     "ascentM": 1326,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11.5,
+    "ascentM": 1326,
+    "timeH": 9,
+    "route": "Liathach traverse, Glen Torridon"
+   },
+   "fallon": {
+    "distanceKm": 6,
+    "ascentM": 1280,
+    "timeH": 3.7,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 953,
@@ -4934,9 +7517,24 @@
      "startGridref": "NG935566",
      "distance": "11.5km / 7.25 miles",
      "time": "8 - 10 hours",
-     "ascent": "1326m (Profile)"
+     "ascent": "1326m (Profile)",
+     "distanceKm": 11.5,
+     "ascentM": 1326,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11.5,
+    "ascentM": 1326,
+    "timeH": 9,
+    "route": "Liathach traverse, Glen Torridon"
+   },
+   "fallon": {
+    "distanceKm": 6,
+    "ascentM": 1280,
+    "timeH": 3.7,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 457,
@@ -4962,7 +7560,10 @@
      "startGridref": "NO309851",
      "distance": "19km / 11.75 miles",
      "time": "6 - 7 hours",
-     "ascent": "930m (Profile)"
+     "ascent": "930m (Profile)",
+     "distanceKm": 19,
+     "ascentM": 930,
+     "timeH": 6.5
     },
     {
      "name": "The White Mounth Munros round",
@@ -4973,9 +7574,24 @@
      "startGridref": "NO309851",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1228m (Profile)"
+     "ascent": "1228m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1228,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19,
+    "ascentM": 930,
+    "timeH": 6.5,
+    "route": "Lochnagar from Spittal of Glenmuick"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1340,
+    "timeH": 9.3,
+    "peaks": "5 Munros, 1 Corbett"
+   }
   },
   {
    "id": 739,
@@ -5001,9 +7617,24 @@
      "startGridref": "NG765002",
      "distance": "27km / 16.75 miles",
      "time": "11 - 13 hours",
-     "ascent": "1586m (Profile)"
+     "ascent": "1586m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1586,
+     "timeH": 12
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1586,
+    "timeH": 12,
+    "route": "Luinne Bheinn and Meall Buidhe from Inverie"
+   },
+   "fallon": {
+    "distanceKm": 27,
+    "ascentM": 1540,
+    "timeH": 9.3,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 896,
@@ -5029,9 +7660,24 @@
      "startGridref": "NG924387",
      "distance": "38km / 23.5 miles",
      "time": "16 hours / 2 days",
-     "ascent": "1530m (Profile)"
+     "ascent": "1530m (Profile)",
+     "distanceKm": 38,
+     "ascentM": 1530,
+     "timeH": 16
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 38,
+    "ascentM": 1530,
+    "timeH": 16,
+    "route": "Lurg Mhòr and Bidein a' Choire Sheasgaich, from Attadale via Bendronaig Lodge"
+   },
+   "fallon": {
+    "distanceKm": 40,
+    "ascentM": 1730,
+    "timeH": 8.1,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 804,
@@ -5057,9 +7703,24 @@
      "startGridref": "NH216242",
      "distance": "28km / 17.5 miles",
      "time": "10 - 13 hours",
-     "ascent": "1727m (Profile)"
+     "ascent": "1727m (Profile)",
+     "distanceKm": 28,
+     "ascentM": 1727,
+     "timeH": 11.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 28,
+    "ascentM": 1727,
+    "timeH": 11.5,
+    "route": "Càrn Eige, Mam Sodhail and Beinn Fhionnlaidh from Glen Affric"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 11.2,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 890,
@@ -5085,9 +7746,24 @@
      "startGridref": "NH039493",
      "distance": "26km / 16.25 miles",
      "time": "8 - 11 hours",
-     "ascent": "1005m (Profile)"
+     "ascent": "1005m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 1005,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 1005,
+    "timeH": 9.5,
+    "route": "Maoile Lunndaidh from Achnashellach"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1350,
+    "timeH": 8.3,
+    "peaks": "1 Munro, option of 1 Corbett"
+   }
   },
   {
    "id": 982,
@@ -5113,9 +7789,24 @@
      "startGridref": "NG956451",
      "distance": "14km / 8.75 miles",
      "time": "5 - 7 hours",
-     "ascent": "932m (Profile)"
+     "ascent": "932m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 932,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 932,
+    "timeH": 6,
+    "route": "Maol Chean-dearg from Coulags"
+   },
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1400,
+    "timeH": 7.1,
+    "peaks": "1 Munro, 1 Corbett"
+   }
   },
   {
    "id": 693,
@@ -5141,9 +7832,24 @@
      "startGridref": "NH079117",
      "distance": "26.75km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1818m (Profile)"
+     "ascent": "1818m (Profile)",
+     "distanceKm": 26.75,
+     "ascentM": 1818,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.75,
+    "ascentM": 1818,
+    "timeH": 10,
+    "route": "South Glen Shiel Ridge walk"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1975,
+    "timeH": 8.8,
+    "peaks": "7 Munros, option of 2 more Munros and 1 Corbett"
+   }
   },
   {
    "id": 486,
@@ -5169,9 +7875,24 @@
      "startGridref": "NO284760",
      "distance": "14.5km / 9 miles",
      "time": "4.5 - 5.5 hours",
-     "ascent": "835m (Profile)"
+     "ascent": "835m (Profile)",
+     "distanceKm": 14.5,
+     "ascentM": 835,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.5,
+    "ascentM": 835,
+    "timeH": 5,
+    "route": "Driesh and Mayar from Glen Doll"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 900,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 233,
@@ -5197,9 +7918,24 @@
      "startGridref": "NN266525",
      "distance": "10.5km / 6.5 miles",
      "time": "5 - 7 hours",
-     "ascent": "1093m (Profile)"
+     "ascent": "1093m (Profile)",
+     "distanceKm": 10.5,
+     "ascentM": 1093,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10.5,
+    "ascentM": 1093,
+    "timeH": 6,
+    "route": "Meall a' Bhùiridh and Creise from the White Corries ski centre"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1950,
+    "timeH": 8.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 163,
@@ -5225,9 +7961,24 @@
      "startGridref": "NN593415",
      "distance": "9.5km / 6 miles",
      "time": "5 - 6 hours",
-     "ascent": "740m (Profile)"
+     "ascent": "740m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 740,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 740,
+    "timeH": 5.5,
+    "route": "Meall Corranaich and Meall a' Choire Lèith from the Lairig an Lochain"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 2035,
+    "timeH": 8.4,
+    "peaks": "7 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 1049,
@@ -5253,9 +8004,24 @@
      "startGridref": "NH163761",
      "distance": "18km / 11.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1153m (Profile)"
+     "ascent": "1153m (Profile)",
+     "distanceKm": 18,
+     "ascentM": 1153,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18,
+    "ascentM": 1153,
+    "timeH": 8,
+    "route": "Sgùrr nan Clach Geala ridge"
+   },
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1840,
+    "timeH": 8.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 123,
@@ -5281,9 +8047,24 @@
      "startGridref": "NN511463",
      "distance": "8.5km / 5.25 miles",
      "time": "2.5 - 3.5 hours",
-     "ascent": "551m (Profile)"
+     "ascent": "551m (Profile)",
+     "distanceKm": 8.5,
+     "ascentM": 551,
+     "timeH": 3
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 8.5,
+    "ascentM": 551,
+    "timeH": 3,
+    "route": "Meall Buidhe from Loch an Dàimh"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1335,
+    "timeH": 6.7,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 737,
@@ -5309,9 +8090,24 @@
      "startGridref": "NG765002",
      "distance": "27km / 16.75 miles",
      "time": "11 - 13 hours",
-     "ascent": "1586m (Profile)"
+     "ascent": "1586m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1586,
+     "timeH": 12
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1586,
+    "timeH": 12,
+    "route": "Luinne Bheinn and Meall Buidhe from Inverie"
+   },
+   "fallon": {
+    "distanceKm": 27,
+    "ascentM": 1540,
+    "timeH": 9.3,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 388,
@@ -5337,9 +8133,24 @@
      "startGridref": "NN654867",
      "distance": "14km / 8.75 miles",
      "time": "4 - 5 hours",
-     "ascent": "614m (Profile)"
+     "ascent": "614m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 614,
+     "timeH": 4.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 614,
+    "timeH": 4.5,
+    "route": "Meall Chuaich from near Dalwhinnie"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 650,
+    "timeH": 3.6,
+    "peaks": "1 Munro, option of 1 Fiona/Graham"
+   }
   },
   {
    "id": 146,
@@ -5365,9 +8176,24 @@
      "startGridref": "NN593415",
      "distance": "9.5km / 6 miles",
      "time": "5 - 6 hours",
-     "ascent": "740m (Profile)"
+     "ascent": "740m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 740,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 740,
+    "timeH": 5.5,
+    "route": "Meall Corranaich and Meall a' Choire Lèith from the Lairig an Lochain"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 2035,
+    "timeH": 8.4,
+    "peaks": "7 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 118,
@@ -5393,9 +8219,24 @@
      "startGridref": "NN666482",
      "distance": "17.5km / 11 miles",
      "time": "7 - 8 hours",
-     "ascent": "1330m (Profile)"
+     "ascent": "1330m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1330,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 1330,
+    "timeH": 7.5,
+    "route": "Càrn Mairg circuit from Invervar"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1450,
+    "timeH": 6.7,
+    "peaks": "4 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 143,
@@ -5421,9 +8262,24 @@
      "startGridref": "NN677395",
      "distance": "16.5km / 10.25 miles",
      "time": "7 - 8 hours",
-     "ascent": "1230m (Profile)"
+     "ascent": "1230m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1230,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16.5,
+    "ascentM": 1230,
+    "timeH": 7.5,
+    "route": "Circuit of Coire nan Cat"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 2035,
+    "timeH": 8.4,
+    "peaks": "7 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 150,
@@ -5449,9 +8305,24 @@
      "startGridref": "NN526363",
      "distance": "9.5km / 6 miles",
      "time": "4 - 6 hours",
-     "ascent": "895m (Profile)"
+     "ascent": "895m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 895,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 895,
+    "timeH": 5,
+    "route": "Meall Ghaordaidh from Glen Lochay "
+   },
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 900,
+    "timeH": 3.8,
+    "peaks": "1 Munro, 1 Corbett"
+   }
   },
   {
    "id": 158,
@@ -5477,7 +8348,10 @@
      "startGridref": "NN448275",
      "distance": "15.5km / 9.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1182m (Profile)"
+     "ascent": "1182m (Profile)",
+     "distanceKm": 15.5,
+     "ascentM": 1182,
+     "timeH": 8
     },
     {
      "name": "Sgiath Chùil and Meall Glas from Glen Lochay",
@@ -5488,9 +8362,24 @@
      "startGridref": "NN476368",
      "distance": "20.5km / 12.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1250m (Profile)"
+     "ascent": "1250m (Profile)",
+     "distanceKm": 20.5,
+     "ascentM": 1250,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.5,
+    "ascentM": 1182,
+    "timeH": 8,
+    "route": "Sgiath Chùil and Meall Glas from Glen Dochart"
+   },
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1215,
+    "timeH": 6.8,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 1047,
@@ -5516,9 +8405,24 @@
      "startGridref": "NH278742",
      "distance": "24.75km / 15.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1435m (Profile)"
+     "ascent": "1435m (Profile)",
+     "distanceKm": 24.75,
+     "ascentM": 1435,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 24.75,
+    "ascentM": 1435,
+    "timeH": 10,
+    "route": "Sgùrr Mòr and the eastern Fannichs from the Dirrie Mòr"
+   },
+   "fallon": {
+    "distanceKm": 61,
+    "ascentM": 3050,
+    "timeH": 15.5,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 154,
@@ -5544,9 +8448,24 @@
      "startGridref": "NN677395",
      "distance": "16.5km / 10.25 miles",
      "time": "7 - 8 hours",
-     "ascent": "1230m (Profile)"
+     "ascent": "1230m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1230,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16.5,
+    "ascentM": 1230,
+    "timeH": 7.5,
+    "route": "Circuit of Coire nan Cat"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 2035,
+    "timeH": 8.4,
+    "peaks": "7 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 115,
@@ -5572,9 +8491,24 @@
      "startGridref": "NN666482",
      "distance": "17.5km / 11 miles",
      "time": "7 - 8 hours",
-     "ascent": "1330m (Profile)"
+     "ascent": "1330m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1330,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 1330,
+    "timeH": 7.5,
+    "route": "Càrn Mairg circuit from Invervar"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1450,
+    "timeH": 6.7,
+    "peaks": "4 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 759,
@@ -5600,9 +8534,24 @@
      "startGridref": "NN278958",
      "distance": "19km / 11.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1258m (Profile)"
+     "ascent": "1258m (Profile)",
+     "distanceKm": 19,
+     "ascentM": 1258,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19,
+    "ascentM": 1258,
+    "timeH": 8,
+    "route": "Sròn a' Choire Ghairbh & Meall na Teanga"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1675,
+    "timeH": 7.8,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 1064,
@@ -5628,9 +8577,24 @@
      "startGridref": "NH181852",
      "distance": "27km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1569m (Profile)"
+     "ascent": "1569m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1569,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1569,
+    "timeH": 10,
+    "route": "Beinn Dearg Munros circuit from Inverlael"
+   },
+   "fallon": {
+    "distanceKm": 35,
+    "ascentM": 2600,
+    "timeH": null,
+    "peaks": "6 Munros, option of 1 Graham"
+   }
   },
   {
    "id": 258,
@@ -5656,9 +8620,24 @@
      "startGridref": "NN136468",
      "distance": "18km / 11.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1327m (Profile)"
+     "ascent": "1327m (Profile)",
+     "distanceKm": 18,
+     "ascentM": 1327,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18,
+    "ascentM": 1327,
+    "timeH": 8,
+    "route": "Stob Coir an Albannaich and Meall nan Eun from Glen Etive"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2560,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 149,
@@ -5684,9 +8663,24 @@
      "startGridref": "NN608377",
      "distance": "13km / 8 miles",
      "time": "5 - 7 hours",
-     "ascent": "783m (Profile)"
+     "ascent": "783m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 783,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 783,
+    "timeH": 6,
+    "route": "The Tarmachan Ridge"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 915,
+    "timeH": 5.1,
+    "peaks": "1 Munro, 3 Munro Tops"
+   }
   },
   {
    "id": 549,
@@ -5712,9 +8706,24 @@
      "startGridref": "NN850985",
      "distance": "29km / 18 miles",
      "time": "9 - 11 hours",
-     "ascent": "1505m (Profile)"
+     "ascent": "1505m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 1505,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 1505,
+    "timeH": 10,
+    "route": "Beinn Bhrotain and Monadh Mòr from Glen Feshie"
+   },
+   "fallon": {
+    "distanceKm": 37,
+    "ascentM": 1425,
+    "timeH": null,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 899,
@@ -5740,9 +8749,24 @@
      "startGridref": "NH080520",
      "distance": "12km / 7.5 miles",
      "time": "6 - 7 hours",
-     "ascent": "978m (Profile)"
+     "ascent": "978m (Profile)",
+     "distanceKm": 12,
+     "ascentM": 978,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12,
+    "ascentM": 978,
+    "timeH": 6.5,
+    "route": "Moruisg and Sgùrr nan Ceannaichean from Glen Carron"
+   },
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1070,
+    "timeH": 4.8,
+    "peaks": "1 Munro, 1 Corbett"
+   }
   },
   {
    "id": 485,
@@ -5768,7 +8792,10 @@
      "startGridref": "NO446803",
      "distance": "17.5km / 11 miles",
      "time": "5 - 6 hours",
-     "ascent": "681m (Profile)"
+     "ascent": "681m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 681,
+     "timeH": 5.5
     },
     {
      "name": "Mount Keen from Glen Tanar",
@@ -5779,9 +8806,24 @@
      "startGridref": "NO479965",
      "distance": "29.5km / 18.25 miles",
      "time": "8 - 9 hours",
-     "ascent": "870m (Profile)"
+     "ascent": "870m (Profile)",
+     "distanceKm": 29.5,
+     "ascentM": 870,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 681,
+    "timeH": 5.5,
+    "route": "Mount Keen from Invermark, Glen Esk"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 700,
+    "timeH": 2.5,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 571,
@@ -5807,9 +8849,24 @@
      "startGridref": "NN850985",
      "distance": "21.75km / 13.5 miles",
      "time": "6.5 - 7.5 hours",
-     "ascent": "870m (Profile)"
+     "ascent": "870m (Profile)",
+     "distanceKm": 21.75,
+     "ascentM": 870,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.75,
+    "ascentM": 870,
+    "timeH": 7,
+    "route": "Mullach Clach a' Bhlàir from Glen Feshie"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1100,
+    "timeH": 8.3,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 1007,
@@ -5835,7 +8892,10 @@
      "startGridref": "NH065809",
      "distance": "29km / 18 miles",
      "time": "12 - 18 hours",
-     "ascent": "2254m (Profile)"
+     "ascent": "2254m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 2254,
+     "timeH": 15
     },
     {
      "name": "Beinn Tarsuinn and Mullach Coire Mhic Fhearchair from Incheril via Lochan Fada",
@@ -5846,9 +8906,24 @@
      "startGridref": "NH037623",
      "distance": "32km / 20 miles",
      "time": "12 - 13 hours",
-     "ascent": "1370m (Profile)"
+     "ascent": "1370m (Profile)",
+     "distanceKm": 32,
+     "ascentM": 1370,
+     "timeH": 12.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 2254,
+    "timeH": 15,
+    "route": "The Fisherfield 6, from Shenavall"
+   },
+   "fallon": {
+    "distanceKm": 44,
+    "ascentM": 2905,
+    "timeH": 12.3,
+    "peaks": "5 Munros, 1 Corbett, plus option of more !"
+   }
   },
   {
    "id": 864,
@@ -5874,9 +8949,24 @@
      "startGridref": "NH087120",
      "distance": "14.5km / 9 miles",
      "time": "6 - 8 hours",
-     "ascent": "1150m (Profile)"
+     "ascent": "1150m (Profile)",
+     "distanceKm": 14.5,
+     "ascentM": 1150,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14.5,
+    "ascentM": 1150,
+    "timeH": 7,
+    "route": "a' Chralaig and Mullach Fraoch Choire from Cluanie"
+   },
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1850,
+    "timeH": 8.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 833,
@@ -5902,9 +8992,24 @@
      "startGridref": "NH079202",
      "distance": "20km / 12.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1484m (Profile)"
+     "ascent": "1484m (Profile)",
+     "distanceKm": 20,
+     "ascentM": 1484,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20,
+    "ascentM": 1484,
+    "timeH": 10,
+    "route": "Sgùrr nan Ceathreamhnan Munros from Alltbeithe"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 6.6,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 321,
@@ -5930,9 +9035,24 @@
      "startGridref": "NN145683",
      "distance": "13km / 8 miles",
      "time": "6 - 8 hours",
-     "ascent": "1155m (Profile)"
+     "ascent": "1155m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 1155,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 1155,
+    "timeH": 7,
+    "route": "Stob Bàn and Mullach nan Coirean from Polldubh, Glen Nevis"
+   },
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1200,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 301,
@@ -5958,9 +9078,24 @@
      "startGridref": "NN187622",
      "distance": "14km / 8.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1336m (Profile)"
+     "ascent": "1336m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 1336,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 1336,
+    "timeH": 8,
+    "route": "Binnein Mòr and Na Gruagaichean"
+   },
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 2000,
+    "timeH": null,
+    "peaks": "4 Munros, plus option of 1 Corbett"
+   }
   },
   {
    "id": 1023,
@@ -5986,9 +9121,24 @@
      "startGridref": "NH065809",
      "distance": "29km / 18 miles",
      "time": "12 - 18 hours",
-     "ascent": "2254m (Profile)"
+     "ascent": "2254m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 2254,
+     "timeH": 15
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 2254,
+    "timeH": 15,
+    "route": "The Fisherfield 6, from Shenavall"
+   },
+   "fallon": {
+    "distanceKm": 44,
+    "ascentM": 2905,
+    "timeH": 12.3,
+    "peaks": "5 Munros, 1 Corbett, plus option of more !"
+   }
   },
   {
    "id": 867,
@@ -6014,9 +9164,24 @@
      "startGridref": "NH144103",
      "distance": "17.5km / 11 miles",
      "time": "7 - 8 hours",
-     "ascent": "1260m (Profile)"
+     "ascent": "1260m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1260,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 1260,
+    "timeH": 7.5,
+    "route": "Sgùrr nan Conbhairean from Loch Cluanie"
+   },
+   "fallon": {
+    "distanceKm": 34,
+    "ascentM": 1480,
+    "timeH": 8.2,
+    "peaks": "1 Munro and 2 Corbetts"
+   }
   },
   {
    "id": 839,
@@ -6042,9 +9207,24 @@
      "startGridref": "NH009135",
      "distance": "10km / 6.25 miles",
      "time": "6 - 8 hours",
-     "ascent": "1274m (Profile)"
+     "ascent": "1274m (Profile)",
+     "distanceKm": 10,
+     "ascentM": 1274,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10,
+    "ascentM": 1274,
+    "timeH": 7,
+    "route": "Sgùrr a Bhealaich Dheirg and the Brothers of Kintail"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1650,
+    "timeH": 6.8,
+    "peaks": "4 Munros, 1 Corbett"
+   }
   },
   {
    "id": 103,
@@ -6070,9 +9250,24 @@
      "startGridref": "NN753556",
      "distance": "10km / 6.25 miles",
      "time": "4 - 6 hours",
-     "ascent": "731m (Profile)"
+     "ascent": "731m (Profile)",
+     "distanceKm": 10,
+     "ascentM": 731,
+     "timeH": 5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10,
+    "ascentM": 731,
+    "timeH": 5,
+    "route": "Schiehallion from the Braes of Foss"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 750,
+    "timeH": 3.8,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 1069,
@@ -6098,9 +9293,24 @@
      "startGridref": "NH181852",
      "distance": "27km / 16.75 miles",
      "time": "9 - 10 hours",
-     "ascent": "1095m (Profile)"
+     "ascent": "1095m (Profile)",
+     "distanceKm": 27,
+     "ascentM": 1095,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 27,
+    "ascentM": 1095,
+    "timeH": 9.5,
+    "route": "Seana Bhràigh from Inverlael"
+   },
+   "fallon": {
+    "distanceKm": 27,
+    "ascentM": 930,
+    "timeH": 4.5,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 384,
@@ -6126,9 +9336,24 @@
      "startGridref": "NN632755",
      "distance": "15.75km / 9.75 miles",
      "time": "6 - 7 hours",
-     "ascent": "783m (Profile)"
+     "ascent": "783m (Profile)",
+     "distanceKm": 15.75,
+     "ascentM": 783,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.75,
+    "ascentM": 783,
+    "timeH": 6.5,
+    "route": "Beinn Udlamain and Sgàirneach Mhòr from Drumochter Pass"
+   },
+   "fallon": {
+    "distanceKm": 24,
+    "ascentM": 1300,
+    "timeH": 8.2,
+    "peaks": "4 Munros, 1 Corbett"
+   }
   },
   {
    "id": 165,
@@ -6154,7 +9379,10 @@
      "startGridref": "NN448275",
      "distance": "15.5km / 9.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1182m (Profile)"
+     "ascent": "1182m (Profile)",
+     "distanceKm": 15.5,
+     "ascentM": 1182,
+     "timeH": 8
     },
     {
      "name": "Sgiath Chùil and Meall Glas from Glen Lochay",
@@ -6165,9 +9393,24 @@
      "startGridref": "NN476368",
      "distance": "20.5km / 12.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1250m (Profile)"
+     "ascent": "1250m (Profile)",
+     "distanceKm": 20.5,
+     "ascentM": 1250,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.5,
+    "ascentM": 1182,
+    "timeH": 8,
+    "route": "Sgiath Chùil and Meall Glas from Glen Dochart"
+   },
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1215,
+    "timeH": 6.8,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 523,
@@ -6193,9 +9436,24 @@
      "startGridref": "NH984073",
      "distance": "36km / 22.25 miles",
      "time": "13 hours or 2 Days",
-     "ascent": "1820m (Profile)"
+     "ascent": "1820m (Profile)",
+     "distanceKm": 36,
+     "ascentM": 1820,
+     "timeH": 13
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 36,
+    "ascentM": 1820,
+    "timeH": 13,
+    "route": "Cairn Toul and Braeriach traverse"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1850,
+    "timeH": 10.8,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 361,
@@ -6221,9 +9479,24 @@
      "startGridref": "NN356664",
      "distance": "21.75km / 13.5 miles",
      "time": "7 - 8 hours",
-     "ascent": "973m (Profile)"
+     "ascent": "973m (Profile)",
+     "distanceKm": 21.75,
+     "ascentM": 973,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.75,
+    "ascentM": 973,
+    "timeH": 7.5,
+    "route": "Càrn Dearg and Sgòr Gaibhre from Corrour Station"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1550,
+    "timeH": 5.2,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 548,
@@ -6249,9 +9522,24 @@
      "startGridref": "NH852012",
      "distance": "14km / 8.75 miles",
      "time": "6 - 7 hours",
-     "ascent": "913m (Profile)"
+     "ascent": "913m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 913,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 913,
+    "timeH": 6.5,
+    "route": "Sgòr Gaoith from Glen Feshie"
+   },
+   "fallon": {
+    "distanceKm": 26,
+    "ascentM": 1100,
+    "timeH": 8.3,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 981,
@@ -6277,9 +9565,24 @@
      "startGridref": "NH004483",
      "distance": "16km / 10 miles",
      "time": "6.5 - 7 hours",
-     "ascent": "931m (Profile)"
+     "ascent": "931m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 931,
+     "timeH": 6.75
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 931,
+    "timeH": 6.75,
+    "route": "Sgòrr Ruadh from Achnashellach"
+   },
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 1750,
+    "timeH": 8.2,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 821,
@@ -6305,9 +9608,24 @@
      "startGridref": "NH009135",
      "distance": "10km / 6.25 miles",
      "time": "6 - 8 hours",
-     "ascent": "1274m (Profile)"
+     "ascent": "1274m (Profile)",
+     "distanceKm": 10,
+     "ascentM": 1274,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 10,
+    "ascentM": 1274,
+    "timeH": 7,
+    "route": "Sgùrr a Bhealaich Dheirg and the Brothers of Kintail"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1650,
+    "timeH": 6.8,
+    "peaks": "4 Munros, 1 Corbett"
+   }
   },
   {
    "id": 885,
@@ -6333,9 +9651,24 @@
      "startGridref": "NH039493",
      "distance": "20.5km / 12.75 miles",
      "time": "7 - 8 hours",
-     "ascent": "1251m (Profile)"
+     "ascent": "1251m (Profile)",
+     "distanceKm": 20.5,
+     "ascentM": 1251,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20.5,
+    "ascentM": 1251,
+    "timeH": 7.5,
+    "route": "Sgùrr a' Chaorachain and Sgùrr Chòinnich from Achnashellach"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1530,
+    "timeH": 5.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 884,
@@ -6361,9 +9694,24 @@
      "startGridref": "NH283386",
      "distance": "25km / 15.5 miles",
      "time": "7 - 10 hours",
-     "ascent": "1567m (Profile)"
+     "ascent": "1567m (Profile)",
+     "distanceKm": 25,
+     "ascentM": 1567,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 25,
+    "ascentM": 1567,
+    "timeH": 8.5,
+    "route": "Circuit of the Strathfarrar Munros"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1580,
+    "timeH": 6.9,
+    "peaks": "4 Munros, option of 1 Fiona/Graham"
+   }
   },
   {
    "id": 1243,
@@ -6389,9 +9737,24 @@
      "startGridref": "NG409225",
      "distance": "9.5km / 6 miles",
      "time": "6 - 8 hours",
-     "ascent": "997m (Profile)"
+     "ascent": "997m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 997,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 997,
+    "timeH": 7,
+    "route": "Sgùrr a Ghreadaidh and Sgùrr a Mhadaidh via An Dorus"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1450,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 1259,
@@ -6417,9 +9780,24 @@
      "startGridref": "NG409225",
      "distance": "9.5km / 6 miles",
      "time": "6 - 8 hours",
-     "ascent": "997m (Profile)"
+     "ascent": "997m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 997,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 997,
+    "timeH": 7,
+    "route": "Sgùrr a Ghreadaidh and Sgùrr a Mhadaidh via An Dorus"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1450,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 295,
@@ -6445,9 +9823,24 @@
      "startGridref": "NN168691",
      "distance": "16km / 10 miles",
      "time": "9 - 12 hours",
-     "ascent": "1676m (Profile)"
+     "ascent": "1676m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1676,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1676,
+    "timeH": 10.5,
+    "route": "The Ring of Steall"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1750,
+    "timeH": 6.8,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 684,
@@ -6473,9 +9866,24 @@
      "startGridref": "NH014040",
      "distance": "14km / 8.75 miles",
      "time": "5 - 7 hours",
-     "ascent": "1077m (Profile)"
+     "ascent": "1077m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 1077,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 1077,
+    "timeH": 6,
+    "route": "Sgùrr a'Mhaoraich from Loch Cuaich"
+   },
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 835,
+    "timeH": 3.3,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 1239,
@@ -6501,9 +9909,24 @@
      "startGridref": "NG408206",
      "distance": "9.5km / 6 miles",
      "time": "5 - 6 hours",
-     "ascent": "992m (Profile)"
+     "ascent": "992m (Profile)",
+     "distanceKm": 9.5,
+     "ascentM": 992,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 9.5,
+    "ascentM": 992,
+    "timeH": 5.5,
+    "route": "Sgùrr Alasdair via the Great Stone Chute"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1025,
+    "timeH": 5.8,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 687,
@@ -6529,9 +9952,24 @@
      "startGridref": "NH079117",
      "distance": "26.75km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1818m (Profile)"
+     "ascent": "1818m (Profile)",
+     "distanceKm": 26.75,
+     "ascentM": 1818,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.75,
+    "ascentM": 1818,
+    "timeH": 10,
+    "route": "South Glen Shiel Ridge walk"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1975,
+    "timeH": 8.8,
+    "peaks": "7 Munros, option of 2 more Munros and 1 Corbett"
+   }
   },
   {
    "id": 690,
@@ -6557,9 +9995,24 @@
      "startGridref": "NH079117",
      "distance": "26.75km / 16.75 miles",
      "time": "9 - 11 hours",
-     "ascent": "1818m (Profile)"
+     "ascent": "1818m (Profile)",
+     "distanceKm": 26.75,
+     "ascentM": 1818,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.75,
+    "ascentM": 1818,
+    "timeH": 10,
+    "route": "South Glen Shiel Ridge walk"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1975,
+    "timeH": 8.8,
+    "peaks": "7 Munros, option of 2 more Munros and 1 Corbett"
+   }
   },
   {
    "id": 1009,
@@ -6585,7 +10038,10 @@
      "startGridref": "NH065809",
      "distance": "29km / 18 miles",
      "time": "12 - 18 hours",
-     "ascent": "2254m (Profile)"
+     "ascent": "2254m (Profile)",
+     "distanceKm": 29,
+     "ascentM": 2254,
+     "timeH": 15
     },
     {
      "name": "Sgùrr Bàn and Beinn a' Chlaidheimh via the slabs and Loch a' Bhraoin",
@@ -6596,9 +10052,24 @@
      "startGridref": "NH163761",
      "distance": "32km / 20 miles",
      "time": "13 - 15 hours",
-     "ascent": "1390m (Profile)"
+     "ascent": "1390m (Profile)",
+     "distanceKm": 32,
+     "ascentM": 1390,
+     "timeH": 14
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29,
+    "ascentM": 2254,
+    "timeH": 15,
+    "route": "The Fisherfield 6, from Shenavall"
+   },
+   "fallon": {
+    "distanceKm": 44,
+    "ascentM": 2905,
+    "timeH": 12.3,
+    "peaks": "5 Munros, 1 Corbett, plus option of more !"
+   }
   },
   {
    "id": 1042,
@@ -6624,9 +10095,24 @@
      "startGridref": "NH163761",
      "distance": "16km / 10 miles",
      "time": "6 - 8 hours",
-     "ascent": "1127m (Profile)"
+     "ascent": "1127m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1127,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1127,
+    "timeH": 7,
+    "route": "Sgùrr Breac and a' Chailleach from near Braemore"
+   },
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1840,
+    "timeH": 8.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 892,
@@ -6652,9 +10138,24 @@
      "startGridref": "NH039493",
      "distance": "20.5km / 12.75 miles",
      "time": "7 - 8 hours",
-     "ascent": "1251m (Profile)"
+     "ascent": "1251m (Profile)",
+     "distanceKm": 20.5,
+     "ascentM": 1251,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20.5,
+    "ascentM": 1251,
+    "timeH": 7.5,
+    "route": "Sgùrr a' Chaorachain and Sgùrr Chòinnich from Achnashellach"
+   },
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1530,
+    "timeH": 5.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 296,
@@ -6680,9 +10181,24 @@
      "startGridref": "NN252793",
      "distance": "21.5km / 13.25 miles",
      "time": "9 - 10 hours",
-     "ascent": "1544m (Profile)"
+     "ascent": "1544m (Profile)",
+     "distanceKm": 21.5,
+     "ascentM": 1544,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.5,
+    "ascentM": 1544,
+    "timeH": 9.5,
+    "route": "The Grey Corries ridge"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1800,
+    "timeH": 9.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 1240,
@@ -6708,9 +10224,24 @@
      "startGridref": "NG411216",
      "distance": "8km / 5 miles",
      "time": "6 - 8 hours",
-     "ascent": "1065m (Profile)"
+     "ascent": "1065m (Profile)",
+     "distanceKm": 8,
+     "ascentM": 1065,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 8,
+    "ascentM": 1065,
+    "timeH": 7,
+    "route": "Sgùrr Dearg and the approach to the Inn Pinn"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1450,
+    "timeH": null,
+    "peaks": "2 Munros, option of additional Munro"
+   }
   },
   {
    "id": 1250,
@@ -6736,9 +10267,24 @@
      "startGridref": "NG408206",
      "distance": "15km / 9.25 miles",
      "time": "7 - 11 hours",
-     "ascent": "1159m (Profile)"
+     "ascent": "1159m (Profile)",
+     "distanceKm": 15,
+     "ascentM": 1159,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15,
+    "ascentM": 1159,
+    "timeH": 9,
+    "route": "Sgùrr Dubh Mòr and Sgùrr nan Eag via Coire Ghrunnda"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1380,
+    "timeH": 5.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 305,
@@ -6764,9 +10310,24 @@
      "startGridref": "NN188623",
      "distance": "20km / 12.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1582m (Profile)"
+     "ascent": "1582m (Profile)",
+     "distanceKm": 20,
+     "ascentM": 1582,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20,
+    "ascentM": 1582,
+    "timeH": 10,
+    "route": "Sgùrr Èilde Mòr and Binnein Beag from Kinlochleven"
+   },
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 2000,
+    "timeH": null,
+    "peaks": "4 Munros, plus option of 1 Corbett"
+   }
   },
   {
    "id": 886,
@@ -6792,9 +10353,24 @@
      "startGridref": "NH283386",
      "distance": "25km / 15.5 miles",
      "time": "7 - 10 hours",
-     "ascent": "1567m (Profile)"
+     "ascent": "1567m (Profile)",
+     "distanceKm": 25,
+     "ascentM": 1567,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 25,
+    "ascentM": 1567,
+    "timeH": 8.5,
+    "route": "Circuit of the Strathfarrar Munros"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1580,
+    "timeH": 6.9,
+    "peaks": "4 Munros, option of 1 Fiona/Graham"
+   }
   },
   {
    "id": 815,
@@ -6820,9 +10396,24 @@
      "startGridref": "NH009135",
      "distance": "12.4km / 7.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1400m (Profile)"
+     "ascent": "1400m (Profile)",
+     "distanceKm": 12.4,
+     "ascentM": 1400,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12.4,
+    "ascentM": 1400,
+    "timeH": 9,
+    "route": "Five Sisters of Kintail traverse"
+   },
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1330,
+    "timeH": 5.5,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 1248,
@@ -6848,9 +10439,24 @@
      "startGridref": "NG408206",
      "distance": "11km / 6.75 miles",
      "time": "5 - 6 hours",
-     "ascent": "950m (Profile)"
+     "ascent": "950m (Profile)",
+     "distanceKm": 11,
+     "ascentM": 950,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11,
+    "ascentM": 950,
+    "timeH": 5.5,
+    "route": "Sgùrr Mhic Chòinnich from Coire Lagan"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1450,
+    "timeH": null,
+    "peaks": "2 Munros, option of additional Munro"
+   }
   },
   {
    "id": 733,
@@ -6876,9 +10482,24 @@
      "startGridref": "NM987916",
      "distance": "24km / 15 miles",
      "time": "9 - 11 hours",
-     "ascent": "1510m (Profile)"
+     "ascent": "1510m (Profile)",
+     "distanceKm": 24,
+     "ascentM": 1510,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 24,
+    "ascentM": 1510,
+    "timeH": 10,
+    "route": "Sgùrr Mòr and Sgùrr an Fhuarain from Loch Arkaig"
+   },
+   "fallon": {
+    "distanceKm": 49,
+    "ascentM": 2245,
+    "timeH": 9.1,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 1040,
@@ -6904,9 +10525,24 @@
      "startGridref": "NH278742",
      "distance": "24.75km / 15.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1435m (Profile)"
+     "ascent": "1435m (Profile)",
+     "distanceKm": 24.75,
+     "ascentM": 1435,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 24.75,
+    "ascentM": 1435,
+    "timeH": 10,
+    "route": "Sgùrr Mòr and the eastern Fannichs from the Dirrie Mòr"
+   },
+   "fallon": {
+    "distanceKm": 61,
+    "ascentM": 3050,
+    "timeH": 15.5,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 1245,
@@ -6932,9 +10568,24 @@
      "startGridref": "NG409225",
      "distance": "7.5km / 4.75 miles",
      "time": "5 - 7 hours",
-     "ascent": "936m (Profile)"
+     "ascent": "936m (Profile)",
+     "distanceKm": 7.5,
+     "ascentM": 936,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 7.5,
+    "ascentM": 936,
+    "timeH": 6,
+    "route": "Sgùrr na Banachdich via Coire nan Eich"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1450,
+    "timeH": null,
+    "peaks": "2 Munros, option of additional Munro"
+   }
   },
   {
    "id": 827,
@@ -6960,9 +10611,24 @@
      "startGridref": "NH009135",
      "distance": "12.4km / 7.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1400m (Profile)"
+     "ascent": "1400m (Profile)",
+     "distanceKm": 12.4,
+     "ascentM": 1400,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12.4,
+    "ascentM": 1400,
+    "timeH": 9,
+    "route": "Five Sisters of Kintail traverse"
+   },
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1330,
+    "timeH": 5.5,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 730,
@@ -6988,9 +10654,24 @@
      "startGridref": "NM988916",
      "distance": "26km / 16.25 miles",
      "time": "10 - 12 hours",
-     "ascent": "1523m (Profile)"
+     "ascent": "1523m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 1523,
+     "timeH": 11
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 1523,
+    "timeH": 11,
+    "route": "Sgùrr na Cìche Munros from Loch Arkaig"
+   },
+   "fallon": {
+    "distanceKm": 29,
+    "ascentM": 1510,
+    "timeH": 15.1,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 825,
@@ -7016,9 +10697,24 @@
      "startGridref": "NH009135",
      "distance": "12.4km / 7.75 miles",
      "time": "8 - 10 hours",
-     "ascent": "1400m (Profile)"
+     "ascent": "1400m (Profile)",
+     "distanceKm": 12.4,
+     "ascentM": 1400,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12.4,
+    "ascentM": 1400,
+    "timeH": 9,
+    "route": "Five Sisters of Kintail traverse"
+   },
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1330,
+    "timeH": 5.5,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 199,
@@ -7044,9 +10740,24 @@
      "startGridref": "NN120563",
      "distance": "15.5km / 9.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1292m (Profile)"
+     "ascent": "1292m (Profile)",
+     "distanceKm": 15.5,
+     "ascentM": 1292,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15.5,
+    "ascentM": 1292,
+    "timeH": 8,
+    "route": "Sgòr na h-Ulaidh and Meall Ligiche from Glen Coe"
+   },
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1150,
+    "timeH": 10.3,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 926,
@@ -7072,9 +10783,24 @@
      "startGridref": "NH220315",
      "distance": "29.2km / 18.25 miles",
      "time": "11 - 14 hours",
-     "ascent": "1820m (Profile)"
+     "ascent": "1820m (Profile)",
+     "distanceKm": 29.2,
+     "ascentM": 1820,
+     "timeH": 12.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 29.2,
+    "ascentM": 1820,
+    "timeH": 12.5,
+    "route": "The Loch Mullardoch Munros circuit"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 6.6,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 894,
@@ -7100,9 +10826,24 @@
      "startGridref": "NH283386",
      "distance": "25km / 15.5 miles",
      "time": "7 - 10 hours",
-     "ascent": "1567m (Profile)"
+     "ascent": "1567m (Profile)",
+     "distanceKm": 25,
+     "ascentM": 1567,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 25,
+    "ascentM": 1567,
+    "timeH": 8.5,
+    "route": "Circuit of the Strathfarrar Munros"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1580,
+    "timeH": 6.9,
+    "peaks": "4 Munros, option of 1 Fiona/Graham"
+   }
   },
   {
    "id": 701,
@@ -7128,9 +10869,24 @@
      "startGridref": "NG965146",
      "distance": "14km / 8.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1440m (Profile)"
+     "ascent": "1440m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 1440,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 1440,
+    "timeH": 8,
+    "route": "The Saddle via the Forcan Ridge, and Sgùrr na Sgìne"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1600,
+    "timeH": 6.2,
+    "peaks": "2 Munros, option of 1 Graham/Fiona"
+   }
   },
   {
    "id": 805,
@@ -7156,9 +10912,24 @@
      "startGridref": "NH079202",
      "distance": "20km / 12.5 miles",
      "time": "9 - 11 hours",
-     "ascent": "1484m (Profile)"
+     "ascent": "1484m (Profile)",
+     "distanceKm": 20,
+     "ascentM": 1484,
+     "timeH": 10
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 20,
+    "ascentM": 1484,
+    "timeH": 10,
+    "route": "Sgùrr nan Ceathreamhnan Munros from Alltbeithe"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 6.6,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 1041,
@@ -7184,9 +10955,24 @@
      "startGridref": "NH163761",
      "distance": "18km / 11.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1153m (Profile)"
+     "ascent": "1153m (Profile)",
+     "distanceKm": 18,
+     "ascentM": 1153,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18,
+    "ascentM": 1153,
+    "timeH": 8,
+    "route": "Sgùrr nan Clach Geala ridge"
+   },
+   "fallon": {
+    "distanceKm": 61,
+    "ascentM": 3050,
+    "timeH": 15.5,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 736,
@@ -7212,9 +10998,24 @@
      "startGridref": "NM988916",
      "distance": "26km / 16.25 miles",
      "time": "10 - 12 hours",
-     "ascent": "1523m (Profile)"
+     "ascent": "1523m (Profile)",
+     "distanceKm": 26,
+     "ascentM": 1523,
+     "timeH": 11
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26,
+    "ascentM": 1523,
+    "timeH": 11,
+    "route": "Sgùrr na Cìche Munros from Loch Arkaig"
+   },
+   "fallon": {
+    "distanceKm": 29,
+    "ascentM": 1510,
+    "timeH": 15.1,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 776,
@@ -7240,9 +11041,24 @@
      "startGridref": "NM906807",
      "distance": "23.5km / 14.5 miles",
      "time": "9 - 12 hours",
-     "ascent": "1428m (Profile)"
+     "ascent": "1428m (Profile)",
+     "distanceKm": 23.5,
+     "ascentM": 1428,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 23.5,
+    "ascentM": 1428,
+    "timeH": 10.5,
+    "route": "Sgùrr Thuilm & Sgùrr nan Coireachan "
+   },
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 1450,
+    "timeH": 7.7,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 863,
@@ -7268,9 +11084,24 @@
      "startGridref": "NH144103",
      "distance": "17.5km / 11 miles",
      "time": "7 - 8 hours",
-     "ascent": "1260m (Profile)"
+     "ascent": "1260m (Profile)",
+     "distanceKm": 17.5,
+     "ascentM": 1260,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 17.5,
+    "ascentM": 1260,
+    "timeH": 7.5,
+    "route": "Sgùrr nan Conbhairean from Loch Cluanie"
+   },
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1850,
+    "timeH": 8.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 1051,
@@ -7296,9 +11127,24 @@
      "startGridref": "NH163761",
      "distance": "18km / 11.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1153m (Profile)"
+     "ascent": "1153m (Profile)",
+     "distanceKm": 18,
+     "ascentM": 1153,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18,
+    "ascentM": 1153,
+    "timeH": 8,
+    "route": "Sgùrr nan Clach Geala ridge"
+   },
+   "fallon": {
+    "distanceKm": 61,
+    "ascentM": 3050,
+    "timeH": 15.5,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 1258,
@@ -7324,9 +11170,24 @@
      "startGridref": "NG408206",
      "distance": "15km / 9.25 miles",
      "time": "7 - 11 hours",
-     "ascent": "1159m (Profile)"
+     "ascent": "1159m (Profile)",
+     "distanceKm": 15,
+     "ascentM": 1159,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 15,
+    "ascentM": 1159,
+    "timeH": 9,
+    "route": "Sgùrr Dubh Mòr and Sgùrr nan Eag via Coire Ghrunnda"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1380,
+    "timeH": 5.8,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 1246,
@@ -7352,9 +11213,24 @@
      "startGridref": "NG484296",
      "distance": "12km / 7.5 miles",
      "time": "5 - 7 hours",
-     "ascent": "985m (Profile)"
+     "ascent": "985m (Profile)",
+     "distanceKm": 12,
+     "ascentM": 985,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12,
+    "ascentM": 985,
+    "timeH": 6,
+    "route": "Sgùrr nan Gillean via the Southeast Ridge (Tourist Route)"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1550,
+    "timeH": 6.8,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 774,
@@ -7380,9 +11256,24 @@
      "startGridref": "NM906807",
      "distance": "23.5km / 14.5 miles",
      "time": "9 - 12 hours",
-     "ascent": "1428m (Profile)"
+     "ascent": "1428m (Profile)",
+     "distanceKm": 23.5,
+     "ascentM": 1428,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 23.5,
+    "ascentM": 1428,
+    "timeH": 10.5,
+    "route": "Sgùrr Thuilm & Sgùrr nan Coireachan "
+   },
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 1450,
+    "timeH": 7.7,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 1010,
@@ -7408,9 +11299,24 @@
      "startGridref": "NH038624",
      "distance": "19km / 11.75 miles",
      "time": "8 - 9 hours",
-     "ascent": "1144m (Profile)"
+     "ascent": "1144m (Profile)",
+     "distanceKm": 19,
+     "ascentM": 1144,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19,
+    "ascentM": 1144,
+    "timeH": 8.5,
+    "route": "Slioch from Kinlochewe"
+   },
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1075,
+    "timeH": 6.5,
+    "peaks": "1 Munro"
+   }
   },
   {
    "id": 691,
@@ -7436,9 +11342,24 @@
      "startGridref": "NH029029",
      "distance": "12km / 7.5 miles",
      "time": "5 - 7 hours",
-     "ascent": "1130m (Profile)"
+     "ascent": "1130m (Profile)",
+     "distanceKm": 12,
+     "ascentM": 1130,
+     "timeH": 6
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12,
+    "ascentM": 1130,
+    "timeH": 6,
+    "route": "Gleouraich & Spidean Mialach "
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1225,
+    "timeH": 5.5,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 758,
@@ -7464,9 +11385,24 @@
      "startGridref": "NN278958",
      "distance": "19km / 11.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1258m (Profile)"
+     "ascent": "1258m (Profile)",
+     "distanceKm": 19,
+     "ascentM": 1258,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 19,
+    "ascentM": 1258,
+    "timeH": 8,
+    "route": "Sròn a' Choire Ghairbh & Meall na Teanga"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1675,
+    "timeH": 7.8,
+    "peaks": "2 Munros, 1 Corbett"
+   }
   },
   {
    "id": 292,
@@ -7492,9 +11428,24 @@
      "startGridref": "NN349781",
      "distance": "16.5km / 10.25 miles",
      "time": "7 - 8 hours",
-     "ascent": "1172m (Profile)"
+     "ascent": "1172m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1172,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16.5,
+    "ascentM": 1172,
+    "timeH": 7.5,
+    "route": "The Easains ridge from near Fersit"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1200,
+    "timeH": 8.3,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 255,
@@ -7520,9 +11471,24 @@
      "startGridref": "NN270418",
      "distance": "16km / 10 miles",
      "time": "8 - 9 hours",
-     "ascent": "1239m (Profile)"
+     "ascent": "1239m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1239,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1239,
+    "timeH": 8.5,
+    "route": "Stob Ghabhar & Stob a' Choire Odhair from Victoria Bridge"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1950,
+    "timeH": 8.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 309,
@@ -7548,9 +11514,24 @@
      "startGridref": "NN145683",
      "distance": "13km / 8 miles",
      "time": "6 - 8 hours",
-     "ascent": "1155m (Profile)"
+     "ascent": "1155m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 1155,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 1155,
+    "timeH": 7,
+    "route": "Stob Bàn and Mullach nan Coirean from Polldubh, Glen Nevis"
+   },
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1200,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 314,
@@ -7576,9 +11557,24 @@
      "startGridref": "NN255788",
      "distance": "18km / 11.25 miles",
      "time": "6 - 7 hours",
-     "ascent": "852m (Profile)"
+     "ascent": "852m (Profile)",
+     "distanceKm": 18,
+     "ascentM": 852,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18,
+    "ascentM": 852,
+    "timeH": 6.5,
+    "route": "Stob Bàn (Grey Corries) from above Corriechoille"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1800,
+    "timeH": 9.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 27,
@@ -7604,9 +11600,24 @@
      "startGridref": "NN420263",
      "distance": "12km / 7.5 miles",
      "time": "6  - 8 hours",
-     "ascent": "1335m (Profile)"
+     "ascent": "1335m (Profile)",
+     "distanceKm": 12,
+     "ascentM": 1335,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 12,
+    "ascentM": 1335,
+    "timeH": 7,
+    "route": "Ben More and Stob Binnein from Benmore Farm"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 3400,
+    "timeH": 13,
+    "peaks": null
+   }
   },
   {
    "id": 285,
@@ -7632,9 +11643,24 @@
      "startGridref": "NN252793",
      "distance": "21.5km / 13.25 miles",
      "time": "9 - 10 hours",
-     "ascent": "1544m (Profile)"
+     "ascent": "1544m (Profile)",
+     "distanceKm": 21.5,
+     "ascentM": 1544,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.5,
+    "ascentM": 1544,
+    "timeH": 9.5,
+    "route": "The Grey Corries ridge"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1800,
+    "timeH": 9.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 241,
@@ -7660,9 +11686,24 @@
      "startGridref": "NN136468",
      "distance": "18km / 11.25 miles",
      "time": "7 - 9 hours",
-     "ascent": "1327m (Profile)"
+     "ascent": "1327m (Profile)",
+     "distanceKm": 18,
+     "ascentM": 1327,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 18,
+    "ascentM": 1327,
+    "timeH": 8,
+    "route": "Stob Coir an Albannaich and Meall nan Eun from Glen Etive"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2560,
+    "timeH": 10.5,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 313,
@@ -7688,9 +11729,24 @@
      "startGridref": "NN168691",
      "distance": "16km / 10 miles",
      "time": "9 - 12 hours",
-     "ascent": "1676m (Profile)"
+     "ascent": "1676m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1676,
+     "timeH": 10.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1676,
+    "timeH": 10.5,
+    "route": "The Ring of Steall"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1750,
+    "timeH": 6.8,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 289,
@@ -7716,9 +11772,24 @@
      "startGridref": "NN252793",
      "distance": "21.5km / 13.25 miles",
      "time": "9 - 10 hours",
-     "ascent": "1544m (Profile)"
+     "ascent": "1544m (Profile)",
+     "distanceKm": 21.5,
+     "ascentM": 1544,
+     "timeH": 9.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21.5,
+    "ascentM": 1544,
+    "timeH": 9.5,
+    "route": "The Grey Corries ridge"
+   },
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1800,
+    "timeH": 9.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 290,
@@ -7744,9 +11815,24 @@
      "startGridref": "NN349781",
      "distance": "16.5km / 10.25 miles",
      "time": "7 - 8 hours",
-     "ascent": "1172m (Profile)"
+     "ascent": "1172m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1172,
+     "timeH": 7.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16.5,
+    "ascentM": 1172,
+    "timeH": 7.5,
+    "route": "The Easains ridge from near Fersit"
+   },
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1200,
+    "timeH": 8.3,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 194,
@@ -7772,9 +11858,24 @@
      "startGridref": "NN170569",
      "distance": "11km / 6.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1316m (Profile)"
+     "ascent": "1316m (Profile)",
+     "distanceKm": 11,
+     "ascentM": 1316,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 11,
+    "ascentM": 1316,
+    "timeH": 8,
+    "route": "Bidean nam Bian via Coire nan Lochain and the Lost Valley"
+   },
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1300,
+    "timeH": 4.5,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 356,
@@ -7800,9 +11901,24 @@
      "startGridref": "NN350782",
      "distance": "13.5km / 8.5 miles",
      "time": "6 - 7 hours",
-     "ascent": "915m (Profile)"
+     "ascent": "915m (Profile)",
+     "distanceKm": 13.5,
+     "ascentM": 915,
+     "timeH": 6.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.5,
+    "ascentM": 915,
+    "timeH": 6.5,
+    "route": "Chno Dearg and Stob Coire Sgriodain from Fersit"
+   },
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1250,
+    "timeH": null,
+    "peaks": "2 Munros"
+   }
   },
   {
    "id": 244,
@@ -7828,9 +11944,24 @@
      "startGridref": "NN080267",
      "distance": "13.75km / 8.5 miles",
      "time": "8 - 9 hours",
-     "ascent": "1376m (Profile)"
+     "ascent": "1376m (Profile)",
+     "distanceKm": 13.75,
+     "ascentM": 1376,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13.75,
+    "ascentM": 1376,
+    "timeH": 8.5,
+    "route": "Ben Cruachan and Stob Dàimh circuit"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1430,
+    "timeH": 5.8,
+    "peaks": "2 Munros, option of 5 Munro Tops and 1 Corbett"
+   }
   },
   {
    "id": 237,
@@ -7856,9 +11987,24 @@
      "startGridref": "NN270418",
      "distance": "16km / 10 miles",
      "time": "8 - 9 hours",
-     "ascent": "1239m (Profile)"
+     "ascent": "1239m (Profile)",
+     "distanceKm": 16,
+     "ascentM": 1239,
+     "timeH": 8.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16,
+    "ascentM": 1239,
+    "timeH": 8.5,
+    "route": "Stob Ghabhar & Stob a' Choire Odhair from Victoria Bridge"
+   },
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1950,
+    "timeH": 8.3,
+    "peaks": "4 Munros"
+   }
   },
   {
    "id": 662,
@@ -7884,9 +12030,24 @@
      "startGridref": "NN482872",
      "distance": "21km / 13 miles",
      "time": "8 - 10 hours",
-     "ascent": "1080m (Profile)"
+     "ascent": "1080m (Profile)",
+     "distanceKm": 21,
+     "ascentM": 1080,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 21,
+    "ascentM": 1080,
+    "timeH": 9,
+    "route": "Creag Meagaidh Munros circuit"
+   },
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1850,
+    "timeH": 9.8,
+    "peaks": "5 Munros"
+   }
   },
   {
    "id": 18,
@@ -7912,7 +12073,10 @@
      "startGridref": "NN633232",
      "distance": "14.5km / 9 miles",
      "time": "6 - 7 hours",
-     "ascent": "1145m (Profile)"
+     "ascent": "1145m (Profile)",
+     "distanceKm": 14.5,
+     "ascentM": 1145,
+     "timeH": 6.5
     },
     {
      "name": "Beinn Each route (can be extended to Stùc a' Chròin",
@@ -7923,9 +12087,24 @@
      "startGridref": "NN582137",
      "distance": "7km / 4.25 miles",
      "time": "3.5 - 4.5 hours",
-     "ascent": "693m (Profile)"
+     "ascent": "693m (Profile)",
+     "distanceKm": 7,
+     "ascentM": 693,
+     "timeH": 4
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 7,
+    "ascentM": 693,
+    "timeH": 4,
+    "route": "Beinn Each route (can be extended to Stùc a' Chròin"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1190,
+    "timeH": 5.5,
+    "peaks": null
+   }
   },
   {
    "id": 120,
@@ -7951,9 +12130,24 @@
      "startGridref": "NN511463",
      "distance": "8.5km / 5.25 miles",
      "time": "3.5 - 4.5 hours",
-     "ascent": "726m (Profile)"
+     "ascent": "726m (Profile)",
+     "distanceKm": 8.5,
+     "ascentM": 726,
+     "timeH": 4
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 8.5,
+    "ascentM": 726,
+    "timeH": 4,
+    "route": "Stuchd an Lochain from Loch an Dàimh"
+   },
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1335,
+    "timeH": 6.7,
+    "peaks": "2 Munros, option of 1 Corbett"
+   }
   },
   {
    "id": 435,
@@ -7979,9 +12173,24 @@
      "startGridref": "NO138781",
      "distance": "13km / 8 miles",
      "time": "5 - 6 hours",
-     "ascent": "595m (Profile)"
+     "ascent": "595m (Profile)",
+     "distanceKm": 13,
+     "ascentM": 595,
+     "timeH": 5.5
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 13,
+    "ascentM": 595,
+    "timeH": 5.5,
+    "route": "The Cairnwell Munros from the pass"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 575,
@@ -8007,9 +12216,24 @@
      "startGridref": "NH984073",
      "distance": "36km / 22.25 miles",
      "time": "13 hours or 2 Days",
-     "ascent": "1820m (Profile)"
+     "ascent": "1820m (Profile)",
+     "distanceKm": 36,
+     "ascentM": 1820,
+     "timeH": 13
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 36,
+    "ascentM": 1820,
+    "timeH": 13,
+    "route": "Cairn Toul and Braeriach traverse"
+   },
+   "fallon": {
+    "distanceKm": 37,
+    "ascentM": 1425,
+    "timeH": null,
+    "peaks": "3 Munros"
+   }
   },
   {
    "id": 688,
@@ -8035,9 +12259,24 @@
      "startGridref": "NG965146",
      "distance": "14km / 8.75 miles",
      "time": "7 - 9 hours",
-     "ascent": "1440m (Profile)"
+     "ascent": "1440m (Profile)",
+     "distanceKm": 14,
+     "ascentM": 1440,
+     "timeH": 8
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 14,
+    "ascentM": 1440,
+    "timeH": 8,
+    "route": "The Saddle via the Forcan Ridge, and Sgùrr na Sgìne"
+   },
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1600,
+    "timeH": 6.2,
+    "peaks": "2 Munros, option of 1 Graham/Fiona"
+   }
   },
   {
    "id": 818,
@@ -8063,9 +12302,24 @@
      "startGridref": "NH217242",
      "distance": "16.5km / 10.25 miles",
      "time": "6 - 8 hours",
-     "ascent": "1096m (Profile)"
+     "ascent": "1096m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1096,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16.5,
+    "ascentM": 1096,
+    "timeH": 7,
+    "route": "Toll Creagach and Tom a' Chòinich from Glen Affric"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 2200,
+    "timeH": 11.2,
+    "peaks": "5 Munros, option of 1 Fiona"
+   }
   },
   {
    "id": 479,
@@ -8091,9 +12345,24 @@
      "startGridref": "NO155881",
      "distance": "26.5km / 16.5 miles",
      "time": "8 - 10 hours",
-     "ascent": "841m (Profile)"
+     "ascent": "841m (Profile)",
+     "distanceKm": 26.5,
+     "ascentM": 841,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.5,
+    "ascentM": 841,
+    "timeH": 9,
+    "route": "Tolmount and Tom Buidhe via Loch Callater"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   },
   {
    "id": 810,
@@ -8119,9 +12388,24 @@
      "startGridref": "NH217242",
      "distance": "16.5km / 10.25 miles",
      "time": "6 - 8 hours",
-     "ascent": "1096m (Profile)"
+     "ascent": "1096m (Profile)",
+     "distanceKm": 16.5,
+     "ascentM": 1096,
+     "timeH": 7
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 16.5,
+    "ascentM": 1096,
+    "timeH": 7,
+    "route": "Toll Creagach and Tom a' Chòinich from Glen Affric"
+   },
+   "fallon": {
+    "distanceKm": 57,
+    "ascentM": 4725,
+    "timeH": 11.2,
+    "peaks": "12 Munros"
+   }
   },
   {
    "id": 480,
@@ -8147,9 +12431,24 @@
      "startGridref": "NO155881",
      "distance": "26.5km / 16.5 miles",
      "time": "8 - 10 hours",
-     "ascent": "841m (Profile)"
+     "ascent": "841m (Profile)",
+     "distanceKm": 26.5,
+     "ascentM": 841,
+     "timeH": 9
     }
-   ]
+   ],
+   "walk": {
+    "distanceKm": 26.5,
+    "ascentM": 841,
+    "timeH": 9,
+    "route": "Tolmount and Tom Buidhe via Loch Callater"
+   },
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 1690,
+    "timeH": 10.3,
+    "peaks": "9 Munros"
+   }
   }
  ]
 }

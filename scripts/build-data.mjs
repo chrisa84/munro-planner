@@ -8,6 +8,7 @@
 // Usage:
 //   node scripts/build-data.mjs             # munros.json only
 //   node scripts/build-data.mjs --verify    # also HEAD-check walkhighlands URLs
+//   node scripts/build-data.mjs --fallon    # scrape stevenfallon.co.uk route stats (slow, cached)
 //   node scripts/build-data.mjs --carparks  # also rebuild carparks.json (slow, hits Overpass)
 
 import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'node:fs'
@@ -220,6 +221,91 @@ async function loadWhRoutes() {
   }
   console.log(`WH route entries: ${byNumber.size}`)
   return byNumber
+}
+
+// ---- numeric stat parsing (filterable fields derived from source strings) ----
+
+function parseDistanceKm(s) {
+  const m = /([\d.]+)\s*km/i.exec(s || '')
+  return m ? Number(m[1]) : null
+}
+
+function parseAscentM(s) {
+  const m = /([\d,]+)\s*m\b/i.exec(s || '')
+  return m ? Number(m[1].replace(/,/g, '')) : null
+}
+
+// "4 - 5 hours" -> 4.5 (midpoint), "5 hours" -> 5, "3:10hr" -> 3.2
+function parseTimeH(s) {
+  if (!s) return null
+  const hm = /(\d+):(\d+)/.exec(s)
+  if (hm) return Math.round((Number(hm[1]) + Number(hm[2]) / 60) * 10) / 10
+  const range = /([\d.]+)\s*-\s*([\d.]+)/.exec(s)
+  if (range) return (Number(range[1]) + Number(range[2])) / 2
+  const single = /([\d.]+)/.exec(s)
+  return single ? Number(single[1]) : null
+}
+
+// Adds numeric fields to each route and a per-hill `walk` summary taken from
+// the shortest walkhighlands route (the quickest standard way up).
+function enrichRoutes(m) {
+  for (const r of m.routes) {
+    r.distanceKm = parseDistanceKm(r.distance)
+    r.ascentM = parseAscentM(r.ascent)
+    r.timeH = parseTimeH(r.time)
+  }
+  const best = m.routes
+    .filter((r) => r.distanceKm != null)
+    .sort((a, b) => a.distanceKm - b.distanceKm)[0]
+  m.walk = best ? { distanceKm: best.distanceKm, ascentM: best.ascentM, timeH: best.timeH, route: best.name } : null
+}
+
+// ---- Steve Fallon per-hill route stats (his pages are one round per hill,
+// often covering several summits — see `peaks`) ----
+
+const FALLON_CACHE = path.join(path.dirname(fileURLToPath(import.meta.url)), '.fallon-cache.json')
+
+// Two page layouts: prose ("Ascent : 915m ... Distance : 7km ... Time : 3:10hr")
+// and table pages for multi-hill rounds ("Distance</td><td> 30km", "walking : 13hr").
+// Tag-stripping first lets one set of patterns cover both.
+function parseFallonPage(html) {
+  const text = html.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/gi, ' ')
+  const dist = /Distance\s*:?\s*([\d.]+)\s*km/i.exec(text)
+  const asc = /Ascent\s*:?\s*([\d,]+)\s*m\b/i.exec(text)
+  const time =
+    /walking\s*:\s*(\d+)(?::(\d+))?\s*hr/i.exec(text) || /Time\s*:?\s*(\d+)(?::(\d+))?\s*hr/i.exec(text)
+  const peaks =
+    /Peaks\s*:?\s*(\d+\s*(?:Munros?|Corbetts?|Grahams?)(?:\s*[+&]\s*\d+\s*(?:Tops?|Munros?|Corbetts?))*)/i.exec(text)
+  if (!dist && !asc && !time) return null
+  return {
+    distanceKm: dist ? Number(dist[1]) : null,
+    ascentM: asc ? Number(asc[1].replace(/,/g, '')) : null,
+    timeH: time ? Math.round((Number(time[1]) + Number(time[2] || 0) / 60) * 10) / 10 : null,
+    peaks: peaks ? peaks[1].replace(/\s+/g, ' ').trim() : null,
+  }
+}
+
+async function scrapeFallonStats(hills) {
+  const cache = existsSync(FALLON_CACHE) ? JSON.parse(readFileSync(FALLON_CACHE, 'utf8')) : {}
+  // null = fetched but nothing parsed; retry those so parser improvements take effect.
+  for (const k of Object.keys(cache)) if (cache[k] === null) delete cache[k]
+  const urls = [...new Set(hills.map((h) => h.stevenfallon).filter(Boolean))]
+  const todo = urls.filter((u) => cache[u] === undefined)
+  console.log(`Fallon stats: ${urls.length} pages (${urls.length - todo.length} cached, ${todo.length} to fetch) ...`)
+  let n = 0
+  for (const url of todo) {
+    try {
+      cache[url] = parseFallonPage((await fetchBuffer(url)).toString('utf8'))
+      if (!cache[url]) console.log(`  no stats parsed from ${url}`)
+      writeFileSync(FALLON_CACHE, JSON.stringify(cache))
+    } catch (e) {
+      console.log(`  ${url} failed: ${e.message}`) // not cached — retried next run
+    }
+    if (++n % 25 === 0) console.log(`  ${n}/${todo.length}`)
+    await new Promise((r) => setTimeout(r, 500))
+  }
+  for (const h of hills) h.fallon = (h.stevenfallon && cache[h.stevenfallon]) || null
+  console.log(`Fallon stats attached: ${hills.filter((h) => h.fallon).length}/${hills.length}`)
 }
 
 async function verifyWalkhighlands(munros) {
@@ -461,15 +547,25 @@ if (missingFallon.length) {
   console.log(`No Fallon page matched for ${missingFallon.length}: ${missingFallon.map((m) => m.name).join(', ')}`)
 }
 
-mkdirSync(OUT_DIR, { recursive: true })
-writeFileSync(
-  path.join(OUT_DIR, 'munros.json'),
-  JSON.stringify({ generated: new Date().toISOString().slice(0, 10), count: munros.length, munros }, null, 1),
-)
-console.log(`Wrote munros.json (${munros.length} munros)`)
+writeMunros()
+}
+
+function writeMunros() {
+  for (const m of munros) enrichRoutes(m)
+  mkdirSync(OUT_DIR, { recursive: true })
+  writeFileSync(
+    path.join(OUT_DIR, 'munros.json'),
+    JSON.stringify({ generated: new Date().toISOString().slice(0, 10), count: munros.length, munros }, null, 1),
+  )
+  console.log(`Wrote munros.json (${munros.length} munros)`)
 }
 
 if (args.has('--verify')) await verifyWalkhighlands(munros)
+
+if (args.has('--fallon')) {
+  await scrapeFallonStats(munros)
+  writeMunros()
+}
 
 if (args.has('--corbetts')) {
   const dobihC = await loadDobihMunros('C')
@@ -493,6 +589,8 @@ if (args.has('--corbetts')) {
   const dupes = corbetts.filter((c) => !c.walkhighlands).length
   const noFallon = corbetts.filter((c) => !c.stevenfallon).length
   console.log(`Corbetts: ${corbetts.length} (no WH link for ${dupes} duplicate names, no Fallon match for ${noFallon})`)
+  if (args.has('--fallon')) await scrapeFallonStats(corbetts)
+  for (const c of corbetts) enrichRoutes(c)
   writeFileSync(
     path.join(OUT_DIR, 'corbetts.json'),
     JSON.stringify({ generated: new Date().toISOString().slice(0, 10), count: corbetts.length, corbetts }, null, 1),

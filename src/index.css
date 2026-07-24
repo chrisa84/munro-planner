@@ -159,6 +159,31 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+.munro-stats {
+  display: block;
+  font-size: 11.5px;
+  color: #7d9587;
+}
+
+.munro-list li.done .munro-stats {
+  color: #6d8f7c;
+}
+
+.stats-filter input[type='number'] {
+  width: 100%;
+  min-width: 0;
+  padding: 6px 7px;
+  border-radius: 6px;
+  border: 1px solid #3a4f43;
+  background: #121c16;
+  color: #e6ede8;
+}
+
+.stats-filter select {
+  flex-shrink: 0;
+  width: auto;
+}
+
 .empty {
   color: #7d9587;
   padding: 10px 4px;
@@ -527,6 +552,12 @@ button {
 .popup-coords {
   color: #555;
   font-size: 12.5px;
+}
+
+.popup-stats {
+  background: #f0f4f1;
+  border-radius: 5px;
+  padding: 4px 7px;
 }
 
 .popup-links {

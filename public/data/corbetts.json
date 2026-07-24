@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23",
+ "generated": "2026-07-24",
  "count": 222,
  "corbetts": [
   {
@@ -16,7 +16,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/a-chaoirnich-maol-creag-an-loch",
    "stevenfallon": "https://www.stevenfallon.co.uk/a-chaoirnich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=416",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 53,
+    "ascentM": 1190,
+    "timeH": 5.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1293,
@@ -32,7 +39,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ainshval",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1293",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 855,
@@ -48,7 +57,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/am-bathach",
    "stevenfallon": "https://www.stevenfallon.co.uk/am-bathach.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=855",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1650,
+    "timeH": 6.8,
+    "peaks": "4 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1587,
@@ -64,7 +80,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/an-cliseam-clisham",
    "stevenfallon": "https://www.stevenfallon.co.uk/clisham.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1587",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 825,
+    "timeH": 3.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 400,
@@ -80,7 +103,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/an-dun",
    "stevenfallon": "https://www.stevenfallon.co.uk/an-dun.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=400",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 53,
+    "ascentM": 1190,
+    "timeH": 5.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 988,
@@ -96,7 +126,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/an-ruadh-stac",
    "stevenfallon": "https://www.stevenfallon.co.uk/an-ruadh-stac.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=988",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1400,
+    "timeH": 7.1,
+    "peaks": "1 Munro, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 910,
@@ -112,7 +149,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/an-sithean-an-sidhean",
    "stevenfallon": "https://www.stevenfallon.co.uk/an-sithean.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=910",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 31,
+    "ascentM": 1200,
+    "timeH": 9.8,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1336,
@@ -128,7 +172,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/an-stac",
    "stevenfallon": "https://www.stevenfallon.co.uk/an-stac.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1336",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1475,
+    "timeH": 5.5,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 940,
@@ -144,7 +195,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/aonach-buidhe",
    "stevenfallon": "https://www.stevenfallon.co.uk/aonach-buidhe-killilan.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=940",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 33,
+    "ascentM": 1850,
+    "timeH": 11.3,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 875,
@@ -160,7 +218,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/aonach-shasuinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/aonach-shasuinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=875",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1125,
+    "timeH": 7.7,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1129,
@@ -176,7 +241,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/arkle",
    "stevenfallon": "https://www.stevenfallon.co.uk/arkle.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1129",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 31,
+    "ascentM": 2175,
+    "timeH": 11.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1292,
@@ -192,7 +264,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/askival",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1292",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 4,
@@ -208,7 +282,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/auchnafree-hill",
    "stevenfallon": "https://www.stevenfallon.co.uk/auchnafree-hill.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=4",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1030,
+    "timeH": 6.8,
+    "peaks": "1 Munro, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 907,
@@ -224,7 +305,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/bac-an-eich",
    "stevenfallon": "https://www.stevenfallon.co.uk/bac-an-eich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=907",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 31,
+    "ascentM": 1200,
+    "timeH": 9.8,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 973,
@@ -240,7 +328,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/baosbheinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/baosbheinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=973",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1575,
+    "timeH": 8.4,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 905,
@@ -256,7 +351,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-a-bhathaich-ard-beinn-a-bha-ach-ard",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-a-bhathaich-ard.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=905",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 900,
+    "timeH": 5.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 262,
@@ -272,7 +374,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-a-bhuiridh",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-a-bhuiridh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=262",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1430,
+    "timeH": 5.8,
+    "peaks": "2 Munros, option of 5 Munro Tops and 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1027,
@@ -288,7 +397,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-a-chaisgein-mor",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-a-chaisgein-mor.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1027",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 46,
+    "ascentM": 2775,
+    "timeH": 16.2,
+    "peaks": "3 Corbetts, 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 170,
@@ -304,7 +420,9 @@
    "walkhighlands": null,
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=170",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 1096,
@@ -320,7 +438,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-a-chaisteil-strathvaich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1096",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 47,
+    "ascentM": 1400,
+    "timeH": 7.4,
+    "peaks": "2 Corbetts, option of 2 Fionas"
+   },
+   "walk": null
   },
   {
    "id": 1024,
@@ -336,7 +461,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-a-chlaidheimh",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-a-chlaidheimh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1024",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 44,
+    "ascentM": 2905,
+    "timeH": 12.3,
+    "peaks": "5 Munros, 1 Corbett, plus option of more !"
+   },
+   "walk": null
   },
   {
    "id": 48,
@@ -352,7 +484,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-a-choin",
    "stevenfallon": "https://www.stevenfallon.co.uk/choin.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=48",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 920,
+    "timeH": 5.3,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 186,
@@ -368,7 +507,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-a-chrulaiste",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-a-chrulaiste.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=186",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 700,
+    "timeH": null,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 395,
@@ -384,7 +530,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-a-chuallaich",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-a-chuallaich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=395",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 6,
+    "ascentM": 620,
+    "timeH": 2.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1030,
@@ -400,7 +553,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-airigh-charr",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-airigh-charr.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1030",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 46,
+    "ascentM": 2775,
+    "timeH": 16.2,
+    "peaks": "3 Corbetts, 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 747,
@@ -416,7 +576,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-an-aodainn-ben-aden",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-aden.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=747",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1340,
+    "timeH": 8.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 974,
@@ -432,7 +599,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-an-eoin",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-an-eoin.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=974",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1575,
+    "timeH": 8.4,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1419,
@@ -448,7 +622,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-an-lochain",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1419",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 1449,
@@ -464,7 +640,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-an-oir",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1449",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 783,
@@ -480,7 +658,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-bhan-glen-loy.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=783",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1625,
+    "timeH": 8.2,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 987,
@@ -496,7 +681,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-bhan-applecross.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=987",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1350,
+    "timeH": 5.8,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1422,
@@ -512,7 +704,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-bheula",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-bheula.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1422",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 875,
+    "timeH": 4.4,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 414,
@@ -528,7 +727,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-bhreac",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-bhreac-atholl.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=414",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 37,
+    "ascentM": 1635,
+    "timeH": 9.3,
+    "peaks": "1 Munro, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 266,
@@ -544,7 +750,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-bhreac-liath",
    "stevenfallon": "https://www.stevenfallon.co.uk/orchy.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=266",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 950,
+    "timeH": 4,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 749,
@@ -560,7 +773,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-bhuidhe",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-bhuidhe-knoydart.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=749",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 27,
+    "ascentM": 1540,
+    "timeH": 9.3,
+    "peaks": "2 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 173,
@@ -576,7 +796,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-chaorach",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-chaorach-tyndrum.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=173",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 975,
+    "timeH": 4.5,
+    "peaks": "1 Munro, option of 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 80,
@@ -592,7 +819,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-chuirn",
    "stevenfallon": "https://www.stevenfallon.co.uk/luimunros.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=80",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 18.5,
+    "ascentM": 1700,
+    "timeH": 7.5,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 986,
@@ -608,7 +842,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-damh",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-damh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=986",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 960,
+    "timeH": 4.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 134,
@@ -624,7 +865,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-dearg-glen-lyon.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=134",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 755,
+    "timeH": 4.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 970,
@@ -640,7 +888,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-dearg-torridon.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=970",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 1250,
+    "timeH": 4.6,
+    "peaks": "2 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1028,
@@ -656,7 +911,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-dearg-bheag",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-dearg-bheag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1028",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 41,
+    "ascentM": 1900,
+    "timeH": 9.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1025,
@@ -672,7 +934,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-dearg-mor",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-dearg-mor.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1025",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 41,
+    "ascentM": 1900,
+    "timeH": 9.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 911,
@@ -688,7 +957,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-dronaig",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-dronaig.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=911",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 40,
+    "ascentM": 1730,
+    "timeH": 8.1,
+    "peaks": "2 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 19,
@@ -704,7 +980,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-each",
    "stevenfallon": "https://www.stevenfallon.co.uk/vorlich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=19",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1190,
+    "timeH": 5.5,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 1073,
@@ -720,7 +1003,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-enaiglair",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-enaiglair.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1073",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 740,
+    "timeH": 4.3,
+    "peaks": "1 Corbett, plus option of 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 677,
@@ -736,7 +1026,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-iaruinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-iaruinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=677",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1410,
+    "timeH": 8.1,
+    "peaks": "3 Corbetts, option of 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 1026,
@@ -752,7 +1049,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-lair",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-lair.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1026",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 46,
+    "ascentM": 2775,
+    "timeH": 16.2,
+    "peaks": "3 Corbetts, 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 1189,
@@ -768,7 +1072,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-leoid",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-leoid.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1189",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1175,
+    "timeH": 6.2,
+    "peaks": "1 Corbett, 2 Fionas"
+   },
+   "walk": null
   },
   {
    "id": 1054,
@@ -784,7 +1095,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-liath-mhor-a-ghiubhais-li-beinn-liath-mhor-a-ghiuthais",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-liath-mhor-a-ghiubhais-li.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1054",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1150,
+    "timeH": null,
+    "peaks": "4 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 81,
@@ -800,7 +1118,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-luibhean",
    "stevenfallon": "https://www.stevenfallon.co.uk/arrochar.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=81",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2440,
+    "timeH": 10,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 211,
@@ -816,7 +1141,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-maol-chaluim",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-maol-chaluim.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=211",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2375,
+    "timeH": 10.3,
+    "peaks": "3 Munros, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 415,
@@ -832,7 +1164,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-mheadhonach",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-mheadhonach.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=415",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 37,
+    "ascentM": 1635,
+    "timeH": 9.3,
+    "peaks": "1 Munro, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1337,
@@ -848,7 +1187,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-mhic-cedidh",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-mhic-cedidh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1337",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1360,
+    "timeH": 5.3,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 264,
@@ -864,7 +1210,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-mhic-chasgaig",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-mhic-chasgaig.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=264",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1500,
+    "timeH": 6.3,
+    "peaks": "2 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 267,
@@ -880,7 +1233,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-mhic-mhonaidh",
    "stevenfallon": "https://www.stevenfallon.co.uk/orchy.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=267",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 950,
+    "timeH": 4,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 397,
@@ -896,7 +1256,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-mholach",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-mholach.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=397",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 620,
+    "timeH": 4.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 753,
@@ -912,7 +1279,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-na-caillich",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-na-caillich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=753",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1775,
+    "timeH": 8.4,
+    "peaks": "1 Munro, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 718,
@@ -928,7 +1302,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-na-h-eaglaise",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-na-h-eaglaise.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=718",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 7,
+    "ascentM": 1100,
+    "timeH": 3.5,
+    "peaks": "1 Munro, option of 2 Corbetts and 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 1358,
@@ -944,7 +1325,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-na-h-uamha",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-na-h-uamha.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1358",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 46,
+    "ascentM": 2450,
+    "timeH": 11.3,
+    "peaks": "3 Corbetts, option of 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 174,
@@ -960,7 +1348,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-nam-fuaran",
    "stevenfallon": "https://www.stevenfallon.co.uk/lochaymunros.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=174",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 975,
+    "timeH": 4.5,
+    "peaks": "1 Munro, option of 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 721,
@@ -976,7 +1371,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-nan-caorach",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-nan-caorach.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=721",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 7,
+    "ascentM": 1100,
+    "timeH": 3.5,
+    "peaks": "1 Munro, option of 2 Corbetts and 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 172,
@@ -992,7 +1394,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-nan-imirean",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-nan-imirean.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=172",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 1215,
+    "timeH": 6.8,
+    "peaks": "2 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 168,
@@ -1008,7 +1417,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-nan-oighreag",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-nan-oighreag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=168",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 900,
+    "timeH": 3.8,
+    "peaks": "1 Munro, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 169,
@@ -1024,7 +1440,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-odhar",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=169",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 1333,
@@ -1040,7 +1458,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-odhar-bheag",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-odhar-bheag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1333",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1360,
+    "timeH": 5.3,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 374,
@@ -1056,7 +1481,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-pharlagain-meall-na-meoig-meall-na-meoig",
    "stevenfallon": "https://www.stevenfallon.co.uk/ossian-meall-na-meoig.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=374",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 27,
+    "ascentM": 1270,
+    "timeH": 5.2,
+    "peaks": "2 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1352,
@@ -1072,7 +1504,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-resipol",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-resipol.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1352",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 890,
+    "timeH": 4.7,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1131,
@@ -1088,7 +1527,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-spionnaidh",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-spionnaidh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1131",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 1025,
+    "timeH": 4.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 47,
@@ -1104,7 +1550,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-stacach-ceann-na-baintighearna-stob-fear-tomhais-beinn-stacath",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=47",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 1474,
@@ -1120,7 +1568,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-tarsuinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-tarsuinn-arran.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1474",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 2200,
+    "timeH": null,
+    "peaks": "4 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 904,
@@ -1136,7 +1591,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-tharsuinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-tharsuinn-monar.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=904",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 43,
+    "ascentM": 4075,
+    "timeH": 15.7,
+    "peaks": "6 Munros, 3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 213,
@@ -1152,7 +1614,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-trilleachan",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-trilleachan.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=213",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 2475,
+    "timeH": 11.7,
+    "peaks": "3 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 265,
@@ -1168,7 +1637,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/beinn-udlaidh",
    "stevenfallon": "https://www.stevenfallon.co.uk/orchy.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=265",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 950,
+    "timeH": 4,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 1420,
@@ -1184,7 +1660,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-donich",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1420",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 446,
@@ -1200,7 +1678,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-gulabin",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-gulabin.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=446",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 5,
+    "ascentM": 450,
+    "timeH": null,
+    "peaks": "1 Corbett, option to extend"
+   },
+   "walk": null
   },
   {
    "id": 1126,
@@ -1216,7 +1701,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-hee",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-hee.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1126",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 850,
+    "timeH": 4.9,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 42,
@@ -1232,7 +1724,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-ledi",
    "stevenfallon": "https://www.stevenfallon.co.uk/ledi.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=42",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 17.5,
+    "ascentM": 1250,
+    "timeH": 5.5,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 1132,
@@ -1248,7 +1747,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-loyal-an-caisteal",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-loyal.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1132",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 975,
+    "timeH": 5.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1489,
@@ -1264,7 +1770,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-rinnes",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-rinnes.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1489",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 530,
+    "timeH": 2.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 761,
@@ -1280,7 +1793,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-tee",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-tee.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=761",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1675,
+    "timeH": 7.8,
+    "peaks": "2 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 491,
@@ -1296,7 +1816,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-tirran-the-goet",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-tirran.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=491",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 870,
+    "timeH": 5.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 445,
@@ -1312,7 +1839,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-vrackie",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-vrackie.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=445",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 675,
+    "timeH": 3.4,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 441,
@@ -1328,7 +1862,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ben-vuirich",
    "stevenfallon": "https://www.stevenfallon.co.uk/ben-vuirich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=441",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 860,
+    "timeH": 6.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 45,
@@ -1344,7 +1885,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/benvane",
    "stevenfallon": "https://www.stevenfallon.co.uk/ledi.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=45",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 17.5,
+    "ascentM": 1250,
+    "timeH": 5.5,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 779,
@@ -1360,7 +1908,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/bidein-a-chabair",
    "stevenfallon": "https://www.stevenfallon.co.uk/bidein-a-chabair.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=779",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1085,
+    "timeH": 4.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 785,
@@ -1376,7 +1931,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/braigh-nan-uamhachan",
    "stevenfallon": "https://www.stevenfallon.co.uk/braigh-nan-uamhachan.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=785",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1700,
+    "timeH": 8.3,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1187,
@@ -1392,7 +1954,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/breabag",
    "stevenfallon": "https://www.stevenfallon.co.uk/assynt-breabag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1187",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 700,
+    "timeH": 3.7,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1830,
@@ -1408,7 +1977,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/broad-law",
    "stevenfallon": "https://www.stevenfallon.co.uk/broad-law.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1830",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 810,
+    "timeH": 5.3,
+    "peaks": "1 Corbett, 4 Donalds, 2 Donald Tops"
+   },
+   "walk": null
   },
   {
    "id": 597,
@@ -1424,7 +2000,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/brown-cow-hill",
    "stevenfallon": "https://www.stevenfallon.co.uk/brown-cow-hill.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=597",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 19,
+    "ascentM": 600,
+    "timeH": 5.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 713,
@@ -1440,7 +2023,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/buidhe-bheinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/buidhe-bheinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=713",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 950,
+    "timeH": 4.2,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1739,
@@ -1456,7 +2046,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/cairnsmore-of-carsphairn",
    "stevenfallon": "https://www.stevenfallon.co.uk/cairnsmore-of-carsphairn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1739",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 620,
+    "timeH": 8.1,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1473,
@@ -1472,7 +2069,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/caisteal-abhail",
    "stevenfallon": "https://www.stevenfallon.co.uk/caisteal-abhail.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1473",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 2200,
+    "timeH": null,
+    "peaks": "4 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 132,
@@ -1488,7 +2092,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/cam-chreag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=132",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 755,
+    "timeH": 4.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 171,
@@ -1504,7 +2115,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/cam-chreag-lochay.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=171",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 975,
+    "timeH": 4.5,
+    "peaks": "1 Munro, option of 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1206,
@@ -1520,7 +2138,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/canisp",
    "stevenfallon": "https://www.stevenfallon.co.uk/canisp.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1206",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 740,
+    "timeH": 4.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 876,
@@ -1536,7 +2161,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-a-choire-ghairbh",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-a-choire-ghairbh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=876",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1125,
+    "timeH": 7.7,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 638,
@@ -1552,7 +2184,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-a-chuilinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-a-chuilinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=638",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 735,
+    "timeH": 2.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 633,
@@ -1568,7 +2207,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-an-fhreiceadain",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-an-fhreiceadain.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=633",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 680,
+    "timeH": null,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1074,
@@ -1584,7 +2230,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-ban",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-ban.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1074",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 47,
+    "ascentM": 1400,
+    "timeH": 7.4,
+    "peaks": "2 Corbetts, option of 2 Fionas"
+   },
+   "walk": null
   },
   {
    "id": 1095,
@@ -1600,7 +2253,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-chuinneag",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-chuinneag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1095",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 780,
+    "timeH": 5.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 637,
@@ -1616,7 +2276,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/glen-roy-carn-dearg-817.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=637",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1410,
+    "timeH": 8.1,
+    "peaks": "3 Corbetts, option of 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 642,
@@ -1632,7 +2299,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/glen-roy-carn-dearg-768.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=642",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1410,
+    "timeH": 8.1,
+    "peaks": "3 Corbetts, option of 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 676,
@@ -1648,7 +2322,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/glen-roy-carn-dearg-834.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=676",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 730,
+    "timeH": 3.3,
+    "peaks": "1 Corbett, option of 2 Fionas"
+   },
+   "walk": null
   },
   {
    "id": 417,
@@ -1664,7 +2345,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-dearg-mor",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-dearg-mor.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=417",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 41,
+    "ascentM": 1040,
+    "timeH": 6.8,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 602,
@@ -1680,7 +2368,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-ealasaid",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-ealasaid.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=602",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 7,
+    "ascentM": 300,
+    "timeH": 2.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 780,
@@ -1696,7 +2391,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-mor-morar.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=780",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1035,
+    "timeH": 4.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1490,
@@ -1712,7 +2414,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-mor-lecht.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1490",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 6,
+    "ascentM": 450,
+    "timeH": 2.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 599,
@@ -1728,7 +2437,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-na-drochaide",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-na-drochaide.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=599",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 515,
+    "timeH": 3.2,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1354,
@@ -1744,7 +2460,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-na-nathrach",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-na-nathrach.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1354",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 46,
+    "ascentM": 2450,
+    "timeH": 11.3,
+    "peaks": "3 Corbetts, option of 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 639,
@@ -1760,7 +2483,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/carn-na-saobhaidhe",
    "stevenfallon": "https://www.stevenfallon.co.uk/carn-na-saobhaidhe.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=639",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 630,
+    "timeH": 3.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1475,
@@ -1776,7 +2506,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/cir-mhor",
    "stevenfallon": "https://www.stevenfallon.co.uk/cir-mhor.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1475",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 2200,
+    "timeH": null,
+    "peaks": "4 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1423,
@@ -1792,7 +2529,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/cnoc-coinnich",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1423",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 492,
@@ -1808,7 +2547,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/conachcraig",
    "stevenfallon": "https://www.stevenfallon.co.uk/conachcraig.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=492",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 28,
+    "ascentM": 1340,
+    "timeH": 9.3,
+    "peaks": "5 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1491,
@@ -1824,7 +2570,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/corryhabbie-hill",
    "stevenfallon": "https://www.stevenfallon.co.uk/corryhabbie.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1491",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 24,
+    "ascentM": 930,
+    "timeH": 7.4,
+    "peaks": "1 Corbett and 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 1689,
@@ -1840,7 +2593,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/corserine",
    "stevenfallon": "https://www.stevenfallon.co.uk/corserine.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1689",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 950,
+    "timeH": 6.1,
+    "peaks": "1 Corbett, 4 Donalds"
+   },
+   "walk": null
   },
   {
    "id": 1128,
@@ -1856,7 +2616,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/cranstackie",
    "stevenfallon": "https://www.stevenfallon.co.uk/cranstackie.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1128",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 1025,
+    "timeH": 4.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 214,
@@ -1872,7 +2639,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/creach-bheinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=214",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 1280,
+    "timeH": null,
+    "peaks": "1 Munro, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1373,
@@ -1888,7 +2662,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/creach-bheinn-kingairloch.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1373",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1490,
+    "timeH": 6.5,
+    "peaks": "2 Corbetts, 1 Fiona/Graham"
+   },
+   "walk": null
   },
   {
    "id": 596,
@@ -1904,7 +2685,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/creag-an-dail-bheag",
    "stevenfallon": "https://www.stevenfallon.co.uk/creag-an-dail-beag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=596",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 53,
+    "ascentM": 1230,
+    "timeH": null,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 46,
@@ -1920,7 +2708,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/creag-mac-ranaich",
    "stevenfallon": "https://www.stevenfallon.co.uk/macranaich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=46",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1025,
+    "timeH": 6.5,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 594,
@@ -1936,7 +2731,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/creag-mhor",
    "stevenfallon": "https://www.stevenfallon.co.uk/creag-mhor-abernethy.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=594",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 860,
+    "timeH": 5.5,
+    "peaks": "1 Munro, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 494,
@@ -1952,7 +2754,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/creag-nan-gabhar",
    "stevenfallon": "https://www.stevenfallon.co.uk/creag-nan-gabhar.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=494",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 910,
+    "timeH": 5.3,
+    "peaks": "4 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1029,
@@ -1968,7 +2777,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/creag-rainich",
    "stevenfallon": "https://www.stevenfallon.co.uk/creag-rainich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1029",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 840,
+    "timeH": 5.7,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 3,
@@ -1984,7 +2800,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/creag-uchdag",
    "stevenfallon": "https://www.stevenfallon.co.uk/creag-uchdag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=3",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1700,
+    "timeH": 8.6,
+    "peaks": "2 Corbetts, 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 2,
@@ -2000,7 +2823,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/creagan-na-beinne",
    "stevenfallon": "https://www.stevenfallon.co.uk/creagan-na-beinne.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=2",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1700,
+    "timeH": 8.6,
+    "peaks": "2 Corbetts, 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 328,
@@ -2016,7 +2846,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/cruach-innse",
    "stevenfallon": "https://www.stevenfallon.co.uk/treig-cruach-innse.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=328",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1900,
+    "timeH": 8.3,
+    "peaks": "2 Munros, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1207,
@@ -2032,7 +2869,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/cul-beag",
    "stevenfallon": "https://www.stevenfallon.co.uk/cul-beag.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1207",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1650,
+    "timeH": 6.4,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1205,
@@ -2048,7 +2892,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/cul-mor",
    "stevenfallon": "https://www.stevenfallon.co.uk/cul-mor.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1205",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 720,
+    "timeH": 6.4,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 593,
@@ -2064,7 +2915,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/culardoch",
    "stevenfallon": "https://www.stevenfallon.co.uk/culardoch.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=593",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 53,
+    "ascentM": 1230,
+    "timeH": null,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 719,
@@ -2080,7 +2938,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/druim-nan-cnamh-beinn-loinne",
    "stevenfallon": "https://www.stevenfallon.co.uk/beinn-loinne.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=719",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 620,
+    "timeH": 5.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1357,
@@ -2096,7 +2961,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/druim-tarsuinn-stob-a-bhealach-an-sgriodain",
    "stevenfallon": "https://www.stevenfallon.co.uk/druim-tarsuinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1357",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1580,
+    "timeH": 8.4,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1302,
@@ -2112,7 +2984,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/dun-da-ghaoithe",
    "stevenfallon": "https://www.stevenfallon.co.uk/dun-da-ghaoithe.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1302",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 900,
+    "timeH": 4.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 942,
@@ -2128,7 +3007,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/faochaig",
    "stevenfallon": "https://www.stevenfallon.co.uk/faochaig.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=942",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 33,
+    "ascentM": 1850,
+    "timeH": 11.3,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 136,
@@ -2144,7 +3030,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/farragon-hill",
    "stevenfallon": "https://www.stevenfallon.co.uk/farragon-hill.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=136",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1100,
+    "timeH": 6.2,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1124,
@@ -2160,7 +3053,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/foinaven-foinne-bhein-ganu-mor",
    "stevenfallon": "https://www.stevenfallon.co.uk/foinaven.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1124",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 31,
+    "ascentM": 2175,
+    "timeH": 11.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 748,
@@ -2176,7 +3076,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/fraoch-bheinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/fraoch-bheinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=748",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1900,
+    "timeH": 8.2,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 212,
@@ -2192,7 +3099,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/fraochaidh",
    "stevenfallon": "https://www.stevenfallon.co.uk/fraochaidh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=212",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 900,
+    "timeH": 4.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1374,
@@ -2208,7 +3122,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/fuar-bheinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/fuar-bheinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1374",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 1490,
+    "timeH": 6.5,
+    "peaks": "2 Corbetts, 1 Fiona/Graham"
+   },
+   "walk": null
   },
   {
    "id": 984,
@@ -2224,7 +3145,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/fuar-tholl",
    "stevenfallon": "https://www.stevenfallon.co.uk/fuar-tholl.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=984",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 1750,
+    "timeH": 8.2,
+    "peaks": "2 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 631,
@@ -2240,7 +3168,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/gairbeinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/gairbeinn-monadhliath.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=631",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 900,
+    "timeH": 6.8,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 185,
@@ -2256,7 +3191,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/garbh-bheinn-leven.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=185",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 6,
+    "ascentM": 840,
+    "timeH": null,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1350,
@@ -2272,7 +3214,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/garbh-bheinn-ardgour.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1350",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1415,
+    "timeH": 5.6,
+    "peaks": "1 Corbett, 2 Fionas"
+   },
+   "walk": null
   },
   {
    "id": 1262,
@@ -2288,7 +3237,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/garbh-bheinn-skye.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1262",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 1125,
+    "timeH": 4.2,
+    "peaks": "1 Corbett, 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 598,
@@ -2304,7 +3260,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/geal-charn-abernethy.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=598",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 600,
+    "timeH": 5.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 766,
@@ -2320,7 +3283,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/geal-charn-glen-garry.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=766",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1700,
+    "timeH": 8.3,
+    "peaks": "2 Corbetts and 2 Fionas"
+   },
+   "walk": null
   },
   {
    "id": 636,
@@ -2336,7 +3306,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/geal-charn-mor",
    "stevenfallon": "https://www.stevenfallon.co.uk/geal-charn-mor-aviemore.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=636",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 775,
+    "timeH": 4.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1263,
@@ -2352,7 +3329,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/glamaig-sgurr-mhairi",
    "stevenfallon": "https://www.stevenfallon.co.uk/glamaig.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1263",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1700,
+    "timeH": 6.5,
+    "peaks": "1 Corbett, 2 Fionas"
+   },
+   "walk": null
   },
   {
    "id": 331,
@@ -2368,7 +3352,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/mamores-glas-bheinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=331",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 2000,
+    "timeH": null,
+    "peaks": "4 Munros, plus option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1191,
@@ -2384,7 +3375,14 @@
    "walkhighlands": null,
    "stevenfallon": "https://www.stevenfallon.co.uk/assynt-glas-bheinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1191",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 6,
+    "ascentM": 530,
+    "timeH": 2.4,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1472,
@@ -2400,7 +3398,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/goatfell-goat-fell",
    "stevenfallon": "https://www.stevenfallon.co.uk/goatfell.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1472",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 2200,
+    "timeH": null,
+    "peaks": "4 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1835,
@@ -2416,7 +3421,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/hart-fell",
    "stevenfallon": "https://www.stevenfallon.co.uk/hart-fell.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1835",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1050,
+    "timeH": 5.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 413,
@@ -2432,7 +3444,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/leathad-an-taobhain",
    "stevenfallon": "https://www.stevenfallon.co.uk/leathad-an-taobhain.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=413",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 33,
+    "ascentM": 900,
+    "timeH": 4.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 327,
@@ -2448,7 +3467,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/leum-uilleim",
    "stevenfallon": "https://www.stevenfallon.co.uk/ossian-leum-uilleim.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=327",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 550,
+    "timeH": 3.4,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1097,
@@ -2464,7 +3490,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/little-wyvis",
    "stevenfallon": "https://www.stevenfallon.co.uk/little-wyvis.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1097",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 700,
+    "timeH": 3.2,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 330,
@@ -2480,7 +3513,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/mam-na-gualainn",
    "stevenfallon": "https://www.stevenfallon.co.uk/mam-na-gualainn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=330",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 6,
+    "ascentM": 800,
+    "timeH": null,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 601,
@@ -2496,7 +3536,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-a-bhuachaille",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-a-bhuachaille.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=601",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 550,
+    "timeH": 3.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 972,
@@ -2512,7 +3559,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-a-ghiuthais-meall-a-ghiubhais",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-a-ghiubhais.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=972",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 1430,
+    "timeH": 6.9,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 784,
@@ -2528,7 +3582,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-a-phubuill",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-a-phubuill.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=784",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 16,
+    "ascentM": 780,
+    "timeH": 2.4,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 83,
@@ -2544,7 +3605,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-an-fhudair",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=83",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 44,
@@ -2560,7 +3623,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-an-t-seallaidh",
    "stevenfallon": "https://www.stevenfallon.co.uk/macranaich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=44",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1025,
+    "timeH": 6.5,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 130,
@@ -2576,7 +3646,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-buidhe",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=130",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 767,
@@ -2592,7 +3664,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-dubh",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-dubh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=767",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 850,
+    "timeH": 2.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1130,
@@ -2608,7 +3687,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-horn",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-horn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1130",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 31,
+    "ascentM": 2550,
+    "timeH": 8.2,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 215,
@@ -2624,7 +3710,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-lighiche",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-lighiche.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=215",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2375,
+    "timeH": 10.3,
+    "peaks": "3 Munros, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 20,
@@ -2640,7 +3733,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-na-fearna",
    "stevenfallon": "https://www.stevenfallon.co.uk/vorlich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=20",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1190,
+    "timeH": 5.5,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 634,
@@ -2656,7 +3756,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-na-h-aisre",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-na-h-aisre.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=634",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 900,
+    "timeH": 6.8,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 764,
@@ -2672,7 +3779,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-na-h-eilde",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-na-h-eilde.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=764",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1700,
+    "timeH": 8.3,
+    "peaks": "2 Corbetts and 2 Fionas"
+   },
+   "walk": null
   },
   {
    "id": 402,
@@ -2688,7 +3802,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-na-leitreach",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-na-leitreach.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=402",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 475,
+    "timeH": null,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 176,
@@ -2704,7 +3825,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-nam-maigheach",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-nam-maigheach.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=176",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 2035,
+    "timeH": 8.4,
+    "peaks": "7 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 175,
@@ -2720,7 +3848,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-nan-subh",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-nan-subh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=175",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1450,
+    "timeH": 6.3,
+    "peaks": "2 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 135,
@@ -2736,7 +3871,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meall-tairneachan",
    "stevenfallon": "https://www.stevenfallon.co.uk/meall-tairneachan.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=135",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 17,
+    "ascentM": 1100,
+    "timeH": 6.2,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 420,
@@ -2752,7 +3894,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meallach-mhor",
    "stevenfallon": "https://www.stevenfallon.co.uk/meallach-mhor.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=420",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 41,
+    "ascentM": 1040,
+    "timeH": 6.8,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1127,
@@ -2768,7 +3917,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meallan-liath-coire-mhic-dhughaill",
    "stevenfallon": "https://www.stevenfallon.co.uk/mhic-dhughaill.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1127",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1600,
+    "timeH": 8.2,
+    "peaks": "2 Corbetts, 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 909,
@@ -2784,7 +3940,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/meallan-nan-uan",
    "stevenfallon": "https://www.stevenfallon.co.uk/meallan-nan-uan.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=909",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1300,
+    "timeH": 5.9,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1688,
@@ -2800,7 +3963,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/merrick",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1688",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 495,
@@ -2816,7 +3981,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/monamenach",
    "stevenfallon": "https://www.stevenfallon.co.uk/monamenach.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=495",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 5,
+    "ascentM": 450,
+    "timeH": 8.9,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 444,
@@ -2832,7 +4004,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/morrone",
    "stevenfallon": "https://www.stevenfallon.co.uk/morrone.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=444",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 6,
+    "ascentM": 480,
+    "timeH": 2.4,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1488,
@@ -2848,7 +4027,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/morven",
    "stevenfallon": "https://www.stevenfallon.co.uk/morven.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1488",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 660,
+    "timeH": 3.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 496,
@@ -2864,7 +4050,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/mount-battock",
    "stevenfallon": "https://www.stevenfallon.co.uk/mount-battock.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=496",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 1050,
+    "timeH": 4.7,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1188,
@@ -2880,7 +4073,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/quinag-sail-gharbh",
    "stevenfallon": "https://www.stevenfallon.co.uk/quinag-sail-gharbh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1188",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1150,
+    "timeH": 5.2,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1190,
@@ -2896,7 +4096,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/quinag-sail-ghorm-sail-gorm",
    "stevenfallon": "https://www.stevenfallon.co.uk/quinag-sail-ghorm.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1190",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1150,
+    "timeH": 5.2,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1192,
@@ -2912,7 +4119,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/quinag-spidean-coinich",
    "stevenfallon": "https://www.stevenfallon.co.uk/quinag-spidean-coinich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1192",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 13,
+    "ascentM": 1150,
+    "timeH": 5.2,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1334,
@@ -2928,7 +4142,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/rois-bheinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/rois-bheinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1334",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1475,
+    "timeH": 5.5,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 971,
@@ -2944,7 +4165,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/ruadh-stac-beag",
    "stevenfallon": "https://www.stevenfallon.co.uk/ruadh-stac-beag-torridon.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=971",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 1430,
+    "timeH": 6.9,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1031,
@@ -2960,7 +4188,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sail-mhor",
    "stevenfallon": "https://www.stevenfallon.co.uk/sail-mhor.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1031",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 850,
+    "timeH": 3.7,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 600,
@@ -2976,7 +4211,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgor-mor",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgor-mor-braemar.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=600",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 18,
+    "ascentM": 650,
+    "timeH": 5.5,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1355,
@@ -2992,7 +4234,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgorr-craobh-a-chaorainn",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgorr-craobh-a-chaorainn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1355",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1580,
+    "timeH": 8.4,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 943,
@@ -3008,7 +4257,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgorr-na-diollaid",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgorr-na-diollaid.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=943",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 700,
+    "timeH": 3.2,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 989,
@@ -3024,7 +4280,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgorr-nan-lochan-uaine",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgorr-nan-lochan-uaine.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=989",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 1750,
+    "timeH": 8.2,
+    "peaks": "2 Munros, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 941,
@@ -3040,7 +4303,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sguman-coinntich",
    "stevenfallon": "https://www.stevenfallon.co.uk/sguman-coinntich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=941",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 33,
+    "ascentM": 1850,
+    "timeH": 11.3,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 990,
@@ -3056,7 +4326,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-a-chaorachain",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-a-chaorachain-applecross.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=990",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 1350,
+    "timeH": 5.8,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 742,
@@ -3072,7 +4349,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-a-choire-bheithe",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-a-choire-bheithe.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=742",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 45,
+    "ascentM": 2895,
+    "timeH": null,
+    "peaks": "3 Munros, option of 2 Corbetts and 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 903,
@@ -3088,7 +4372,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-a-mhuilinn",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-a-mhuilinn.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=903",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1300,
+    "timeH": 5.9,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 853,
@@ -3104,7 +4395,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-an-airgid",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-an-airgid.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=853",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 830,
+    "timeH": 3.6,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 743,
@@ -3120,7 +4418,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-an-fhuarain",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-an-fhuarain.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=743",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 49,
+    "ascentM": 2245,
+    "timeH": 9.1,
+    "peaks": "2 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 782,
@@ -3136,7 +4441,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-an-utha",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-an-utha.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=782",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 730,
+    "timeH": 3.7,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 752,
@@ -3152,7 +4464,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-coire-choinnichean",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-coire-choinnichean.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=752",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 22,
+    "ascentM": 1775,
+    "timeH": 8.4,
+    "peaks": "1 Munro, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 751,
@@ -3168,7 +4487,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-cos-na-breachd-laoidh",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-cos-na-breachd-laoidh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=751",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1900,
+    "timeH": 8.2,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1349,
@@ -3184,7 +4510,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-dhomhnuill",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-dhomhuill.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1349",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 46,
+    "ascentM": 2450,
+    "timeH": 11.3,
+    "peaks": "3 Corbetts, option of 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 991,
@@ -3200,7 +4533,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-dubh",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-dubh.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=991",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 1750,
+    "timeH": 8.2,
+    "peaks": "2 Munros, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 854,
@@ -3216,7 +4556,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-gaorsaic",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-gaorsaic.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=854",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1250,
+    "timeH": 7.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1351,
@@ -3232,7 +4579,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-ghiubhsachain",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-ghiubhsachain.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1351",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 23,
+    "ascentM": 1580,
+    "timeH": 8.4,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 329,
@@ -3248,7 +4602,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-innse",
    "stevenfallon": "https://www.stevenfallon.co.uk/treig-sgurr-innse.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=329",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1900,
+    "timeH": 8.3,
+    "peaks": "2 Munros, 2 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 720,
@@ -3264,7 +4625,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-mhic-bharraich",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-mhic-bharraich.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=720",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 9,
+    "ascentM": 835,
+    "timeH": 3.7,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 763,
@@ -3280,7 +4648,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-mhurlagain",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-mhurlagain.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=763",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1900,
+    "timeH": 8.2,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 1335,
@@ -3296,7 +4671,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-na-ba-glaise",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-na-ba-glaise.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1335",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1475,
+    "timeH": 5.5,
+    "peaks": "3 Corbetts"
+   },
+   "walk": null
   },
   {
    "id": 906,
@@ -3312,7 +4694,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-na-feartaig",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-na-feartaig.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=906",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 20,
+    "ascentM": 1220,
+    "timeH": 15.7,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 900,
@@ -3328,7 +4717,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-nan-ceannaichean",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-nan-ceanaichean.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=900",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 12,
+    "ascentM": 1070,
+    "timeH": 4.8,
+    "peaks": "1 Munro, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 744,
@@ -3344,7 +4740,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sgurr-nan-eugallt",
    "stevenfallon": "https://www.stevenfallon.co.uk/sgurr-nan-eugallt.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=744",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 8,
+    "ascentM": 800,
+    "timeH": 3.3,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1692,
@@ -3360,7 +4763,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/shalloch-on-minnoch",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1692",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 133,
@@ -3376,7 +4781,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/sron-a-choire-chnapanaich-sron-a-choire-chnapanich",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=133",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 43,
@@ -3392,7 +4799,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/stob-a-choin",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=43",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 396,
@@ -3408,7 +4817,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/stob-an-aonaich-mhoir",
    "stevenfallon": "https://www.stevenfallon.co.uk/stob-an-aonaich-mhoir.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=396",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 30,
+    "ascentM": 690,
+    "timeH": 3.2,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1356,
@@ -3424,7 +4840,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/stob-coire-a-chearcaill",
    "stevenfallon": "https://www.stevenfallon.co.uk/stob-coire-a-chearcaill.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1356",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 14,
+    "ascentM": 790,
+    "timeH": 4.8,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 82,
@@ -3440,7 +4863,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/stob-coire-creagach-binnein-an-fhidhleir",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=82",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 263,
@@ -3456,7 +4881,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/stob-dubh",
    "stevenfallon": "https://www.stevenfallon.co.uk/stob-dubh-beinn-ceitlein.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=263",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 10,
+    "ascentM": 900,
+    "timeH": null,
+    "peaks": "1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 777,
@@ -3472,7 +4904,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/streap",
    "stevenfallon": "https://www.stevenfallon.co.uk/streap.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=777",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 21,
+    "ascentM": 1450,
+    "timeH": 7.7,
+    "peaks": "2 Munros, option of 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1421,
@@ -3488,7 +4927,9 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/the-brack",
    "stevenfallon": null,
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1421",
-   "routes": []
+   "routes": [],
+   "fallon": null,
+   "walk": null
   },
   {
    "id": 79,
@@ -3504,7 +4945,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/the-cobbler-ben-arthur",
    "stevenfallon": "https://www.stevenfallon.co.uk/arrochar.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=79",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 25,
+    "ascentM": 2440,
+    "timeH": 10,
+    "peaks": null
+   },
+   "walk": null
   },
   {
    "id": 370,
@@ -3520,7 +4968,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/the-fara",
    "stevenfallon": "https://www.stevenfallon.co.uk/the-fara.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=370",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 11,
+    "ascentM": 550,
+    "timeH": 3.7,
+    "peaks": "1 Corbett, 1 Fiona"
+   },
+   "walk": null
   },
   {
    "id": 401,
@@ -3536,7 +4991,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/the-sow-of-atholl-meall-an-dobharchain",
    "stevenfallon": "https://www.stevenfallon.co.uk/drumochter-sow-of-atholl.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=401",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 24,
+    "ascentM": 1300,
+    "timeH": 8.2,
+    "peaks": "4 Munros, 1 Corbett"
+   },
+   "walk": null
   },
   {
    "id": 1832,
@@ -3552,7 +5014,14 @@
    "walkhighlands": "https://www.walkhighlands.co.uk/corbetts/white-coomb",
    "stevenfallon": "https://www.stevenfallon.co.uk/white-coomb.html",
    "hillbagging": "https://www.hill-bagging.co.uk/mountaindetails.php?qu=S&rf=1832",
-   "routes": []
+   "routes": [],
+   "fallon": {
+    "distanceKm": 15,
+    "ascentM": 1050,
+    "timeH": 5.5,
+    "peaks": "2 Corbetts"
+   },
+   "walk": null
   }
  ]
 }

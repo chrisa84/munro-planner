@@ -8,6 +8,15 @@ export interface MunroRoute {
   distance: string | null
   time: string | null
   ascent: string | null
+  distanceKm?: number | null
+  ascentM?: number | null
+  timeH?: number | null
+}
+
+export interface WalkStats {
+  distanceKm: number | null
+  ascentM: number | null
+  timeH: number | null
 }
 
 export interface Munro {
@@ -23,6 +32,10 @@ export interface Munro {
   stevenfallon: string | null
   hillbagging: string
   routes: MunroRoute[]
+  /** Shortest walkhighlands route (build-time derived) */
+  walk?: (WalkStats & { route?: string }) | null
+  /** Steve Fallon's round for this hill (may cover several summits) */
+  fallon?: (WalkStats & { peaks?: string | null }) | null
 }
 
 export interface CarPark {

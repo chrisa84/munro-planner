@@ -471,6 +471,20 @@ export default function MapView({
                     {m.height} m · {Math.round(m.height * 3.28084)} ft · {m.gridref}
                   </div>
                   <div className="popup-sub">{m.region}</div>
+                  {(m.walk || m.fallon) && (
+                    <div className="popup-sub popup-stats">
+                      {m.walk && (
+                        <div title={m.walk.route ?? undefined}>
+                          WH shortest: {m.walk.distanceKm} km · {m.walk.ascentM ?? '?'} m↑ · ~{m.walk.timeH ?? '?'} h
+                        </div>
+                      )}
+                      {m.fallon && (
+                        <div title={m.fallon.peaks ? `Round covers: ${m.fallon.peaks}` : undefined}>
+                          Fallon: {m.fallon.distanceKm ?? '?'} km · {m.fallon.ascentM ?? '?'} m↑ · ~{m.fallon.timeH ?? '?'} h
+                        </div>
+                      )}
+                    </div>
+                  )}
                   <div className="popup-links">
                     {m.walkhighlands && (
                       <a href={m.walkhighlands} target="_blank" rel="noreferrer">

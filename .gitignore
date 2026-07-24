@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 
 scripts/.overpass-cache
+scripts/.fallon-cache.json
